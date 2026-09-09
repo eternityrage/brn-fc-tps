@@ -1,7 +1,27 @@
 __pycache__/
-*.pyc
-output/temp_*
-output/*.mp4
-output/*.wav
-output/*.jpg
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
 .venv/
+build/
+dist/
+
+# Environment secrets (NEVER COMMIT)
+.env
+*.env
+*.secret
+
+# Render outputs and media
+output/
+*.mp4
+*.wav
+*.jpg
+*.png.tmp
+
+# Logs
+*.log
+.DS_Store
+Thumbs.db

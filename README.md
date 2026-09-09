@@ -1,21 +1,21 @@
-# 🎯 Master Viral Puzzle Reel Studio (22 Modes, 113+ Assets)
+# 🧠 BrainFocus Taps (`brn-fc-tps`)
 
-An automated, enterprise-grade programmatic video factory designed to continuously generate viral **"Stop in the Shadow" / "Pause Challenge"** reels for Instagram, Facebook, TikTok, and YouTube Shorts (inspired by top channels like *MindTwist Arena* that achieve millions of views per reel).
-
----
-
-## 🌟 Engine Highlights
-
-- **🎮 22 Distinct Gameplay Modes:** Never post the same format twice. From classic horizontal swings and gravity drops to rotating Ferris wheels, scale zoom challenges, diagonal crosshairs, and 3-tier wave pyramids!
-- **🦁 113+ High-Resolution 3D Assets:** Sourced from Microsoft's open-source 3D library (Mammals, Birds, Marine Life, Reptiles, Fruits, Foods, Vehicles, Gems).
-- **♾️ Infinite Unique Variations:** Over **5.9 Million** unique combinations of modes, characters, items, outline colors, and titles.
-- **🎵 Procedural Rhythmic Audio:** Synced 120 BPM clock ticking, suspense heartbeat rumble, and winning chimes at alignment moments.
-- **🎯 Mathematical Alignment Guarantee:** Every reel features designated, mathematically certified frames where all moving objects fit dead center into their shadows simultaneously.
-- **☁️ 24/7 Cloud Publishing Pipeline:** Fully automated with GitHub Actions to run continuously and generate videos automatically.
+An automated, 24/7 programmatic viral puzzle reels generator and publishing pipeline for **Facebook Reels** and **Instagram Reels**. Inspired by viral channels like *MindTwist Arena* that drive millions of organic views and massive comment section engagement.
 
 ---
 
-## 🕹️ Complete Catalog of 22 Modes
+## 🌟 Highlights
+
+- **🎮 22 Unique Gameplay Modes:** Swing, gravity falls, orbital carousels, zoom pulses, 4-way crossfire, pyramids, slot machines, radar sweeps, and more.
+- **🦁 1,595+ 3D Assets:** High-resolution Microsoft Fluent 3D Emoji catalog dynamically downloaded and cached on demand.
+- **🎯 Mathematical Alignment Guarantee:** Every video includes guaranteed harmonic alignment frames where all moving pieces snap perfectly inside their outlines.
+- **🎵 Procedural Synchronized Audio:** 120 BPM clock ticking, suspense heartbeat rumble, and winning chimes precisely timed to alignment moments.
+- **☁️ Zero-Maintenance 24/7 Publishing:** Fully automated via GitHub Actions with scheduled cron triggers (3× daily) and manual dispatch.
+- **🔒 Zero-Credentials Leak Architecture:** All tokens, page IDs, and API secrets are read strictly from GitHub Repository Secrets / Environment Variables. Zero private data committed to git.
+
+---
+
+## 🕹️ Catalog of 22 Gameplay Modes
 
 | # | Mode Name | Description |
 |---|---|---|
@@ -44,38 +44,55 @@ An automated, enterprise-grade programmatic video factory designed to continuous
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 Local Usage
 
-### 1. Generate Batches of Random Reels
-Generate 10 completely unique reels with random modes, animals, and colors:
+### 1. Install Dependencies
 ```bash
-python master_factory.py --count 10
+pip install -r requirements.txt
 ```
 
-### 2. Run a Specific Mode
+### 2. Generate Batches of Reels Locally
 ```bash
-python master_factory.py --count 3 --mode pyramid_wave
-python master_factory.py --count 3 --mode orbit_counter_rotating
-python master_factory.py --count 3 --mode slot_machine
-python master_factory.py --count 3 --mode zoom_pulse
+# Generate 5 random reels
+python master_factory.py --count 5
+
+# Generate specific mode
+python master_factory.py --count 1 --mode pyramid_wave
+
+# Generate specific hero and item pairing
+python master_factory.py --hero tiger --item gem --mode crossfire_4way
 ```
 
-### 3. Generate a Custom Pairing
+### 3. Run the Daily Publisher Locally
 ```bash
-python master_factory.py --hero tiger --item gem --mode crossfire_4way --color crimson_red
+python daily_puzzle_publisher.py
 ```
+*(Requires `FACEBOOK_ACCESS_TOKEN` and `FACEBOOK_PAGE_ID` in your `.env` file or environment).*
 
 ---
 
-## 🤖 24/7 Publishing & GitHub Automation
+## 🤖 GitHub Actions 24/7 Automation
 
-The workflow file `.github/workflows/generate_reels.yml` is ready.
+The repository includes `.github/workflows/auto_publish_reels.yml`:
 
-### How It Works:
-1. **Scheduled Cloud Runs:** Runs automatically in GitHub's cloud daily (or every few hours).
-2. **On-Demand Runs:** You can go to your GitHub repository from your phone, click **Actions → Auto Viral Reels Generator → Run workflow**, choose your video count and mode, and download the finished MP4 files.
-3. **Automated Publishing Strategy:**
-   - Download the generated batch `.zip`.
-   - Post directly to Instagram Reels / YouTube Shorts / TikTok / Facebook Reels.
-   - Use the in-app trending audio for algorithm boosts.
-   - Pin the comment: *"99% fail to pause when all fit the shadow! Drop your screenshot 👇"*
+### Schedules:
+- **04:00 UTC** (Morning Reel)
+- **12:00 UTC** (Afternoon Peak Reel)
+- **20:00 UTC** (Evening Primetime Reel)
+
+### Required GitHub Secrets:
+Add these in your repository: **Settings → Secrets and variables → Actions → New repository secret**:
+
+| Secret Name | Description | Example |
+|---|---|---|
+| `FACEBOOK_ACCESS_TOKEN` | Meta Long-Lived User / Page Access Token | `EAAM2K...` |
+| `FACEBOOK_PAGE_ID` | Facebook Page ID to publish Reels to | `1319646877895110` |
+| `INSTAGRAM_ACCOUNT_ID` | *(Optional)* Connected Instagram Business Account ID | `178414...` |
+
+When configured, the Action automatically renders a fresh viral reel, composes an engaging caption with viral hooks and hashtags, publishes the video directly to Facebook Reels (and Instagram Reels), and commits the publishing history back to `published_reels.json`.
+
+---
+
+## 🔒 Security Notice
+
+This repository is **100% public-ready and safe**. No tokens, credentials, or private IDs are hardcoded in the codebase. All credentials must be supplied via GitHub Secrets or environment variables.
