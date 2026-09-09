@@ -16,5 +16,24 @@
       "reason": "No Instagram Business Account",
       "platform": "instagram"
     }
+  },
+  {
+    "timestamp": "2026-09-09T09:49:26.368132Z",
+    "video_file": "reel_target_lock_crosshair_lab_coat_flute_20260909_094923.mp4",
+    "mode": "target_lock_crosshair",
+    "hero": "lab_coat",
+    "item": "flute",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "facebook": {
+      "id": "2570563130106337",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2570563130106337"
+    },
+    "instagram": {
+      "status": "skipped",
+      "reason": "No Instagram Business Account",
+      "platform": "instagram"
+    }
   }
 ]
