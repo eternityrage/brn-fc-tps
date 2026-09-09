@@ -35,5 +35,24 @@
       "reason": "No Instagram Business Account",
       "platform": "instagram"
     }
+  },
+  {
+    "timestamp": "2026-09-09T15:29:10.034516Z",
+    "video_file": "reel_pyramid_wave_synagogue_chequered_flag_20260909_152907.mp4",
+    "mode": "pyramid_wave",
+    "hero": "synagogue",
+    "item": "chequered_flag",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "facebook": {
+      "id": "4729749683922342",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4729749683922342"
+    },
+    "instagram": {
+      "status": "skipped",
+      "reason": "No Instagram Business Account",
+      "platform": "instagram"
+    }
   }
 ]
