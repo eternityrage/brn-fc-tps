@@ -54,5 +54,26 @@
       "reason": "No Instagram Business Account",
       "platform": "instagram"
     }
+  },
+  {
+    "timestamp": "2026-09-09T21:10:14.012293Z",
+    "video_file": "reel_zoom_pulse_biting_lip_shield_20260909_211009.mp4",
+    "mode": "zoom_pulse",
+    "hero": "biting_lip",
+    "item": "shield",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "963282096788336",
+      "comment_id": "963282096788336_1079234598190555",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/963282096788336"
+    },
+    "instagram": {
+      "status": "skipped",
+      "reason": "No Instagram Business Account",
+      "platform": "instagram"
+    }
   }
 ]
