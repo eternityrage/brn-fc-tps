@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2026-09-09T09:45:59.999334Z",
+    "video_file": "reel_diamond_grid_person_pouting_snowman_without_snow_20260909_094556.mp4",
+    "mode": "diamond_grid",
+    "hero": "person_pouting",
+    "item": "snowman_without_snow",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "facebook": {
+      "status": "failed",
+      "error": "Start Phase Failed: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AN4T3KWPbttDC6fCS2Zp_Tn\"}}",
+      "platform": "facebook"
+    },
+    "instagram": {
+      "status": "skipped",
+      "reason": "No Instagram Business Account",
+      "platform": "instagram"
+    }
+  }
+]
