@@ -75,5 +75,26 @@
       "reason": "No Instagram Business Account",
       "platform": "instagram"
     }
+  },
+  {
+    "timestamp": "2026-09-09T22:11:53.847096Z",
+    "video_file": "reel_target_lock_crosshair_man_mountain_biking_vulcan_salute_20260909_221150.mp4",
+    "mode": "target_lock_crosshair",
+    "hero": "man_mountain_biking",
+    "item": "vulcan_salute",
+    "title": "Impossible Pause Challenge! How Fast Are Your Reflexes? \u23f1\ufe0f",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "2189979151552610",
+      "comment_id": "2189979151552610_1066308979335982",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2189979151552610"
+    },
+    "instagram": {
+      "status": "skipped",
+      "reason": "No Instagram Business Account",
+      "platform": "instagram"
+    }
   }
 ]
