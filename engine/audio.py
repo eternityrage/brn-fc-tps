@@ -1,5 +1,5 @@
 import numpy as np
-import scipy.io.wavfile as wavfile
+import wave
 
 def create_synchronized_audio(duration, win_moments, output_wav):
     sample_rate = 44100
@@ -37,4 +37,14 @@ def create_synchronized_audio(duration, win_moments, output_wav):
     mix = mix / (np.max(np.abs(mix)) + 1e-5) * 0.85
     audio_int16 = (mix * 32767).astype(np.int16)
     stereo = np.column_stack((audio_int16, audio_int16))
-    wavfile.write(output_wav, sample_rate, stereo)
+    
+    # Write using standard library wave
+    try:
+        with wave.open(output_wav, 'wb') as wf:
+            wf.setnchannels(2)
+            wf.setsampwidth(2)
+            wf.setframerate(sample_rate)
+            wf.writeframes(stereo.tobytes())
+    except Exception:
+        import scipy.io.wavfile as wavfile
+        wavfile.write(output_wav, sample_rate, stereo)
