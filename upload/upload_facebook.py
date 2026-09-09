@@ -13,7 +13,7 @@ env_path = Path(__file__).parent.parent / '.env'
 load_dotenv(dotenv_path=env_path, override=True)
 
 
-def upload_to_facebook(video_path, description, title="BrainFocus Puzzle", pinned_comment=None):
+def upload_to_facebook(video_path, description, title="BrainFocus Puzzle", pinned_comment=None, target_page_id=None, target_access_token=None):
     """
     Upload video to Facebook Page as a Reel and optionally post a pinned engagement comment.
     
@@ -23,14 +23,16 @@ def upload_to_facebook(video_path, description, title="BrainFocus Puzzle", pinne
     print("📘 FACEBOOK REEL UPLOAD STARTING")
     print("=" * 60)
 
-    # Get credentials from environment
+    # Get credentials from arguments or environment
     access_token = (
+        target_access_token or
         os.getenv('FACEBOOK_ACCESS_TOKEN') or 
         os.getenv('FB_ACCESS_TOKEN') or 
         os.getenv('META_ACCESS_TOKEN') or
         os.getenv('META_LONG_LIVED_ACCESS_TOKEN')
     )
     page_id = (
+        target_page_id or
         os.getenv('FACEBOOK_PAGE_ID') or 
         os.getenv('FB_PAGE_ID') or 
         os.getenv('PAGE_ID')

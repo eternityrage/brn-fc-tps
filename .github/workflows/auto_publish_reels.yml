@@ -1,21 +1,37 @@
-name: Auto Publish Viral Reels
+name: Auto Publish Viral Reels Network
 
 on:
   schedule:
-    # Runs 3 times daily: 04:00 UTC, 12:00 UTC, 20:00 UTC
-    - cron: '0 4 * * *'
-    - cron: '0 12 * * *'
-    - cron: '0 20 * * *'
+    # Runs 4 times daily: 00:00 UTC, 06:00 UTC, 12:00 UTC, 18:00 UTC
+    - cron: '0 0,6,12,18 * * *'
 
   workflow_dispatch:
     inputs:
+      page:
+        description: 'Target Page (all, brainfocus, mindmath, brainfog, braintaps_flow, mindview, mindquiz)'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - brainfocus
+          - mindmath
+          - brainfog
+          - braintaps_flow
+          - mindview
+          - mindquiz
       mode:
-        description: 'Gameplay Mode (leave empty for random, or choose e.g. swing_horizontal, falling_gravity, orbit_carousel)'
+        description: 'Gameplay Mode override (leave empty for automatic selection)'
         required: false
         default: ''
         type: string
-      asset:
-        description: 'Asset name (leave empty for random, e.g. apple, fire, rocket, lion)'
+      hero:
+        description: 'Hero asset override (leave empty for automatic selection)'
+        required: false
+        default: ''
+        type: string
+      item:
+        description: 'Item asset override (leave empty for automatic selection)'
         required: false
         default: ''
         type: string
@@ -28,9 +44,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  publish-reel:
+  publish-reels:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -56,14 +72,18 @@ jobs:
         run: |
           python download_mega_pack.py
 
-      - name: Generate & Publish Viral Reel
+      - name: Generate & Publish Viral Reels
         env:
+          FACEBOOK_PAGES_JSON: ${{ secrets.FACEBOOK_PAGES_JSON }}
           FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
-          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
         run: |
-          python daily_puzzle_publisher.py "${{ github.event.inputs.mode }}" "${{ github.event.inputs.asset }}"
+          python network_publisher.py \
+            --page "${{ github.event.inputs.page || 'all' }}" \
+            ${{ github.event.inputs.mode && format('--mode "{0}"', github.event.inputs.mode) || '' }} \
+            ${{ github.event.inputs.hero && format('--hero "{0}"', github.event.inputs.hero) || '' }} \
+            ${{ github.event.inputs.item && format('--item "{0}"', github.event.inputs.item) || '' }}
 
       - name: Commit & Push Published History
         run: |
@@ -71,7 +91,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add published_reels.json 2>/dev/null || true
           if ! git diff --staged --quiet; then
-            git commit -m "Update published reels log [skip ci]"
+            git commit -m "Update published network reels log [skip ci]"
             git pull --rebase
             git push
             echo "✅ Published history saved."

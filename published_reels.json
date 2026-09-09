@@ -117,5 +117,95 @@
       "reason": "No Instagram Business Account",
       "platform": "instagram"
     }
+  },
+  {
+    "timestamp": "2026-09-09T23:42:53.082878Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_harmonic_pendulum_keycap_5_empty_nest_20260909_234247.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "keycap_5",
+    "item": "empty_nest",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "4482644838615599",
+      "comment_id": "4482644838615599_1584413573727630",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4482644838615599"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T23:43:51.310781Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_zigzag_dash_teacup_without_handle_megaphone_20260909_234346.mp4",
+    "mode": "zigzag_dash",
+    "hero": "teacup_without_handle",
+    "item": "megaphone",
+    "title": "BrainFog Wake-Up Test! Shock Your Reflexes \u26a1",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "2190093665215612",
+      "comment_id": "2190093665215612_3463001497215928",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2190093665215612"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T23:44:46.284837Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_swing_horizontal_hibiscus_japanese_here_button_20260909_234440.mp4",
+    "mode": "swing_horizontal",
+    "hero": "hibiscus",
+    "item": "japanese_here_button",
+    "title": "Pure ASMR Harmony: Stop Right On The Pulse \ud83c\udfb5",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "2975646796118266",
+      "comment_id": "2975646796118266_2331514867679432",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2975646796118266"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T23:45:24.545677Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_prism_split_japanese_open_for_business_button_upwards_button_20260909_234519.mp4",
+    "mode": "prism_split",
+    "hero": "japanese_open_for_business_button",
+    "item": "upwards_button",
+    "title": "3D Spatial Perspective IQ: Can You Align It? \ud83e\uddca",
+    "pinned_comment": "\ud83d\udc41\ufe0f SPATIAL IQ TEST:\n1. Watch the 3D rotation and pause when the perspective locks in 3D! \ud83e\uddca\n2. Screenshot your alignment and reply below \ud83d\udc47\n3. Rate the difficulty from 1-10! #MindView",
+    "facebook": {
+      "id": "1440032041402625",
+      "comment_id": "1440032041402625_1570292864795032",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1440032041402625"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T23:46:51.565983+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_matrix_2x2_shortcake_bread_20260909_234645.mp4",
+    "mode": "matrix_2x2",
+    "hero": "shortcake",
+    "item": "bread",
+    "title": "Spot The Target: Fast Reflex Trivia Challenge! \ud83c\udfc6",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1635725571499237",
+      "comment_id": "1635725571499237_2069609243915717",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1635725571499237"
+    }
   }
 ]
