@@ -1,6 +1,6 @@
 """
 Facebook Reels Direct Uploader via Meta Graph API v21.0
-3-step Resumable Video Reels Publishing
+3-step Resumable Video Reels Publishing with Automatic Page Token Resolution
 """
 import os
 import requests
@@ -60,6 +60,22 @@ def upload_to_facebook(video_path, description, title="BrainFocus Puzzle"):
     print(f"[facebook] Video File: {video_path_obj.name} ({file_size_mb:.2f} MB)")
 
     api_version = "v21.0"
+
+    # Step 0: Ensure we have the Page-specific Access Token
+    # If a User Token is passed, fetch the Page token from /{page_id}?fields=access_token
+    try:
+        pt_url = f"https://graph.facebook.com/{api_version}/{page_id}?fields=access_token,name"
+        pt_res = requests.get(pt_url, params={'access_token': access_token}, timeout=15)
+        if pt_res.status_code == 200:
+            p_data = pt_res.json()
+            resolved_pt = p_data.get('access_token')
+            p_name = p_data.get('name', 'Facebook Page')
+            if resolved_pt:
+                print(f"[facebook] ✅ Verified Page Access Token for '{p_name}'")
+                access_token = resolved_pt
+    except Exception as e:
+        print(f"[facebook] Notice when checking Page Access Token: {e}")
+
     base_url = f"https://graph.facebook.com/{api_version}/{page_id}/video_reels"
 
     try:
