@@ -207,5 +207,23 @@
       "status": "success",
       "url": "https://facebook.com/1635725571499237"
     }
+  },
+  {
+    "timestamp": "2026-09-09T23:49:14.962794+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_swing_horizontal_joystick_heart_hands_20260909_234911.mp4",
+    "mode": "swing_horizontal",
+    "hero": "joystick",
+    "item": "heart_hands",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1228616439487510",
+      "comment_id": "1228616439487510_1116842984242890",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1228616439487510"
+    }
   }
 ]
