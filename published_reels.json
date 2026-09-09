@@ -96,5 +96,26 @@
       "reason": "No Instagram Business Account",
       "platform": "instagram"
     }
+  },
+  {
+    "timestamp": "2026-09-09T22:47:54.995337Z",
+    "video_file": "reel_pendulum_arc_record_button_cityscape_20260909_224752.mp4",
+    "mode": "pendulum_arc",
+    "hero": "record_button",
+    "item": "cityscape",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1817345576087430",
+      "comment_id": "1817345576087430_1517624600053925",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1817345576087430"
+    },
+    "instagram": {
+      "status": "skipped",
+      "reason": "No Instagram Business Account",
+      "platform": "instagram"
+    }
   }
 ]
