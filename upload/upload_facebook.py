@@ -1,6 +1,7 @@
 """
 Facebook Reels Direct Uploader via Meta Graph API v21.0
 3-step Resumable Video Reels Publishing with Automatic Page Token Resolution
+and Automatic Pinned Engagement Comment
 """
 import os
 import requests
@@ -12,9 +13,9 @@ env_path = Path(__file__).parent.parent / '.env'
 load_dotenv(dotenv_path=env_path, override=True)
 
 
-def upload_to_facebook(video_path, description, title="BrainFocus Puzzle"):
+def upload_to_facebook(video_path, description, title="BrainFocus Puzzle", pinned_comment=None):
     """
-    Upload video to Facebook Page as a Reel.
+    Upload video to Facebook Page as a Reel and optionally post a pinned engagement comment.
     
     Returns dict with upload status and details.
     """
@@ -62,7 +63,6 @@ def upload_to_facebook(video_path, description, title="BrainFocus Puzzle"):
     api_version = "v21.0"
 
     # Step 0: Ensure we have the Page-specific Access Token
-    # If a User Token is passed, fetch the Page token from /{page_id}?fields=access_token
     try:
         pt_url = f"https://graph.facebook.com/{api_version}/{page_id}?fields=access_token,name"
         pt_res = requests.get(pt_url, params={'access_token': access_token}, timeout=15)
@@ -135,9 +135,30 @@ def upload_to_facebook(video_path, description, title="BrainFocus Puzzle"):
             print(f"[facebook] 🌟 SUCCESS! Reel published successfully!")
             print(f"[facebook] Video ID: {video_id}")
             print(f"[facebook] View at: https://facebook.com/{video_id}")
+
+            # Step 4: Post First / Pinned Engagement Comment
+            comment_id = None
+            if pinned_comment:
+                print(f"[facebook] Posting engagement/pinned comment to Reel {video_id}...")
+                try:
+                    c_url = f"https://graph.facebook.com/{api_version}/{video_id}/comments"
+                    c_res = requests.post(
+                        c_url,
+                        data={'message': pinned_comment, 'access_token': access_token},
+                        timeout=20
+                    )
+                    if c_res.status_code == 200:
+                        comment_id = c_res.json().get('id')
+                        print(f"[facebook] 📌 Pinned comment posted successfully! (ID: {comment_id})")
+                    else:
+                        print(f"[facebook] Notice: Comment post status {c_res.status_code}: {c_res.text}")
+                except Exception as c_err:
+                    print(f"[facebook] Notice: Could not post comment: {c_err}")
+
             print("=" * 60)
             return {
                 'id': video_id,
+                'comment_id': comment_id,
                 'platform': 'facebook',
                 'status': 'success',
                 'url': f"https://facebook.com/{video_id}"

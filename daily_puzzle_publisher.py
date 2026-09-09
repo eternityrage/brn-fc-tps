@@ -1,7 +1,8 @@
 """
 BrainFocus Taps (brn-fc-tps) - Automated Daily Reel Publisher
 Generates a fresh viral puzzle reel using dynamic 3D assets and 22 gameplay modes,
-then publishes directly to Facebook Reels (and Instagram Reels).
+publishes directly to Facebook Reels with an engagement pinned comment,
+and optionally publishes to Instagram Reels.
 """
 import os
 import sys
@@ -28,6 +29,16 @@ from master_factory import (
 
 PUBLISHED_LOG = "published_reels.json"
 
+VIRAL_TITLES = [
+    "BrainFocus Challenge: Can You Stop It? 🎯",
+    "99% Fail This Reflex Test! Can You Pause in Time? ⚡",
+    "Ultimate Eye-Hand Coordination Challenge! 🧠",
+    "Stop Inside the Shadow! Only 1% Get It First Try 🏆",
+    "Impossible Pause Challenge! How Fast Are Your Reflexes? ⏱️",
+    "Test Your Brain Focus: Freeze the Exact Frame! 🎯",
+    "Can You Hit 100% Match? Tap Pause to Win! 🧩"
+]
+
 VIRAL_HOOKS = [
     "🎯 99% of people fail to stop this in the outline! Can you do it on the first try?",
     "⚡ Tap pause when the shape hits the exact outline! Prove your reflex in the comments!",
@@ -39,8 +50,17 @@ VIRAL_HOOKS = [
     "🧩 Stop the object right in its shadow! Did you get it?"
 ]
 
+PINNED_COMMENTS = [
+    "📌 CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! 🎯\n2. Drop a screenshot of your attempt below 👇\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) 🏆",
+    "🎯 REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below 👇 #BrainFocus",
+    "🧠 FOCUS CHALLENGE:\n✅ Level 1: Hit pause in the shadow\n✅ Level 2: Screenshot your proof\n✅ Level 3: Tag a friend who thinks they have faster reflexes! 👇",
+    "⚡ DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! 🚀",
+    "👇 COMMENT YOUR RESULT: Pause the video at the exact millisecond when the outline matches. Show us your screenshot! 🎯"
+]
+
 VIRAL_HASHTAGS = [
     "#BrainFocus",
+    "#BrainFocusTaps",
     "#BrainPuzzle",
     "#MindTwist",
     "#FocusChallenge",
@@ -51,22 +71,30 @@ VIRAL_HASHTAGS = [
     "#MindGames",
     "#DailyChallenge",
     "#PuzzleReel",
-    "#CoordinationTest"
+    "#CoordinationTest",
+    "#PauseChallenge"
 ]
 
 
-def generate_viral_caption(mode_name, hero_name, item_name):
+def generate_viral_metadata(mode_name, hero_name, item_name):
+    title = random.choice(VIRAL_TITLES)
     hook = random.choice(VIRAL_HOOKS)
-    tags = " ".join(random.sample(VIRAL_HASHTAGS, k=min(8, len(VIRAL_HASHTAGS))))
-    title = f"BrainFocus Challenge: Can You Stop It? 🎯"
+    pinned_comment = random.choice(PINNED_COMMENTS)
+    tags = " ".join(random.sample(VIRAL_HASHTAGS, k=min(9, len(VIRAL_HASHTAGS))))
+    
+    formatted_mode = mode_name.replace('_', ' ').title()
+    formatted_hero = hero_name.replace('_', ' ').title()
+    formatted_item = item_name.replace('_', ' ').title()
+    
     description = (
         f"{hook}\n\n"
-        f"🎮 Mode: {mode_name.replace('_', ' ').title()}\n"
-        f"🔍 Objects: {hero_name.replace('_', ' ').title()} & {item_name.replace('_', ' ').title()}\n\n"
-        f"Drop your screenshot or result in the comments! 👇\n\n"
+        f"🎮 Mode: {formatted_mode}\n"
+        f"🔍 Objects: {formatted_hero} & {formatted_item}\n\n"
+        f"⚡ Test your timing! Pause when the object aligns perfectly with the glowing outline.\n"
+        f"Drop your screenshot or attempt in the comments below! 👇\n\n"
         f"{tags}"
     )
-    return title, description
+    return title, description, pinned_comment
 
 
 def get_published_history():
@@ -118,7 +146,7 @@ def main():
     print(f"🎯 Selected Gameplay Mode: {selected_mode}")
     print(f"📦 Selected Assets: Hero={hero}, Item={item}")
 
-    # Generate the viral video reel (7 seconds, 30 fps for efficient rendering)
+    # Generate the viral video reel (7 seconds, 30 fps)
     output_video = generate_reel_by_mode(
         hero_name=hero,
         item_name=item,
@@ -134,10 +162,11 @@ def main():
 
     print(f"✅ Video generated successfully: {output_video}")
 
-    # Prepare caption & metadata
-    title, description = generate_viral_caption(selected_mode, hero, item)
+    # Prepare caption, metadata, and pinned comment
+    title, description, pinned_comment = generate_viral_metadata(selected_mode, hero, item)
     print(f"📝 Title: {title}")
     print(f"📝 Description:\n{description}")
+    print(f"📌 Pinned Comment:\n{pinned_comment}")
 
     publish_record = {
         "timestamp": datetime.utcnow().isoformat() + "Z",
@@ -146,19 +175,25 @@ def main():
         "hero": hero,
         "item": item,
         "title": title,
+        "pinned_comment": pinned_comment,
         "facebook": None,
         "instagram": None
     }
 
-    # 1. Publish to Facebook Reels
+    # 1. Publish to Facebook Reels + Pinned Comment
     try:
-        fb_result = upload_to_facebook(output_video, description, title=title)
+        fb_result = upload_to_facebook(
+            output_video,
+            description,
+            title=title,
+            pinned_comment=pinned_comment
+        )
         publish_record["facebook"] = fb_result
     except Exception as e:
         print(f"❌ Facebook upload error: {e}")
         publish_record["facebook"] = {"status": "failed", "error": str(e)}
 
-    # 2. Publish to Instagram Reels
+    # 2. Publish to Instagram Reels (if configured)
     try:
         ig_caption = f"{title}\n\n{description}"
         ig_result = upload_to_instagram(output_video, caption=ig_caption)
