@@ -459,5 +459,113 @@
       "status": "success",
       "url": "https://facebook.com/1584148559871987"
     }
+  },
+  {
+    "timestamp": "2026-09-10T02:57:00.873845+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_hourglass_not_done_crossed_flags_20260910_025656.mp4",
+    "mode": "teleport_snap",
+    "hero": "hourglass_not_done",
+    "item": "crossed_flags",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1065631539160015",
+      "comment_id": "1065631539160015_1632324101930148",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1065631539160015"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T02:57:20.226246+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_triple_threat_hammer_soap_20260910_025716.mp4",
+    "mode": "triple_threat",
+    "hero": "hammer",
+    "item": "soap",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "950634074053188",
+      "comment_id": "950634074053188_4447282172190994",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/950634074053188"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T02:57:39.830953+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_falling_gravity_bomb_hammer_and_wrench_20260910_025736.mp4",
+    "mode": "falling_gravity",
+    "hero": "bomb",
+    "item": "hammer_and_wrench",
+    "title": "BrainFog Wake-Up Test! Shock Your Reflexes \u26a1",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "3300529490335914",
+      "comment_id": "3300529490335914_1934904624958682",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3300529490335914"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T02:58:00.595659+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_orbit_carousel_jellyfish_exploding_head_20260910_025756.mp4",
+    "mode": "orbit_carousel",
+    "hero": "jellyfish",
+    "item": "exploding_head",
+    "title": "Pure ASMR Harmony: Stop Right On The Pulse \ud83c\udfb5",
+    "pinned_comment": "\ud83c\udf0a FLOW STATE TEST:\n1. Watch the rhythmic wave and tap pause at the harmonic sync point! \ud83c\udfb5\n2. Post your screenshot below \ud83d\udc47\n3. Did you feel the flow? \ud83e\uddd8 #BrainTapsFlow",
+    "facebook": {
+      "id": "1061422190106557",
+      "comment_id": "1061422190106557_1058105723661594",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1061422190106557"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T02:58:21.768080+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_spiral_galaxy_bust_in_silhouette_cheese_wedge_20260910_025818.mp4",
+    "mode": "spiral_galaxy",
+    "hero": "bust_in_silhouette",
+    "item": "cheese_wedge",
+    "title": "Multi-Dimensional Pause Test! Stop At True Angle \ud83d\udcd0",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "4040729062899731",
+      "comment_id": "4040729062899731_1107587911611261",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4040729062899731"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T02:58:41.318858+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_slot_machine_gorilla_drooling_face_20260910_025838.mp4",
+    "mode": "slot_machine",
+    "hero": "gorilla",
+    "item": "drooling_face",
+    "title": "Lightning Eye Quiz: Freeze On The Winning Clue! \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "1621645452804917",
+      "comment_id": "1621645452804917_1714944786431477",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1621645452804917"
+    }
   }
 ]
