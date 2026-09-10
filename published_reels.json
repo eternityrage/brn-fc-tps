@@ -783,5 +783,113 @@
       "status": "success",
       "url": "https://facebook.com/1654234529753645"
     }
+  },
+  {
+    "timestamp": "2026-09-10T20:24:10.221664+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_scissors_sunset_20260910_202406.mp4",
+    "mode": "orbit_carousel",
+    "hero": "scissors",
+    "item": "sunset",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "2195272387871019",
+      "comment_id": "2195272387871019_1344743634151278",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2195272387871019"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T20:24:36.901994+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_harmonic_pendulum_white_large_square_coconut_20260910_202432.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "white_large_square",
+    "item": "coconut",
+    "title": "MindMath Reflex: Pause On The Exact Number! \ud83d\udd22",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "1487719466616547",
+      "comment_id": "1487719466616547_1430612229174137",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1487719466616547"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T20:25:03.405185+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_zigzag_dash_two_thirty_japanese_secret_button_20260910_202459.mp4",
+    "mode": "zigzag_dash",
+    "hero": "two_thirty",
+    "item": "japanese_secret_button",
+    "title": "Clear The Morning Fog: Can You Tap In Time? \u2615",
+    "pinned_comment": "\u26a1 BRAIN FOG DESTROYER:\n1. Wake up your brain: Hit pause right inside the glowing shockwave! \ud83d\udca5\n2. Share your screenshot below \ud83d\udc47\n3. Are you 100% awake yet? \u2615 #BrainFog",
+    "facebook": {
+      "id": "2785887381780448",
+      "comment_id": "2785887381780448_1414678037265388",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2785887381780448"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T20:25:31.664061+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_harmonic_pendulum_avocado_cockroach_20260910_202527.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "avocado",
+    "item": "cockroach",
+    "title": "Infinite Rhythm Tap: Catch The Ripple In Time \ud83c\udf00",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "2329334194500126",
+      "comment_id": "2329334194500126_28664831526454984",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2329334194500126"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T20:26:02.363274+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_crossfire_diagonal_x_person_gesturing_no_face_with_medical_mask_20260910_202559.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "person_gesturing_no",
+    "item": "face_with_medical_mask",
+    "title": "Multi-Dimensional Pause Test! Stop At True Angle \ud83d\udcd0",
+    "pinned_comment": "\ud83d\udc41\ufe0f SPATIAL IQ TEST:\n1. Watch the 3D rotation and pause when the perspective locks in 3D! \ud83e\uddca\n2. Screenshot your alignment and reply below \ud83d\udc47\n3. Rate the difficulty from 1-10! #MindView",
+    "facebook": {
+      "id": "1090253560557090",
+      "comment_id": "1090253560557090_3493235944184620",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1090253560557090"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T20:26:26.581586+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_shadow_morph_carpentry_saw_brown_circle_20260910_202622.mp4",
+    "mode": "shadow_morph",
+    "hero": "carpentry_saw",
+    "item": "brown_circle",
+    "title": "Spot The Target: Fast Reflex Trivia Challenge! \ud83c\udfc6",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "4320192501566782",
+      "comment_id": "4320192501566782_1762204441766240",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4320192501566782"
+    }
   }
 ]
