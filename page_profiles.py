@@ -403,20 +403,25 @@ def build_categorized_pool(catalog: Dict[str, Any]) -> Dict[str, List[str]]:
     return pool
 
 
-def pick_page_assets(page_id: str, catalog: Dict[str, Any]) -> Tuple[str, str]:
+def pick_page_assets(page_id: str, catalog: Dict[str, Any], recent_assets: set = None) -> Tuple[str, str]:
     """
     Selects 2 distinct, exciting 3D assets tailored to the page's theme,
-    while rotating across all categories to guarantee endless variety.
+    while rotating across all categories and filtering out recently used assets.
     """
+    if recent_assets is None:
+        recent_assets = set()
+
     profile = PAGE_PROFILES.get(page_id, PAGE_PROFILES["1319646877895110"])
     pool = build_categorized_pool(catalog)
-    all_keys = list(catalog.keys())
+    all_keys = [k for k in catalog.keys() if k not in recent_assets]
+    if len(all_keys) < 10:
+        all_keys = list(catalog.keys())
 
     # 70% chance to pick hero from primary categories; 30% chance from any category
     primary_cats = profile.get("primary_categories", [])
     if random.random() < 0.70 and primary_cats:
         chosen_cat = random.choice(primary_cats)
-        cat_items = pool.get(chosen_cat, [])
+        cat_items = [item for item in pool.get(chosen_cat, []) if item not in recent_assets]
         hero = random.choice(cat_items) if cat_items else random.choice(all_keys)
     else:
         hero = random.choice(all_keys)
@@ -424,7 +429,7 @@ def pick_page_assets(page_id: str, catalog: Dict[str, Any]) -> Tuple[str, str]:
     # Pick item from a complementary category or general pool
     item = random.choice(all_keys)
     attempts = 0
-    while item == hero and attempts < 20:
+    while (item == hero or item in recent_assets) and attempts < 30:
         item = random.choice(all_keys)
         attempts += 1
 

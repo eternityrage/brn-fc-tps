@@ -108,18 +108,36 @@ def publish_for_page(page_id, loaded_tokens, override_mode=None, override_hero=N
         print(f"[network] ❌ Missing access token for {page_name}")
         return None
 
-    # Pick gameplay mode
+    # Load recent history for this page to prevent consecutive repetitions
+    recent_modes = []
+    recent_assets = set()
+    if PUBLISHED_LOG.exists():
+        try:
+            with open(PUBLISHED_LOG, "r", encoding="utf-8") as f:
+                hist = json.load(f)
+                page_hist = [h for h in hist if h.get("page_id") == page_id]
+                recent_modes = [h.get("mode") for h in page_hist[-4:] if h.get("mode")]
+                for h in page_hist[-12:]:
+                    if h.get("hero"): recent_assets.add(h.get("hero"))
+                    if h.get("item"): recent_assets.add(h.get("item"))
+        except Exception:
+            pass
+
+    # Pick gameplay mode (prioritize fresh mode not used in last 4 reels of this page)
     if override_mode:
         selected_mode = override_mode
     else:
-        selected_mode = random.choice(profile["preferred_modes"])
+        candidate_modes = [m for m in profile["preferred_modes"] if m not in recent_modes]
+        if not candidate_modes:
+            candidate_modes = profile["preferred_modes"]
+        selected_mode = random.choice(candidate_modes)
 
-    # Pick 3D assets from Microsoft catalog
+    # Pick 3D assets from Microsoft catalog (excluding recently used assets)
     catalog = get_catalog()
     if override_hero and override_item:
         hero, item = override_hero, override_item
     else:
-        hero, item = pick_page_assets(page_id, catalog)
+        hero, item = pick_page_assets(page_id, catalog, recent_assets=recent_assets)
 
     # Pick outline color
     outline_color = random.choice(profile["outline_colors"])
