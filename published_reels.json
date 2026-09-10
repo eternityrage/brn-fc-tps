@@ -333,5 +333,23 @@
       "status": "success",
       "url": "https://facebook.com/1543462850433901"
     }
+  },
+  {
+    "timestamp": "2026-09-10T00:57:00.409468+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_thermometer_sunglasses_20260910_005613.mp4",
+    "mode": "orbit_carousel",
+    "hero": "thermometer",
+    "item": "sunglasses",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1611446137021840",
+      "comment_id": "1611446137021840_1829294408514976",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1611446137021840"
+    }
   }
 ]
