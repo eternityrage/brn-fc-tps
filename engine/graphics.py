@@ -117,21 +117,50 @@ def build_background(title_text="CAN YOU STOP IN THE SHADOW?", subtitle="TAP SCR
     if not clean_title:
         clean_title = "CAN YOU STOP IN THE SHADOW?"
         
-    # Dynamic Auto-scaling for Title Font
-    target_font_size = 56
-    title_font = get_bold_font(target_font_size)
+    # Smart Multi-Line Auto-Wrapping & Dynamic Card Sizing
+    max_title_w = width - 160  # 920px max content width inside card
+    
+    # 1. Check if it fits on a single line
+    lines = [clean_title]
+    font_size = 54
+    title_font = get_bold_font(font_size)
     bbox = draw.textbbox((0, 0), clean_title, font=title_font)
     tw = bbox[2] - bbox[0]
     
-    max_title_w = width - 140
-    while tw > max_title_w and target_font_size > 36:
-        target_font_size -= 2
-        title_font = get_bold_font(target_font_size)
+    while tw > max_title_w and font_size > 42:
+        font_size -= 2
+        title_font = get_bold_font(font_size)
         bbox = draw.textbbox((0, 0), clean_title, font=title_font)
         tw = bbox[2] - bbox[0]
         
-    top_y = 120
-    card_h = 136
+    if tw > max_title_w:
+        # 2. Wrap into 2 balanced lines
+        words = clean_title.split()
+        best_diff = 999
+        best_split = len(words) // 2
+        for i in range(1, len(words)):
+            l1 = " ".join(words[:i])
+            l2 = " ".join(words[i:])
+            diff = abs(len(l1) - len(l2))
+            if diff < best_diff:
+                best_diff = diff
+                best_split = i
+        lines = [" ".join(words[:best_split]), " ".join(words[best_split:])]
+        
+        font_size = 46
+        title_font = get_bold_font(font_size)
+        w1 = draw.textbbox((0, 0), lines[0], font=title_font)[2] - draw.textbbox((0, 0), lines[0], font=title_font)[0]
+        w2 = draw.textbbox((0, 0), lines[1], font=title_font)[2] - draw.textbbox((0, 0), lines[1], font=title_font)[0]
+        while max(w1, w2) > max_title_w and font_size > 34:
+            font_size -= 2
+            title_font = get_bold_font(font_size)
+            w1 = draw.textbbox((0, 0), lines[0], font=title_font)[2] - draw.textbbox((0, 0), lines[0], font=title_font)[0]
+            w2 = draw.textbbox((0, 0), lines[1], font=title_font)[2] - draw.textbbox((0, 0), lines[1], font=title_font)[0]
+        card_h = 196
+    else:
+        card_h = 136
+        
+    top_y = 110
     card_left = 46
     card_right = width - 46
     
@@ -140,16 +169,24 @@ def build_background(title_text="CAN YOU STOP IN THE SHADOW?", subtitle="TAP SCR
                            radius=28, fill=(180, 195, 215, 100))
     # Main title card
     draw.rounded_rectangle([card_left, top_y, card_right, top_y + card_h],
-                           radius=28, fill=(255, 255, 255, 250),
-                           outline=(200, 215, 235, 255), width=4)
+                           radius=28, fill=(255, 255, 255, 252),
+                           outline=(195, 210, 230, 255), width=4)
     
-    # Center text vertically and horizontally in card
-    th = bbox[3] - bbox[1]
-    tx = (width - tw) // 2
-    ty = top_y + (card_h - th) // 2 - bbox[1]
-    draw.text((tx, ty), clean_title, fill=(15, 23, 42, 255), font=title_font)
+    # Draw centered text line(s)
+    sample_bbox = draw.textbbox((0, 0), "A", font=title_font)
+    line_h = sample_bbox[3] - sample_bbox[1]
+    line_spacing = 10 if len(lines) > 1 else 0
+    total_text_h = len(lines) * line_h + (len(lines) - 1) * line_spacing
+    start_y = top_y + (card_h - total_text_h) // 2
     
-    # Badges
+    for i, line in enumerate(lines):
+        line_bbox = draw.textbbox((0, 0), line, font=title_font)
+        lw = line_bbox[2] - line_bbox[0]
+        lx = (width - lw) // 2
+        ly = start_y + i * (line_h + line_spacing) - line_bbox[1]
+        draw.text((lx, ly), line, fill=(15, 23, 42, 255), font=title_font)
+    
+    # Badges placed dynamically below title card
     badge_font = get_bold_font(34)
     def draw_badge(bx, by, bw, bh, text, bg_color, dot_color=None):
         draw.rounded_rectangle([bx + 3, by + 4, bx + bw + 3, by + bh + 4], radius=18, fill=(170, 185, 205, 80))

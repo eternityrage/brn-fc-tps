@@ -84,13 +84,23 @@ def generate_reel_by_mode(hero_name, item_name, mode_name, output_filename, colo
     # 2. Synthesize Audio
     create_synchronized_audio(duration, win_moments, temp_audio)
     
-    # 3. Mux Video + Audio with FFmpeg
+    # 3. Mux Video + Audio with FFmpeg (True 1080p Full HD, H.264 High Profile, YUV420p)
     cmd = [
         "ffmpeg", "-y",
         "-i", temp_video,
         "-i", temp_audio,
-        "-c:v", "copy",
+        "-c:v", "libx264",
+        "-preset", "veryfast",
+        "-crf", "18",            # Visually lossless CRF
+        "-pix_fmt", "yuv420p",   # Strict Meta/Facebook requirement for 1080p Reels
+        "-profile:v", "high",    # H.264 High Profile
+        "-level", "4.2",
+        "-b:v", "8M",            # 8 Mbps Full HD bitrate
+        "-maxrate", "12M",
+        "-bufsize", "16M",
         "-c:a", "aac",
+        "-b:a", "192k",
+        "-movflags", "+faststart",
         "-shortest",
         final_output
     ]
