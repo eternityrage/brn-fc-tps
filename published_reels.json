@@ -567,5 +567,113 @@
       "status": "success",
       "url": "https://facebook.com/1621645452804917"
     }
+  },
+  {
+    "timestamp": "2026-09-10T10:33:05.180938+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_swing_horizontal_lacrosse_clinking_glasses_20260910_103259.mp4",
+    "mode": "swing_horizontal",
+    "hero": "lacrosse",
+    "item": "clinking_glasses",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1069653019099344",
+      "comment_id": "1069653019099344_1078813431466559",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1069653019099344"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T10:33:28.987536+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_white_square_button_cow_face_20260910_103324.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "white_square_button",
+    "item": "cow_face",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "1080015047746272",
+      "comment_id": "1080015047746272_1760235938390170",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1080015047746272"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T10:33:52.058658+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_vortex_spin_mechanical_arm_heart_on_fire_20260910_103347.mp4",
+    "mode": "vortex_spin",
+    "hero": "mechanical_arm",
+    "item": "heart_on_fire",
+    "title": "High-Voltage Reflex: Pause At 100% Power! \ud83d\udca5",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "1391120375790977",
+      "comment_id": "1391120375790977_2017664762258303",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1391120375790977"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T10:34:15.339472+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_color_shift_blowfish_snake_20260910_103410.mp4",
+    "mode": "color_shift",
+    "hero": "blowfish",
+    "item": "snake",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "29258892860364919",
+      "comment_id": "29258892860364919_935330599095183",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/29258892860364919"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T10:34:38.761958+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_isometric_cube_atom_symbol_woman_getting_haircut_20260910_103434.mp4",
+    "mode": "isometric_cube",
+    "hero": "atom_symbol",
+    "item": "woman_getting_haircut",
+    "title": "Isometric Perception Test: Only High IQ Pass! \ud83d\udd2e",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "4342457822644373",
+      "comment_id": "4342457822644373_1406946041409871",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4342457822644373"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T10:35:02.390618+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_spotlight_reveal_pager_man_elf_20260910_103457.mp4",
+    "mode": "spotlight_reveal",
+    "hero": "pager",
+    "item": "man_elf",
+    "title": "Rapid-Fire Visual Quiz: Freeze The Target Item! \ud83d\udc3e",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "1716414332773301",
+      "comment_id": "1716414332773301_2006872630021102",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1716414332773301"
+    }
   }
 ]
