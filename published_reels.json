@@ -1215,5 +1215,113 @@
       "status": "success",
       "url": "https://facebook.com/2045743602743485"
     }
+  },
+  {
+    "timestamp": "2026-09-11T20:25:07.500904+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_scan_puzzle_piece_card_file_box_20260911_202502.mp4",
+    "mode": "laser_scan",
+    "hero": "puzzle_piece",
+    "item": "card_file_box",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "2603939100076900",
+      "comment_id": "2603939100076900_1830078818352107",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2603939100076900"
+    }
+  },
+  {
+    "timestamp": "2026-09-11T20:25:27.454990+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_slot_machine_fork_and_knife_with_plate_seal_20260911_202523.mp4",
+    "mode": "slot_machine",
+    "hero": "fork_and_knife_with_plate",
+    "item": "seal",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "1115174721070289",
+      "comment_id": "1115174721070289_1796669051457683",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1115174721070289"
+    }
+  },
+  {
+    "timestamp": "2026-09-11T20:25:46.723550+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_teleport_snap_cup_with_straw_eight_spoked_asterisk_20260911_202541.mp4",
+    "mode": "teleport_snap",
+    "hero": "cup_with_straw",
+    "item": "eight_spoked_asterisk",
+    "title": "Morning Brain Buster: Beat The Shockwave! \u26a1",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "1597953965454740",
+      "comment_id": "1597953965454740_2133512337335647",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1597953965454740"
+    }
+  },
+  {
+    "timestamp": "2026-09-11T20:26:06.380720+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_radar_sweep_herb_woman_with_white_cane_20260911_202601.mp4",
+    "mode": "radar_sweep",
+    "hero": "herb",
+    "item": "woman_with_white_cane",
+    "title": "Pure ASMR Harmony: Stop Right On The Pulse \ud83c\udfb5",
+    "pinned_comment": "\ud83d\udc8e ZEN FOCUS: Hit pause at pure 100% alignment! Share your result with us below \ud83d\udc47 #ASMRPuzzle",
+    "facebook": {
+      "id": "1382478587197656",
+      "comment_id": "1382478587197656_1807442587233116",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1382478587197656"
+    }
+  },
+  {
+    "timestamp": "2026-09-11T20:26:26.085190+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_prism_split_counterclockwise_arrows_button_eye_20260911_202621.mp4",
+    "mode": "prism_split",
+    "hero": "counterclockwise_arrows_button",
+    "item": "eye",
+    "title": "Rotational IQ Puzzle: Freeze At True Perspective! \ud83c\udf00",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1453441990331696",
+      "comment_id": "1453441990331696_1630510011928413",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1453441990331696"
+    }
+  },
+  {
+    "timestamp": "2026-09-11T20:26:46.104829+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_matrix_2x2_link_hippopotamus_20260911_202642.mp4",
+    "mode": "matrix_2x2",
+    "hero": "link",
+    "item": "hippopotamus",
+    "title": "Speed Trivia Challenge: Pause On The Secret Symbol! \ud83c\udf55",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1428914396098950",
+      "comment_id": "1428914396098950_2355892331888660",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1428914396098950"
+    }
   }
 ]
