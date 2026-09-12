@@ -1323,5 +1323,113 @@
       "status": "success",
       "url": "https://facebook.com/1428914396098950"
     }
+  },
+  {
+    "timestamp": "2026-09-12T02:59:27.298367+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_swing_horizontal_military_medal_womans_hat_20260912_025922.mp4",
+    "mode": "swing_horizontal",
+    "hero": "military_medal",
+    "item": "womans_hat",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1010352138683816",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1010352138683816"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T02:59:47.356693+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_bar_chart_woman_kneeling_facing_right_20260912_025943.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "bar_chart",
+    "item": "woman_kneeling_facing_right",
+    "title": "Math IQ Speed Test: Stop At 100% Precision! \ud83d\udcd0",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "1505390648089023",
+      "comment_id": "1505390648089023_1501869318412564",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1505390648089023"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T03:00:11.471017+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_shockwave_pulse_ophiuchus_key_20260912_030006.mp4",
+    "mode": "shockwave_pulse",
+    "hero": "ophiuchus",
+    "item": "key",
+    "title": "High-Voltage Reflex: Pause At 100% Power! \ud83d\udca5",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "1081028224518415",
+      "comment_id": "1081028224518415_1080411337926000",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1081028224518415"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T03:00:35.504790+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_swing_horizontal_shark_white_question_mark_20260912_030030.mp4",
+    "mode": "swing_horizontal",
+    "hero": "shark",
+    "item": "white_question_mark",
+    "title": "Satisfying Flow State: Can You Match The Rhythm? \ud83c\udf0a",
+    "pinned_comment": "\ud83c\udf0a FLOW STATE TEST:\n1. Watch the rhythmic wave and tap pause at the harmonic sync point! \ud83c\udfb5\n2. Post your screenshot below \ud83d\udc47\n3. Did you feel the flow? \ud83e\uddd8 #BrainTapsFlow",
+    "facebook": {
+      "id": "1821596869007104",
+      "comment_id": "1821596869007104_4462030310678100",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1821596869007104"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T03:00:58.389709+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_isometric_cube_motor_scooter_face_with_head_bandage_20260912_030053.mp4",
+    "mode": "isometric_cube",
+    "hero": "motor_scooter",
+    "item": "face_with_head_bandage",
+    "title": "Isometric Perception Test: Only High IQ Pass! \ud83d\udd2e",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1015147188264454",
+      "comment_id": "1015147188264454_1403839121081553",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1015147188264454"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T03:01:22.195302+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_shadow_morph_honeybee_hand_with_fingers_splayed_20260912_030117.mp4",
+    "mode": "shadow_morph",
+    "hero": "honeybee",
+    "item": "hand_with_fingers_splayed",
+    "title": "Speed Trivia Challenge: Pause On The Secret Symbol! \ud83c\udf55",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "1081564474261371",
+      "comment_id": "1081564474261371_1599331395228118",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1081564474261371"
+    }
   }
 ]
