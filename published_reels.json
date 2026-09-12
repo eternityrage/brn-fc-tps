@@ -1647,5 +1647,113 @@
       "status": "success",
       "url": "https://facebook.com/1395807916051555"
     }
+  },
+  {
+    "timestamp": "2026-09-12T20:09:44.488302+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_fire_extinguisher_cup_with_straw_20260912_200939.mp4",
+    "mode": "teleport_snap",
+    "hero": "fire_extinguisher",
+    "item": "cup_with_straw",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "896828526640763",
+      "comment_id": "896828526640763_1924073318977985",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/896828526640763"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T20:10:05.936858+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_matrix_2x2_joystick_rose_20260912_201001.mp4",
+    "mode": "matrix_2x2",
+    "hero": "joystick",
+    "item": "rose",
+    "title": "Math IQ Speed Test: Stop At 100% Precision! \ud83d\udcd0",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "1645623027237801",
+      "comment_id": "1645623027237801_1397472859197542",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1645623027237801"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T20:10:26.730114+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_vortex_spin_telescope_three_thirty_20260912_201022.mp4",
+    "mode": "vortex_spin",
+    "hero": "telescope",
+    "item": "three_thirty",
+    "title": "Morning Brain Buster: Beat The Shockwave! \u26a1",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "1577183767471587",
+      "comment_id": "1577183767471587_1580148190522053",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1577183767471587"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T20:10:48.229324+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_spiral_galaxy_deciduous_tree_broken_chain_20260912_201043.mp4",
+    "mode": "spiral_galaxy",
+    "hero": "deciduous_tree",
+    "item": "broken_chain",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\ud83d\udc8e ZEN FOCUS: Hit pause at pure 100% alignment! Share your result with us below \ud83d\udc47 #ASMRPuzzle",
+    "facebook": {
+      "id": "3625543007594922",
+      "comment_id": "3625543007594922_2611498025977520",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3625543007594922"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T20:11:12.450081+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_airplane_keycap_asterisk_20260912_201108.mp4",
+    "mode": "card_flip_3d",
+    "hero": "airplane",
+    "item": "keycap_asterisk",
+    "title": "Optical Illusion Challenge: Your Eyes Will Trick You! \ud83d\udc41\ufe0f",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1649113153438282",
+      "comment_id": "1649113153438282_1781258253017366",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1649113153438282"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T20:11:37.034510+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_spotlight_reveal_amphora_chart_increasing_20260912_201132.mp4",
+    "mode": "spotlight_reveal",
+    "hero": "amphora",
+    "item": "chart_increasing",
+    "title": "Observation IQ Test: 99% Miss This Detail! \ud83d\udd0d",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "1575700424348419",
+      "comment_id": "1575700424348419_4215222532113242",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1575700424348419"
+    }
   }
 ]
