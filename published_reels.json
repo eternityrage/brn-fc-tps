@@ -1539,5 +1539,113 @@
       "status": "success",
       "url": "https://facebook.com/1606418007559572"
     }
+  },
+  {
+    "timestamp": "2026-09-12T14:57:01.699062+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_candle_motor_scooter_20260912_145656.mp4",
+    "mode": "orbit_carousel",
+    "hero": "candle",
+    "item": "motor_scooter",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "2620231138492936",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2620231138492936"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T14:57:19.023293+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_triple_threat_watermelon_free_button_20260912_145714.mp4",
+    "mode": "triple_threat",
+    "hero": "watermelon",
+    "item": "free_button",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "2011690219483643",
+      "comment_id": "2011690219483643_2951167831885664",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2011690219483643"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T14:57:40.552573+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_falling_gravity_magnifying_glass_tilted_left_cross_mark_20260912_145736.mp4",
+    "mode": "falling_gravity",
+    "hero": "magnifying_glass_tilted_left",
+    "item": "cross_mark",
+    "title": "BrainFog Wake-Up Test! Shock Your Reflexes \u26a1",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "2395159774348285",
+      "comment_id": "2395159774348285_2096890124262002",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2395159774348285"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T14:58:03.063184+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_orbit_carousel_woman_judge_back_arrow_20260912_145758.mp4",
+    "mode": "orbit_carousel",
+    "hero": "woman_judge",
+    "item": "back_arrow",
+    "title": "Deep Focus Flow: Hit The Zen Alignment! \ud83d\udc8e",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1461906542478170",
+      "comment_id": "1461906542478170_2413350749191910",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1461906542478170"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T14:58:25.560681+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_spiral_galaxy_waxing_crescent_moon_cocktail_glass_20260912_145820.mp4",
+    "mode": "spiral_galaxy",
+    "hero": "waxing_crescent_moon",
+    "item": "cocktail_glass",
+    "title": "3D Spatial Perspective IQ: Can You Align It? \ud83e\uddca",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "1419334186928513",
+      "comment_id": "1419334186928513_1128857556132453",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1419334186928513"
+    }
+  },
+  {
+    "timestamp": "2026-09-12T14:58:46.980191+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_whack_a_mole_index_pointing_at_the_viewer_wind_face_20260912_145842.mp4",
+    "mode": "whack_a_mole",
+    "hero": "index_pointing_at_the_viewer",
+    "item": "wind_face",
+    "title": "Spot The Target: Fast Reflex Trivia Challenge! \ud83c\udfc6",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "1395807916051555",
+      "comment_id": "1395807916051555_965831883214589",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1395807916051555"
+    }
   }
 ]
