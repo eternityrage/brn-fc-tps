@@ -2079,5 +2079,113 @@
       "status": "success",
       "url": "https://facebook.com/2826188174431794"
     }
+  },
+  {
+    "timestamp": "2026-09-13T20:16:43.050484+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_pile_of_poo_candy_20260913_201638.mp4",
+    "mode": "orbit_carousel",
+    "hero": "pile_of_poo",
+    "item": "candy",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1437541354980331",
+      "comment_id": "1437541354980331_28631931486495812",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1437541354980331"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T20:17:05.536356+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_harmonic_pendulum_alien_monster_woman_pilot_20260913_201700.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "alien_monster",
+    "item": "woman_pilot",
+    "title": "Mental Math Rush: Align The Right Equation! \ud83d\udca1",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "1612296387151453",
+      "comment_id": "1612296387151453_1653271759739457",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1612296387151453"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T20:17:26.679189+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_falling_gravity_fork_and_knife_with_plate_man_zombie_20260913_201722.mp4",
+    "mode": "falling_gravity",
+    "hero": "fork_and_knife_with_plate",
+    "item": "man_zombie",
+    "title": "Clear The Morning Fog: Can You Tap In Time? \u2615",
+    "pinned_comment": "\u26a1 BRAIN FOG DESTROYER:\n1. Wake up your brain: Hit pause right inside the glowing shockwave! \ud83d\udca5\n2. Share your screenshot below \ud83d\udc47\n3. Are you 100% awake yet? \u2615 #BrainFog",
+    "facebook": {
+      "id": "2377840293044078",
+      "comment_id": "2377840293044078_1384935809886614",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2377840293044078"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T20:17:47.803389+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_harmonic_pendulum_anchor_astonished_face_20260913_201743.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "anchor",
+    "item": "astonished_face",
+    "title": "Hypnotic ASMR Tap: Pause At The Harmonic Beat \ud83e\uddd8",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "2165774078157400",
+      "comment_id": "2165774078157400_1484147466875340",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2165774078157400"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T20:18:10.405979+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_isometric_cube_sunflower_man_in_motorized_wheelchair_20260913_201805.mp4",
+    "mode": "isometric_cube",
+    "hero": "sunflower",
+    "item": "man_in_motorized_wheelchair",
+    "title": "3D Spatial Perspective IQ: Can You Align It? \ud83e\uddca",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "2094763917786066",
+      "comment_id": "2094763917786066_4513968575415617",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2094763917786066"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T20:18:31.115704+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_triple_threat_beer_mug_woman_in_steamy_room_20260913_201826.mp4",
+    "mode": "triple_threat",
+    "hero": "beer_mug",
+    "item": "woman_in_steamy_room",
+    "title": "Lightning Eye Quiz: Freeze On The Winning Clue! \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "1624139412481199",
+      "comment_id": "1624139412481199_951280981366465",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1624139412481199"
+    }
   }
 ]
