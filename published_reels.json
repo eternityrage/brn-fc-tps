@@ -1755,5 +1755,113 @@
       "status": "success",
       "url": "https://facebook.com/1575700424348419"
     }
+  },
+  {
+    "timestamp": "2026-09-13T02:59:45.677532+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_scan_red_exclamation_mark_backhand_index_pointing_left_20260913_025939.mp4",
+    "mode": "laser_scan",
+    "hero": "red_exclamation_mark",
+    "item": "backhand_index_pointing_left",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "4675281526034202",
+      "comment_id": "4675281526034202_1380991387558194",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4675281526034202"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T03:00:05.830648+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_pulsing_scale_black_square_button_pea_pod_20260913_030001.mp4",
+    "mode": "pulsing_scale",
+    "hero": "black_square_button",
+    "item": "pea_pod",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "2177825812783569",
+      "comment_id": "2177825812783569_1884271139646047",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2177825812783569"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T03:00:25.998461+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_teleport_snap_glowing_star_fireworks_20260913_030021.mp4",
+    "mode": "teleport_snap",
+    "hero": "glowing_star",
+    "item": "fireworks",
+    "title": "Clear The Morning Fog: Can You Tap In Time? \u2615",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "1063540193099553",
+      "comment_id": "1063540193099553_1767516914518137",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1063540193099553"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T03:00:47.710488+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_radar_sweep_spouting_whale_person_getting_massage_20260913_030043.mp4",
+    "mode": "radar_sweep",
+    "hero": "spouting_whale",
+    "item": "person_getting_massage",
+    "title": "Satisfying Flow State: Can You Match The Rhythm? \ud83c\udf0a",
+    "pinned_comment": "\ud83c\udf0a FLOW STATE TEST:\n1. Watch the rhythmic wave and tap pause at the harmonic sync point! \ud83c\udfb5\n2. Post your screenshot below \ud83d\udc47\n3. Did you feel the flow? \ud83e\uddd8 #BrainTapsFlow",
+    "facebook": {
+      "id": "4340202436241623",
+      "comment_id": "4340202436241623_2158702165081196",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4340202436241623"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T03:01:10.937946+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_prism_split_ring_buoy_nail_polish_20260913_030106.mp4",
+    "mode": "prism_split",
+    "hero": "ring_buoy",
+    "item": "nail_polish",
+    "title": "Isometric Perception Test: Only High IQ Pass! \ud83d\udd2e",
+    "pinned_comment": "\ud83d\udc41\ufe0f SPATIAL IQ TEST:\n1. Watch the 3D rotation and pause when the perspective locks in 3D! \ud83e\uddca\n2. Screenshot your alignment and reply below \ud83d\udc47\n3. Rate the difficulty from 1-10! #MindView",
+    "facebook": {
+      "id": "1742000537056494",
+      "comment_id": "1742000537056494_1121957633735271",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1742000537056494"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T03:01:31.342563+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_slot_machine_dove_studio_microphone_20260913_030127.mp4",
+    "mode": "slot_machine",
+    "hero": "dove",
+    "item": "studio_microphone",
+    "title": "Speed Trivia Challenge: Pause On The Secret Symbol! \ud83c\udf55",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "2291098404790888",
+      "comment_id": "2291098404790888_1976069979745606",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2291098404790888"
+    }
   }
 ]
