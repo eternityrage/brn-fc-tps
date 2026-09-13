@@ -1971,5 +1971,113 @@
       "status": "success",
       "url": "https://facebook.com/1463884582249233"
     }
+  },
+  {
+    "timestamp": "2026-09-13T15:34:09.052802+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_pulsing_scale_sparkler_oncoming_fist_20260913_153404.mp4",
+    "mode": "pulsing_scale",
+    "hero": "sparkler",
+    "item": "oncoming_fist",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1705304864103608",
+      "comment_id": "1705304864103608_1570617140667153",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1705304864103608"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T15:34:37.393515+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_slot_machine_clockwise_vertical_arrows_cricket_game_20260913_153433.mp4",
+    "mode": "slot_machine",
+    "hero": "clockwise_vertical_arrows",
+    "item": "cricket_game",
+    "title": "MindMath Reflex: Pause On The Exact Number! \ud83d\udd22",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "2130431284257907",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2130431284257907"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T15:34:56.013009+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_strobe_flash_man_office_worker_woman_swimming_20260913_153451.mp4",
+    "mode": "strobe_flash",
+    "hero": "man_office_worker",
+    "item": "woman_swimming",
+    "title": "Only Awake Minds Can Catch This! Stop It! \ud83d\ude80",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "1090744577256198",
+      "comment_id": "1090744577256198_1402150922115419",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1090744577256198"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T15:35:19.177805+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_swing_horizontal_person_climbing_eleven_thirty_20260913_153514.mp4",
+    "mode": "swing_horizontal",
+    "hero": "person_climbing",
+    "item": "eleven_thirty",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1092932150267199",
+      "comment_id": "1092932150267199_2013829149270643",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1092932150267199"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T15:35:40.067791+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_crossfire_diagonal_x_seven_oclock_banjo_20260913_153536.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "seven_oclock",
+    "item": "banjo",
+    "title": "Multi-Dimensional Pause Test! Stop At True Angle \ud83d\udcd0",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1096280539531166",
+      "comment_id": "1096280539531166_1109369831558314",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1096280539531166"
+    }
+  },
+  {
+    "timestamp": "2026-09-13T15:36:02.625431+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_matrix_2x2_beetle_floppy_disk_20260913_153558.mp4",
+    "mode": "matrix_2x2",
+    "hero": "beetle",
+    "item": "floppy_disk",
+    "title": "MindQuiz Spotlight: Can You Catch The Odd One? \ud83d\udd75\ufe0f",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "2826188174431794",
+      "comment_id": "2826188174431794_2079291849613488",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2826188174431794"
+    }
   }
 ]
