@@ -2403,5 +2403,113 @@
       "status": "success",
       "url": "https://facebook.com/1970862096935058"
     }
+  },
+  {
+    "timestamp": "2026-09-14T17:37:07.063471+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_falling_gravity_flashlight_slightly_frowning_face_20260914_173702.mp4",
+    "mode": "falling_gravity",
+    "hero": "flashlight",
+    "item": "slightly_frowning_face",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "2835468740186840",
+      "comment_id": "2835468740186840_1657735422442370",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2835468740186840"
+    }
+  },
+  {
+    "timestamp": "2026-09-14T17:37:25.982915+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_clown_face_bullseye_20260914_173721.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "clown_face",
+    "item": "bullseye",
+    "title": "MindMath Reflex: Pause On The Exact Number! \ud83d\udd22",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "1091317143254829",
+      "comment_id": "1091317143254829_1790871465439641",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1091317143254829"
+    }
+  },
+  {
+    "timestamp": "2026-09-14T17:37:44.726894+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_teleport_snap_cloud_with_lightning_penguin_20260914_173740.mp4",
+    "mode": "teleport_snap",
+    "hero": "cloud_with_lightning",
+    "item": "penguin",
+    "title": "High-Voltage Reflex: Pause At 100% Power! \ud83d\udca5",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "3544387065738627",
+      "comment_id": "3544387065738627_1119660267290661",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3544387065738627"
+    }
+  },
+  {
+    "timestamp": "2026-09-14T17:38:02.294761+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_color_shift_tulip_head_shaking_horizontally_20260914_173757.mp4",
+    "mode": "color_shift",
+    "hero": "tulip",
+    "item": "head_shaking_horizontally",
+    "title": "Pure ASMR Harmony: Stop Right On The Pulse \ud83c\udfb5",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1739813213732978",
+      "comment_id": "1739813213732978_969775266153869",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1739813213732978"
+    }
+  },
+  {
+    "timestamp": "2026-09-14T17:38:20.733294+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_vortex_spin_motorcycle_scissors_20260914_173816.mp4",
+    "mode": "vortex_spin",
+    "hero": "motorcycle",
+    "item": "scissors",
+    "title": "Perspective Shift: Stop When The 3D Object Fits! \ud83d\udef8",
+    "pinned_comment": "\ud83d\udc41\ufe0f SPATIAL IQ TEST:\n1. Watch the 3D rotation and pause when the perspective locks in 3D! \ud83e\uddca\n2. Screenshot your alignment and reply below \ud83d\udc47\n3. Rate the difficulty from 1-10! #MindView",
+    "facebook": {
+      "id": "1386001823704499",
+      "comment_id": "1386001823704499_1087190734246600",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1386001823704499"
+    }
+  },
+  {
+    "timestamp": "2026-09-14T17:38:40.440757+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_slot_machine_fishing_pole_skull_and_crossbones_20260914_173836.mp4",
+    "mode": "slot_machine",
+    "hero": "fishing_pole",
+    "item": "skull_and_crossbones",
+    "title": "Lightning Eye Quiz: Freeze On The Winning Clue! \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "1380663397613711",
+      "comment_id": "1380663397613711_1631977448264461",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1380663397613711"
+    }
   }
 ]
