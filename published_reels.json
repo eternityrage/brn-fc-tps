@@ -2511,5 +2511,113 @@
       "status": "success",
       "url": "https://facebook.com/1380663397613711"
     }
+  },
+  {
+    "timestamp": "2026-09-14T21:25:40.331025+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_scan_keycap_10_free_button_20260914_212535.mp4",
+    "mode": "laser_scan",
+    "hero": "keycap_10",
+    "item": "free_button",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1079787808089379",
+      "comment_id": "1079787808089379_1020072064380627",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1079787808089379"
+    }
+  },
+  {
+    "timestamp": "2026-09-14T21:26:03.710005+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_slot_machine_joker_saluting_face_20260914_212559.mp4",
+    "mode": "slot_machine",
+    "hero": "joker",
+    "item": "saluting_face",
+    "title": "Mental Math Rush: Align The Right Equation! \ud83d\udca1",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "1631373725347212",
+      "comment_id": "1631373725347212_1690198118709161",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1631373725347212"
+    }
+  },
+  {
+    "timestamp": "2026-09-14T21:26:27.170612+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_strobe_flash_police_car_light_ice_skate_20260914_212622.mp4",
+    "mode": "strobe_flash",
+    "hero": "police_car_light",
+    "item": "ice_skate",
+    "title": "100% Alertness Drill! Freeze The Frame Instantly \ud83d\udd25",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "1057336466940750",
+      "comment_id": "1057336466940750_2136831580542732",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1057336466940750"
+    }
+  },
+  {
+    "timestamp": "2026-09-14T21:26:54.286927+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_swing_horizontal_service_dog_rainbow_20260914_212649.mp4",
+    "mode": "swing_horizontal",
+    "hero": "service_dog",
+    "item": "rainbow",
+    "title": "Hypnotic ASMR Tap: Pause At The Harmonic Beat \ud83e\uddd8",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1084611564217557",
+      "comment_id": "1084611564217557_2153130925244733",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1084611564217557"
+    }
+  },
+  {
+    "timestamp": "2026-09-14T21:27:19.073142+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_crossfire_diagonal_x_giraffe_play_or_pause_button_20260914_212714.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "giraffe",
+    "item": "play_or_pause_button",
+    "title": "Rotational IQ Puzzle: Freeze At True Perspective! \ud83c\udf00",
+    "pinned_comment": "\ud83d\udc41\ufe0f SPATIAL IQ TEST:\n1. Watch the 3D rotation and pause when the perspective locks in 3D! \ud83e\uddca\n2. Screenshot your alignment and reply below \ud83d\udc47\n3. Rate the difficulty from 1-10! #MindView",
+    "facebook": {
+      "id": "1551091399659223",
+      "comment_id": "1551091399659223_1652262539650597",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1551091399659223"
+    }
+  },
+  {
+    "timestamp": "2026-09-14T21:27:42.473046+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_shadow_morph_convenience_store_woman_artist_20260914_212737.mp4",
+    "mode": "shadow_morph",
+    "hero": "convenience_store",
+    "item": "woman_artist",
+    "title": "MindQuiz Spotlight: Can You Catch The Odd One? \ud83d\udd75\ufe0f",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "2314826319256927",
+      "comment_id": "2314826319256927_1394793772161060",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2314826319256927"
+    }
   }
 ]
