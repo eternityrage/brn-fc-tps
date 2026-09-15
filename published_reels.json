@@ -2943,5 +2943,113 @@
       "status": "success",
       "url": "https://facebook.com/1598667198409841"
     }
+  },
+  {
+    "timestamp": "2026-09-15T20:50:24.147359+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_falling_gravity_video_game_man_biking_20260915_205019.mp4",
+    "mode": "falling_gravity",
+    "hero": "video_game",
+    "item": "man_biking",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1081313097824092",
+      "comment_id": "1081313097824092_2230200657554029",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1081313097824092"
+    }
+  },
+  {
+    "timestamp": "2026-09-15T20:50:45.344169+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_matrix_2x2_magic_wand_person_wrestling_20260915_205041.mp4",
+    "mode": "matrix_2x2",
+    "hero": "magic_wand",
+    "item": "person_wrestling",
+    "title": "MindMath Reflex: Pause On The Exact Number! \ud83d\udd22",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "1059919053624384",
+      "comment_id": "1059919053624384_2056654618302003",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1059919053624384"
+    }
+  },
+  {
+    "timestamp": "2026-09-15T20:51:07.246457+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_teleport_snap_man_mechanic_white_small_square_20260915_205102.mp4",
+    "mode": "teleport_snap",
+    "hero": "man_mechanic",
+    "item": "white_small_square",
+    "title": "100% Alertness Drill! Freeze The Frame Instantly \ud83d\udd25",
+    "pinned_comment": "\u26a1 BRAIN FOG DESTROYER:\n1. Wake up your brain: Hit pause right inside the glowing shockwave! \ud83d\udca5\n2. Share your screenshot below \ud83d\udc47\n3. Are you 100% awake yet? \u2615 #BrainFog",
+    "facebook": {
+      "id": "1564851482327761",
+      "comment_id": "1564851482327761_4206553456143336",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1564851482327761"
+    }
+  },
+  {
+    "timestamp": "2026-09-15T20:51:30.993381+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_color_shift_trumpet_black_large_square_20260915_205126.mp4",
+    "mode": "color_shift",
+    "hero": "trumpet",
+    "item": "black_large_square",
+    "title": "Pure ASMR Harmony: Stop Right On The Pulse \ud83c\udfb5",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1102296182411612",
+      "comment_id": "1102296182411612_1781503879837516",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1102296182411612"
+    }
+  },
+  {
+    "timestamp": "2026-09-15T20:51:54.925390+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_spiral_galaxy_ferry_flute_20260915_205150.mp4",
+    "mode": "spiral_galaxy",
+    "hero": "ferry",
+    "item": "flute",
+    "title": "Isometric Perception Test: Only High IQ Pass! \ud83d\udd2e",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "1064339799717671",
+      "comment_id": "1064339799717671_2825888511198642",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1064339799717671"
+    }
+  },
+  {
+    "timestamp": "2026-09-15T20:52:17.957959+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_slot_machine_beverage_box_record_button_20260915_205213.mp4",
+    "mode": "slot_machine",
+    "hero": "beverage_box",
+    "item": "record_button",
+    "title": "Spot The Target: Fast Reflex Trivia Challenge! \ud83c\udfc6",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "1241702804893355",
+      "comment_id": "1241702804893355_1108914134992418",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1241702804893355"
+    }
   }
 ]
