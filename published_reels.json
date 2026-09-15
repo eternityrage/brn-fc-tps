@@ -2727,5 +2727,113 @@
       "status": "success",
       "url": "https://facebook.com/1096960906318761"
     }
+  },
+  {
+    "timestamp": "2026-09-15T11:01:04.997009+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_volleyball_cloud_with_lightning_20260915_110100.mp4",
+    "mode": "orbit_carousel",
+    "hero": "volleyball",
+    "item": "cloud_with_lightning",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "2298809927548721",
+      "comment_id": "2298809927548721_1741006900286871",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2298809927548721"
+    }
+  },
+  {
+    "timestamp": "2026-09-15T11:01:28.083566+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_harmonic_pendulum_purple_square_man_swimming_20260915_110123.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "purple_square",
+    "item": "man_swimming",
+    "title": "Mental Math Rush: Align The Right Equation! \ud83d\udca1",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "1061867959815370",
+      "comment_id": "1061867959815370_1600008468346543",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1061867959815370"
+    }
+  },
+  {
+    "timestamp": "2026-09-15T11:01:49.393845+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_zigzag_dash_full_moon_foggy_20260915_110144.mp4",
+    "mode": "zigzag_dash",
+    "hero": "full_moon",
+    "item": "foggy",
+    "title": "100% Alertness Drill! Freeze The Frame Instantly \ud83d\udd25",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "1687908380004058",
+      "comment_id": "1687908380004058_2575891099577256",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1687908380004058"
+    }
+  },
+  {
+    "timestamp": "2026-09-15T11:02:11.311188+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_orbit_carousel_glass_of_milk_open_book_20260915_110206.mp4",
+    "mode": "orbit_carousel",
+    "hero": "glass_of_milk",
+    "item": "open_book",
+    "title": "Pure ASMR Harmony: Stop Right On The Pulse \ud83c\udfb5",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1229587420248986",
+      "comment_id": "1229587420248986_1878500126664802",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1229587420248986"
+    }
+  },
+  {
+    "timestamp": "2026-09-15T11:02:32.931281+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_hot_springs_parrot_20260915_110228.mp4",
+    "mode": "card_flip_3d",
+    "hero": "hot_springs",
+    "item": "parrot",
+    "title": "Rotational IQ Puzzle: Freeze At True Perspective! \ud83c\udf00",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1404103811066135",
+      "comment_id": "1404103811066135_1602800354811969",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1404103811066135"
+    }
+  },
+  {
+    "timestamp": "2026-09-15T11:02:54.221738+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_spotlight_reveal_person_superhero_ring_buoy_20260915_110249.mp4",
+    "mode": "spotlight_reveal",
+    "hero": "person_superhero",
+    "item": "ring_buoy",
+    "title": "Observation IQ Test: 99% Miss This Detail! \ud83d\udd0d",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "2054178511900850",
+      "comment_id": "2054178511900850_1053554353975991",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2054178511900850"
+    }
   }
 ]
