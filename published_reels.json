@@ -3267,5 +3267,113 @@
       "status": "success",
       "url": "https://facebook.com/1794726591675748"
     }
+  },
+  {
+    "timestamp": "2026-09-16T16:04:44.250573+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_spade_suit_high_voltage_20260916_160439.mp4",
+    "mode": "teleport_snap",
+    "hero": "spade_suit",
+    "item": "high_voltage",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1847767786664181",
+      "comment_id": "1847767786664181_2495984080811947",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1847767786664181"
+    }
+  },
+  {
+    "timestamp": "2026-09-16T16:05:04.090902+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_technologist_studio_microphone_20260916_160500.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "technologist",
+    "item": "studio_microphone",
+    "title": "Quick Mental Calculation: Can You Freeze In Time? \u26a1",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "28385638754426708",
+      "comment_id": "28385638754426708_1810171660121365",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/28385638754426708"
+    }
+  },
+  {
+    "timestamp": "2026-09-16T16:05:24.383862+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_falling_gravity_globe_showing_europe_africa_roller_skate_20260916_160520.mp4",
+    "mode": "falling_gravity",
+    "hero": "globe_showing_europe_africa",
+    "item": "roller_skate",
+    "title": "Only Awake Minds Can Catch This! Stop It! \ud83d\ude80",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "1065375259742798",
+      "comment_id": "1065375259742798_3364808347033969",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1065375259742798"
+    }
+  },
+  {
+    "timestamp": "2026-09-16T16:05:43.655952+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_orbit_carousel_house_scroll_20260916_160540.mp4",
+    "mode": "orbit_carousel",
+    "hero": "house",
+    "item": "scroll",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "2637898319998292",
+      "comment_id": "2637898319998292_1588427609355304",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2637898319998292"
+    }
+  },
+  {
+    "timestamp": "2026-09-16T16:06:04.314722+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_bust_in_silhouette_mouth_20260916_160600.mp4",
+    "mode": "card_flip_3d",
+    "hero": "bust_in_silhouette",
+    "item": "mouth",
+    "title": "Isometric Perception Test: Only High IQ Pass! \ud83d\udd2e",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1616701903293956",
+      "comment_id": "1616701903293956_961288002926128",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1616701903293956"
+    }
+  },
+  {
+    "timestamp": "2026-09-16T16:06:24.029706+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_matrix_2x2_detective_man_guard_20260916_160619.mp4",
+    "mode": "matrix_2x2",
+    "hero": "detective",
+    "item": "man_guard",
+    "title": "Lightning Eye Quiz: Freeze On The Winning Clue! \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "1120868633940153",
+      "comment_id": "1120868633940153_1632160458256091",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1120868633940153"
+    }
   }
 ]
