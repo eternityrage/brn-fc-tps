@@ -3375,5 +3375,113 @@
       "status": "success",
       "url": "https://facebook.com/1120868633940153"
     }
+  },
+  {
+    "timestamp": "2026-09-16T20:50:44.775177+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_club_suit_rightwards_hand_20260916_205040.mp4",
+    "mode": "orbit_carousel",
+    "hero": "club_suit",
+    "item": "rightwards_hand",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "2826051014431482",
+      "comment_id": "2826051014431482_1485236543365998",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2826051014431482"
+    }
+  },
+  {
+    "timestamp": "2026-09-16T20:51:05.760929+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_triple_threat_puzzle_piece_bread_20260916_205101.mp4",
+    "mode": "triple_threat",
+    "hero": "puzzle_piece",
+    "item": "bread",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "2084587358929203",
+      "comment_id": "2084587358929203_2362319247931893",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2084587358929203"
+    }
+  },
+  {
+    "timestamp": "2026-09-16T20:51:23.883551+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_zigzag_dash_sunglasses_volleyball_20260916_205119.mp4",
+    "mode": "zigzag_dash",
+    "hero": "sunglasses",
+    "item": "volleyball",
+    "title": "100% Alertness Drill! Freeze The Frame Instantly \ud83d\udd25",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "4655241624765579",
+      "comment_id": "4655241624765579_4528965880719757",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4655241624765579"
+    }
+  },
+  {
+    "timestamp": "2026-09-16T20:51:46.623360+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_swing_horizontal_person_wearing_turban_rocket_20260916_205142.mp4",
+    "mode": "swing_horizontal",
+    "hero": "person_wearing_turban",
+    "item": "rocket",
+    "title": "Infinite Rhythm Tap: Catch The Ripple In Time \ud83c\udf00",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1494290285839427",
+      "comment_id": "1494290285839427_1092702086590710",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1494290285839427"
+    }
+  },
+  {
+    "timestamp": "2026-09-16T20:52:08.283373+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_isometric_cube_ring_buoy_tennis_20260916_205203.mp4",
+    "mode": "isometric_cube",
+    "hero": "ring_buoy",
+    "item": "tennis",
+    "title": "Optical Illusion Challenge: Your Eyes Will Trick You! \ud83d\udc41\ufe0f",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "2814095812323608",
+      "comment_id": "2814095812323608_1340140988195001",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2814095812323608"
+    }
+  },
+  {
+    "timestamp": "2026-09-16T20:52:29.633340+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_whack_a_mole_man_technologist_t_rex_20260916_205224.mp4",
+    "mode": "whack_a_mole",
+    "hero": "man_technologist",
+    "item": "t_rex",
+    "title": "Spot The Target: Fast Reflex Trivia Challenge! \ud83c\udfc6",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "1967759527240396",
+      "comment_id": "1967759527240396_1434110175258050",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1967759527240396"
+    }
   }
 ]
