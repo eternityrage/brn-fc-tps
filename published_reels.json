@@ -3483,5 +3483,113 @@
       "status": "success",
       "url": "https://facebook.com/1967759527240396"
     }
+  },
+  {
+    "timestamp": "2026-09-17T03:16:53.291368+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_swing_horizontal_fireworks_satellite_20260917_031647.mp4",
+    "mode": "swing_horizontal",
+    "hero": "fireworks",
+    "item": "satellite",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "3683141825184511",
+      "comment_id": "3683141825184511_1385673673232554",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3683141825184511"
+    }
+  },
+  {
+    "timestamp": "2026-09-17T03:17:15.533440+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_harmonic_pendulum_keycap_2_womens_room_20260917_031710.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "keycap_2",
+    "item": "womens_room",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "1539890124488239",
+      "comment_id": "1539890124488239_1099479356369461",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1539890124488239"
+    }
+  },
+  {
+    "timestamp": "2026-09-17T03:17:38.466742+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_vortex_spin_sunset_cook_20260917_031733.mp4",
+    "mode": "vortex_spin",
+    "hero": "sunset",
+    "item": "cook",
+    "title": "Morning Brain Buster: Beat The Shockwave! \u26a1",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "958390893319599",
+      "comment_id": "958390893319599_1773273017220927",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/958390893319599"
+    }
+  },
+  {
+    "timestamp": "2026-09-17T03:18:02.139601+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_color_shift_saxophone_man_scientist_20260917_031757.mp4",
+    "mode": "color_shift",
+    "hero": "saxophone",
+    "item": "man_scientist",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1422512105978570",
+      "comment_id": "1422512105978570_1771707064110779",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1422512105978570"
+    }
+  },
+  {
+    "timestamp": "2026-09-17T03:18:23.065806+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_crossfire_diagonal_x_sunflower_pretzel_20260917_031818.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "sunflower",
+    "item": "pretzel",
+    "title": "Optical Illusion Challenge: Your Eyes Will Trick You! \ud83d\udc41\ufe0f",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "929672410208582",
+      "comment_id": "929672410208582_1051608084357027",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/929672410208582"
+    }
+  },
+  {
+    "timestamp": "2026-09-17T03:18:43.590681+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_slot_machine_flamingo_nerd_face_20260917_031839.mp4",
+    "mode": "slot_machine",
+    "hero": "flamingo",
+    "item": "nerd_face",
+    "title": "MindQuiz Spotlight: Can You Catch The Odd One? \ud83d\udd75\ufe0f",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "1038416599033505",
+      "comment_id": "1038416599033505_1572398361289495",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1038416599033505"
+    }
   }
 ]
