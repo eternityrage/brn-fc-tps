@@ -4131,5 +4131,113 @@
       "status": "success",
       "url": "https://facebook.com/1721174585630685"
     }
+  },
+  {
+    "timestamp": "2026-09-18T15:46:41.269499+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_scan_yo_yo_oncoming_taxi_20260918_154636.mp4",
+    "mode": "laser_scan",
+    "hero": "yo_yo",
+    "item": "oncoming_taxi",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "2155035228747202",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2155035228747202"
+    }
+  },
+  {
+    "timestamp": "2026-09-18T15:46:58.293367+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_matrix_2x2_clown_face_knot_20260918_154653.mp4",
+    "mode": "matrix_2x2",
+    "hero": "clown_face",
+    "item": "knot",
+    "title": "Math IQ Speed Test: Stop At 100% Precision! \ud83d\udcd0",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "2150893275854325",
+      "comment_id": "2150893275854325_2035027267236665",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2150893275854325"
+    }
+  },
+  {
+    "timestamp": "2026-09-18T15:47:17.901629+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_vortex_spin_post_office_face_with_head_bandage_20260918_154713.mp4",
+    "mode": "vortex_spin",
+    "hero": "post_office",
+    "item": "face_with_head_bandage",
+    "title": "BrainFog Wake-Up Test! Shock Your Reflexes \u26a1",
+    "pinned_comment": "\u26a1 BRAIN FOG DESTROYER:\n1. Wake up your brain: Hit pause right inside the glowing shockwave! \ud83d\udca5\n2. Share your screenshot below \ud83d\udc47\n3. Are you 100% awake yet? \u2615 #BrainFog",
+    "facebook": {
+      "id": "28663814656589966",
+      "comment_id": "28663814656589966_2107181439870988",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/28663814656589966"
+    }
+  },
+  {
+    "timestamp": "2026-09-18T15:47:38.332851+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_spiral_galaxy_globe_with_meridians_scorpio_20260918_154733.mp4",
+    "mode": "spiral_galaxy",
+    "hero": "globe_with_meridians",
+    "item": "scorpio",
+    "title": "Satisfying Flow State: Can You Match The Rhythm? \ud83c\udf0a",
+    "pinned_comment": "\ud83d\udc8e ZEN FOCUS: Hit pause at pure 100% alignment! Share your result with us below \ud83d\udc47 #ASMRPuzzle",
+    "facebook": {
+      "id": "1101546615716257",
+      "comment_id": "1101546615716257_1978276522853404",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1101546615716257"
+    }
+  },
+  {
+    "timestamp": "2026-09-18T15:47:58.386008+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_isometric_cube_woman_gesturing_no_panda_20260918_154753.mp4",
+    "mode": "isometric_cube",
+    "hero": "woman_gesturing_no",
+    "item": "panda",
+    "title": "3D Spatial Perspective IQ: Can You Align It? \ud83e\uddca",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "4489583198037420",
+      "comment_id": "4489583198037420_1092649256477856",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4489583198037420"
+    }
+  },
+  {
+    "timestamp": "2026-09-18T15:48:18.764988+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_spotlight_reveal_person_red_hair_x_ray_20260918_154813.mp4",
+    "mode": "spotlight_reveal",
+    "hero": "person_red_hair",
+    "item": "x_ray",
+    "title": "Lightning Eye Quiz: Freeze On The Winning Clue! \ud83c\udfaf",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1158617066603770",
+      "comment_id": "1158617066603770_1611552010605351",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1158617066603770"
+    }
   }
 ]
