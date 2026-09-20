@@ -4995,5 +4995,113 @@
       "status": "success",
       "url": "https://facebook.com/1687393572868223"
     }
+  },
+  {
+    "timestamp": "2026-09-20T15:23:57.285668+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_tennis_squinting_face_with_tongue_20260920_152354.mp4",
+    "mode": "orbit_carousel",
+    "hero": "tennis",
+    "item": "squinting_face_with_tongue",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1046987711301732",
+      "comment_id": "1046987711301732_1569742071296689",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1046987711301732"
+    }
+  },
+  {
+    "timestamp": "2026-09-20T15:24:16.457741+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_matrix_2x2_woman_scientist_angry_face_with_horns_20260920_152413.mp4",
+    "mode": "matrix_2x2",
+    "hero": "woman_scientist",
+    "item": "angry_face_with_horns",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "1390246716035237",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1390246716035237"
+    }
+  },
+  {
+    "timestamp": "2026-09-20T15:24:31.180892+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_strobe_flash_woman_detective_man_merpeople_20260920_152428.mp4",
+    "mode": "strobe_flash",
+    "hero": "woman_detective",
+    "item": "man_merpeople",
+    "title": "Only Awake Minds Can Catch This! Stop It! \ud83d\ude80",
+    "pinned_comment": "\u26a1 BRAIN FOG DESTROYER:\n1. Wake up your brain: Hit pause right inside the glowing shockwave! \ud83d\udca5\n2. Share your screenshot below \ud83d\udc47\n3. Are you 100% awake yet? \u2615 #BrainFog",
+    "facebook": {
+      "id": "1010162775362467",
+      "comment_id": "1010162775362467_1380175760837045",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1010162775362467"
+    }
+  },
+  {
+    "timestamp": "2026-09-20T15:24:50.907121+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_radar_sweep_bubbles_sports_medal_20260920_152448.mp4",
+    "mode": "radar_sweep",
+    "hero": "bubbles",
+    "item": "sports_medal",
+    "title": "Deep Focus Flow: Hit The Zen Alignment! \ud83d\udc8e",
+    "pinned_comment": "\ud83c\udf0a FLOW STATE TEST:\n1. Watch the rhythmic wave and tap pause at the harmonic sync point! \ud83c\udfb5\n2. Post your screenshot below \ud83d\udc47\n3. Did you feel the flow? \ud83e\uddd8 #BrainTapsFlow",
+    "facebook": {
+      "id": "1114390961114489",
+      "comment_id": "1114390961114489_2121385621798523",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1114390961114489"
+    }
+  },
+  {
+    "timestamp": "2026-09-20T15:25:12.608345+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_waning_crescent_moon_ear_of_corn_20260920_152509.mp4",
+    "mode": "card_flip_3d",
+    "hero": "waning_crescent_moon",
+    "item": "ear_of_corn",
+    "title": "Optical Illusion Challenge: Your Eyes Will Trick You! \ud83d\udc41\ufe0f",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "1832815871415931",
+      "comment_id": "1832815871415931_1432572318739812",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1832815871415931"
+    }
+  },
+  {
+    "timestamp": "2026-09-20T15:25:31.284568+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_triple_threat_spiral_shell_coffin_20260920_152527.mp4",
+    "mode": "triple_threat",
+    "hero": "spiral_shell",
+    "item": "coffin",
+    "title": "Observation IQ Test: 99% Miss This Detail! \ud83d\udd0d",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1073388018755095",
+      "comment_id": "1073388018755095_3323770851142302",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1073388018755095"
+    }
   }
 ]
