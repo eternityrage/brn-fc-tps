@@ -5643,5 +5643,113 @@
       "status": "success",
       "url": "https://facebook.com/1625676638902944"
     }
+  },
+  {
+    "timestamp": "2026-09-22T03:10:22.028844+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_collision_bullseye_20260922_031017.mp4",
+    "mode": "orbit_carousel",
+    "hero": "collision",
+    "item": "bullseye",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "28844221198542957",
+      "comment_id": "28844221198542957_1092573480024760",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/28844221198542957"
+    }
+  },
+  {
+    "timestamp": "2026-09-22T03:10:42.308111+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_harmonic_pendulum_woman_guard_latin_cross_20260922_031038.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "woman_guard",
+    "item": "latin_cross",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "4744236579178879",
+      "comment_id": "4744236579178879_1392720323013109",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4744236579178879"
+    }
+  },
+  {
+    "timestamp": "2026-09-22T03:11:01.522037+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_teleport_snap_curly_loop_motor_boat_20260922_031057.mp4",
+    "mode": "teleport_snap",
+    "hero": "curly_loop",
+    "item": "motor_boat",
+    "title": "100% Alertness Drill! Freeze The Frame Instantly \ud83d\udd25",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "2958048797920881",
+      "comment_id": "2958048797920881_1614793683992639",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2958048797920881"
+    }
+  },
+  {
+    "timestamp": "2026-09-22T03:11:20.093469+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_orbit_carousel_lobster_woman_bowing_20260922_031116.mp4",
+    "mode": "orbit_carousel",
+    "hero": "lobster",
+    "item": "woman_bowing",
+    "title": "Infinite Rhythm Tap: Catch The Ripple In Time \ud83c\udf00",
+    "pinned_comment": "\ud83d\udc8e ZEN FOCUS: Hit pause at pure 100% alignment! Share your result with us below \ud83d\udc47 #ASMRPuzzle",
+    "facebook": {
+      "id": "1447534783899003",
+      "comment_id": "1447534783899003_2257161625073070",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1447534783899003"
+    }
+  },
+  {
+    "timestamp": "2026-09-22T03:11:39.970094+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_bus_stop_woman_swimming_20260922_031136.mp4",
+    "mode": "card_flip_3d",
+    "hero": "bus_stop",
+    "item": "woman_swimming",
+    "title": "Multi-Dimensional Pause Test! Stop At True Angle \ud83d\udcd0",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "2555293524982184",
+      "comment_id": "2555293524982184_1315346621662220",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2555293524982184"
+    }
+  },
+  {
+    "timestamp": "2026-09-22T03:12:01.217717+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_whack_a_mole_honey_pot_man_police_officer_20260922_031156.mp4",
+    "mode": "whack_a_mole",
+    "hero": "honey_pot",
+    "item": "man_police_officer",
+    "title": "Rapid-Fire Visual Quiz: Freeze The Target Item! \ud83d\udc3e",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "5669565543269550",
+      "comment_id": "5669565543269550_2190779511836994",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/5669565543269550"
+    }
   }
 ]
