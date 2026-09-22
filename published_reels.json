@@ -5751,5 +5751,113 @@
       "status": "success",
       "url": "https://facebook.com/5669565543269550"
     }
+  },
+  {
+    "timestamp": "2026-09-22T10:55:35.943890+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_scan_american_football_barber_pole_20260922_105531.mp4",
+    "mode": "laser_scan",
+    "hero": "american_football",
+    "item": "barber_pole",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1790383242166980",
+      "comment_id": "1790383242166980_1635236424626499",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1790383242166980"
+    }
+  },
+  {
+    "timestamp": "2026-09-22T10:56:03.553410+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_jellyfish_droplet_20260922_105600.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "jellyfish",
+    "item": "droplet",
+    "title": "Probability & Speed: Hit The Winning Number! \ud83c\udfc6",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "1071939375833167",
+      "comment_id": "1071939375833167_1627561382297361",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1071939375833167"
+    }
+  },
+  {
+    "timestamp": "2026-09-22T10:56:24.868409+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_falling_gravity_smiling_face_with_sunglasses_pager_20260922_105621.mp4",
+    "mode": "falling_gravity",
+    "hero": "smiling_face_with_sunglasses",
+    "item": "pager",
+    "title": "BrainFog Wake-Up Test! Shock Your Reflexes \u26a1",
+    "pinned_comment": "\u26a1 BRAIN FOG DESTROYER:\n1. Wake up your brain: Hit pause right inside the glowing shockwave! \ud83d\udca5\n2. Share your screenshot below \ud83d\udc47\n3. Are you 100% awake yet? \u2615 #BrainFog",
+    "facebook": {
+      "id": "1118703810716866",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1118703810716866"
+    }
+  },
+  {
+    "timestamp": "2026-09-22T10:56:44.880578+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_swing_horizontal_seedling_nest_with_eggs_20260922_105641.mp4",
+    "mode": "swing_horizontal",
+    "hero": "seedling",
+    "item": "nest_with_eggs",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1798265751176450",
+      "comment_id": "1798265751176450_1714975029577749",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1798265751176450"
+    }
+  },
+  {
+    "timestamp": "2026-09-22T10:57:07.693793+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_vortex_spin_sun_with_face_red_paper_lantern_20260922_105704.mp4",
+    "mode": "vortex_spin",
+    "hero": "sun_with_face",
+    "item": "red_paper_lantern",
+    "title": "Rotational IQ Puzzle: Freeze At True Perspective! \ud83c\udf00",
+    "pinned_comment": "\ud83d\udc41\ufe0f SPATIAL IQ TEST:\n1. Watch the 3D rotation and pause when the perspective locks in 3D! \ud83e\uddca\n2. Screenshot your alignment and reply below \ud83d\udc47\n3. Rate the difficulty from 1-10! #MindView",
+    "facebook": {
+      "id": "1609636854077218",
+      "comment_id": "1609636854077218_1638622904288465",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1609636854077218"
+    }
+  },
+  {
+    "timestamp": "2026-09-22T10:57:31.790308+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_spotlight_reveal_egg_purple_square_20260922_105728.mp4",
+    "mode": "spotlight_reveal",
+    "hero": "egg",
+    "item": "purple_square",
+    "title": "Lightning Eye Quiz: Freeze On The Winning Clue! \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "1534926281725894",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1534926281725894"
+    }
   }
 ]
