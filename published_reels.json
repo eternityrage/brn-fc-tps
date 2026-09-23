@@ -6183,5 +6183,113 @@
       "status": "success",
       "url": "https://facebook.com/1828481161665208"
     }
+  },
+  {
+    "timestamp": "2026-09-23T10:43:49.796284+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_pulsing_scale_old_key_biohazard_20260923_104345.mp4",
+    "mode": "pulsing_scale",
+    "hero": "old_key",
+    "item": "biohazard",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1462903242408700",
+      "comment_id": "1462903242408700_1365893995310840",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1462903242408700"
+    }
+  },
+  {
+    "timestamp": "2026-09-23T10:44:09.749929+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_slot_machine_keycap_7_cityscape_at_dusk_20260923_104406.mp4",
+    "mode": "slot_machine",
+    "hero": "keycap_7",
+    "item": "cityscape_at_dusk",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "2589287538192772",
+      "comment_id": "2589287538192772_1627826768964346",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2589287538192772"
+    }
+  },
+  {
+    "timestamp": "2026-09-23T10:44:30.306349+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_vortex_spin_oncoming_police_car_eye_20260923_104426.mp4",
+    "mode": "vortex_spin",
+    "hero": "oncoming_police_car",
+    "item": "eye",
+    "title": "100% Alertness Drill! Freeze The Frame Instantly \ud83d\udd25",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "975790062232992",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/975790062232992"
+    }
+  },
+  {
+    "timestamp": "2026-09-23T10:44:46.494999+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_orbit_carousel_bell_party_popper_20260923_104442.mp4",
+    "mode": "orbit_carousel",
+    "hero": "bell",
+    "item": "party_popper",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1400129928294612",
+      "comment_id": "1400129928294612_4375967059287139",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1400129928294612"
+    }
+  },
+  {
+    "timestamp": "2026-09-23T10:45:07.918561+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_hammer_and_pick_japanese_free_of_charge_button_20260923_104502.mp4",
+    "mode": "card_flip_3d",
+    "hero": "hammer_and_pick",
+    "item": "japanese_free_of_charge_button",
+    "title": "3D Spatial Perspective IQ: Can You Align It? \ud83e\uddca",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1833225257867788",
+      "comment_id": "1833225257867788_1888023639247234",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1833225257867788"
+    }
+  },
+  {
+    "timestamp": "2026-09-23T10:45:30.619482+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_shadow_morph_softball_safety_vest_20260923_104526.mp4",
+    "mode": "shadow_morph",
+    "hero": "softball",
+    "item": "safety_vest",
+    "title": "Spot The Target: Fast Reflex Trivia Challenge! \ud83c\udfc6",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "28743936005199921",
+      "comment_id": "28743936005199921_1094436089851471",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/28743936005199921"
+    }
   }
 ]
