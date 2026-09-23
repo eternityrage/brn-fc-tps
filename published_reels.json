@@ -6291,5 +6291,113 @@
       "status": "success",
       "url": "https://facebook.com/28743936005199921"
     }
+  },
+  {
+    "timestamp": "2026-09-23T16:02:40.691993+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_skis_keycap_4_20260923_160235.mp4",
+    "mode": "orbit_carousel",
+    "hero": "skis",
+    "item": "keycap_4",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1795504585024152",
+      "comment_id": "1795504585024152_1777688283277238",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1795504585024152"
+    }
+  },
+  {
+    "timestamp": "2026-09-23T16:03:05.952796+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_person_running_person_feeding_baby_20260923_160301.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "person_running",
+    "item": "person_feeding_baby",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "1036013672753802",
+      "comment_id": "1036013672753802_3014557108879434",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1036013672753802"
+    }
+  },
+  {
+    "timestamp": "2026-09-23T16:03:26.991533+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_teleport_snap_bomb_necktie_20260923_160321.mp4",
+    "mode": "teleport_snap",
+    "hero": "bomb",
+    "item": "necktie",
+    "title": "High-Voltage Reflex: Pause At 100% Power! \ud83d\udca5",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "1591540445986820",
+      "comment_id": "1591540445986820_985053171293823",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1591540445986820"
+    }
+  },
+  {
+    "timestamp": "2026-09-23T16:03:50.328628+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_swing_horizontal_radioactive_shower_20260923_160345.mp4",
+    "mode": "swing_horizontal",
+    "hero": "radioactive",
+    "item": "shower",
+    "title": "Satisfying Flow State: Can You Match The Rhythm? \ud83c\udf0a",
+    "pinned_comment": "\ud83d\udc8e ZEN FOCUS: Hit pause at pure 100% alignment! Share your result with us below \ud83d\udc47 #ASMRPuzzle",
+    "facebook": {
+      "id": "3135697576617047",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3135697576617047"
+    }
+  },
+  {
+    "timestamp": "2026-09-23T16:04:08.533818+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_vortex_spin_sun_behind_small_cloud_man_raising_hand_20260923_160403.mp4",
+    "mode": "vortex_spin",
+    "hero": "sun_behind_small_cloud",
+    "item": "man_raising_hand",
+    "title": "3D Spatial Perspective IQ: Can You Align It? \ud83e\uddca",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "1814579506208695",
+      "comment_id": "1814579506208695_1617115603299649",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1814579506208695"
+    }
+  },
+  {
+    "timestamp": "2026-09-23T16:04:33.044393+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_whack_a_mole_blueberries_smiling_cat_with_heart_eyes_20260923_160427.mp4",
+    "mode": "whack_a_mole",
+    "hero": "blueberries",
+    "item": "smiling_cat_with_heart_eyes",
+    "title": "Speed Trivia Challenge: Pause On The Secret Symbol! \ud83c\udf55",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "3684798825027655",
+      "comment_id": "3684798825027655_2679893709150404",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3684798825027655"
+    }
   }
 ]
