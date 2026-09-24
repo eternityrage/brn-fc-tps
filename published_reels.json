@@ -6615,5 +6615,113 @@
       "status": "success",
       "url": "https://facebook.com/1106951725140084"
     }
+  },
+  {
+    "timestamp": "2026-09-24T11:04:44.924964+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_scan_hourglass_not_done_bug_20260924_110438.mp4",
+    "mode": "laser_scan",
+    "hero": "hourglass_not_done",
+    "item": "bug",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "2296042281232785",
+      "comment_id": "2296042281232785_28331235076535428",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2296042281232785"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:05:09.799702+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_pulsing_scale_spade_suit_person_cartwheeling_20260924_110504.mp4",
+    "mode": "pulsing_scale",
+    "hero": "spade_suit",
+    "item": "person_cartwheeling",
+    "title": "Math IQ Speed Test: Stop At 100% Precision! \ud83d\udcd0",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "1297802019025433",
+      "comment_id": "1297802019025433_1740631923837493",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1297802019025433"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:05:33.097385+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_zigzag_dash_baby_bottle_coffin_20260924_110528.mp4",
+    "mode": "zigzag_dash",
+    "hero": "baby_bottle",
+    "item": "coffin",
+    "title": "Morning Brain Buster: Beat The Shockwave! \u26a1",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "1555994819151543",
+      "comment_id": "1555994819151543_968728945504600",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1555994819151543"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:05:59.831704+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_color_shift_woman_gesturing_ok_skier_20260924_110554.mp4",
+    "mode": "color_shift",
+    "hero": "woman_gesturing_ok",
+    "item": "skier",
+    "title": "Deep Focus Flow: Hit The Zen Alignment! \ud83d\udc8e",
+    "pinned_comment": "\ud83c\udf0a FLOW STATE TEST:\n1. Watch the rhythmic wave and tap pause at the harmonic sync point! \ud83c\udfb5\n2. Post your screenshot below \ud83d\udc47\n3. Did you feel the flow? \ud83e\uddd8 #BrainTapsFlow",
+    "facebook": {
+      "id": "1464373862222046",
+      "comment_id": "1464373862222046_1747960202971857",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1464373862222046"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:06:23.703940+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_crossfire_diagonal_x_airplane_arrival_ledger_20260924_110619.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "airplane_arrival",
+    "item": "ledger",
+    "title": "Isometric Perception Test: Only High IQ Pass! \ud83d\udd2e",
+    "pinned_comment": "\ud83d\udc41\ufe0f SPATIAL IQ TEST:\n1. Watch the 3D rotation and pause when the perspective locks in 3D! \ud83e\uddca\n2. Screenshot your alignment and reply below \ud83d\udc47\n3. Rate the difficulty from 1-10! #MindView",
+    "facebook": {
+      "id": "1080949308270649",
+      "comment_id": "1080949308270649_1627138625741879",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1080949308270649"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:06:50.596169+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_matrix_2x2_woman_supervillain_double_curly_loop_20260924_110646.mp4",
+    "mode": "matrix_2x2",
+    "hero": "woman_supervillain",
+    "item": "double_curly_loop",
+    "title": "MindQuiz Spotlight: Can You Catch The Odd One? \ud83d\udd75\ufe0f",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1071847528799498",
+      "comment_id": "1071847528799498_2626977934425207",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1071847528799498"
+    }
   }
 ]
