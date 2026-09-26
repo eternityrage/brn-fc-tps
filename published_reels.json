@@ -7587,5 +7587,113 @@
       "status": "success",
       "url": "https://facebook.com/1070965909043242"
     }
+  },
+  {
+    "timestamp": "2026-09-26T15:42:47.699342+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_volleyball_wolf_20260926_154242.mp4",
+    "mode": "teleport_snap",
+    "hero": "volleyball",
+    "item": "wolf",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "2042181913157383",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2042181913157383"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:43:03.848730+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_ring_buoy_person_surfing_20260926_154259.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "ring_buoy",
+    "item": "person_surfing",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "878592265221058",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/878592265221058"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:43:20.427935+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_shockwave_pulse_globe_with_meridians_chair_20260926_154315.mp4",
+    "mode": "shockwave_pulse",
+    "hero": "globe_with_meridians",
+    "item": "chair",
+    "title": "Clear The Morning Fog: Can You Tap In Time? \u2615",
+    "pinned_comment": "\u26a1 BRAIN FOG DESTROYER:\n1. Wake up your brain: Hit pause right inside the glowing shockwave! \ud83d\udca5\n2. Share your screenshot below \ud83d\udc47\n3. Are you 100% awake yet? \u2615 #BrainFog",
+    "facebook": {
+      "id": "1084857214188811",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1084857214188811"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:43:36.557472+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_harmonic_pendulum_seedling_trolleybus_20260926_154331.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "seedling",
+    "item": "trolleybus",
+    "title": "Infinite Rhythm Tap: Catch The Ripple In Time \ud83c\udf00",
+    "pinned_comment": "\ud83c\udf0a FLOW STATE TEST:\n1. Watch the rhythmic wave and tap pause at the harmonic sync point! \ud83c\udfb5\n2. Post your screenshot below \ud83d\udc47\n3. Did you feel the flow? \ud83e\uddd8 #BrainTapsFlow",
+    "facebook": {
+      "id": "1759236015122095",
+      "comment_id": "1759236015122095_1123098706722520",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1759236015122095"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:43:55.550100+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_prism_split_counterclockwise_arrows_button_elephant_20260926_154351.mp4",
+    "mode": "prism_split",
+    "hero": "counterclockwise_arrows_button",
+    "item": "elephant",
+    "title": "Isometric Perception Test: Only High IQ Pass! \ud83d\udd2e",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "1566628494678732",
+      "comment_id": "1566628494678732_1435207345175649",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1566628494678732"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:44:18.364014+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_spotlight_reveal_peanuts_two_hump_camel_20260926_154413.mp4",
+    "mode": "spotlight_reveal",
+    "hero": "peanuts",
+    "item": "two_hump_camel",
+    "title": "MindQuiz Spotlight: Can You Catch The Odd One? \ud83d\udd75\ufe0f",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1092542590030045",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1092542590030045"
+    }
   }
 ]
