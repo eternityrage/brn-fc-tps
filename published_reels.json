@@ -7479,5 +7479,113 @@
       "status": "success",
       "url": "https://facebook.com/1468517911756867"
     }
+  },
+  {
+    "timestamp": "2026-09-26T10:45:58.848212+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_scan_high_voltage_person_raising_hand_20260926_104553.mp4",
+    "mode": "laser_scan",
+    "hero": "high_voltage",
+    "item": "person_raising_hand",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1732947604670985",
+      "comment_id": "1732947604670985_1115042144804857",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1732947604670985"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T10:46:18.351768+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_triple_threat_transgender_flag_man_superhero_20260926_104614.mp4",
+    "mode": "triple_threat",
+    "hero": "transgender_flag",
+    "item": "man_superhero",
+    "title": "Math IQ Speed Test: Stop At 100% Precision! \ud83d\udcd0",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "1738756320687558",
+      "comment_id": "1738756320687558_1366772781878189",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1738756320687558"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T10:46:37.760798+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_teleport_snap_fire_e_mail_20260926_104633.mp4",
+    "mode": "teleport_snap",
+    "hero": "fire",
+    "item": "e_mail",
+    "title": "Clear The Morning Fog: Can You Tap In Time? \u2615",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "1358907396029967",
+      "comment_id": "1358907396029967_1312346330863180",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1358907396029967"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T10:46:57.937815+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_spiral_galaxy_dolphin_framed_picture_20260926_104653.mp4",
+    "mode": "spiral_galaxy",
+    "hero": "dolphin",
+    "item": "framed_picture",
+    "title": "Hypnotic ASMR Tap: Pause At The Harmonic Beat \ud83e\uddd8",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1073300522344511",
+      "comment_id": "1073300522344511_1366957026496812",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1073300522344511"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T10:47:19.145262+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_seat_tornado_20260926_104714.mp4",
+    "mode": "card_flip_3d",
+    "hero": "seat",
+    "item": "tornado",
+    "title": "3D Spatial Perspective IQ: Can You Align It? \ud83e\uddca",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "4630374233864907",
+      "comment_id": "4630374233864907_4467482276807335",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4630374233864907"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T10:47:37.585521+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_whack_a_mole_butter_up_left_arrow_20260926_104733.mp4",
+    "mode": "whack_a_mole",
+    "hero": "butter",
+    "item": "up_left_arrow",
+    "title": "Speed Trivia Challenge: Pause On The Secret Symbol! \ud83c\udf55",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1070965909043242",
+      "comment_id": "1070965909043242_1757994198798672",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1070965909043242"
+    }
   }
 ]
