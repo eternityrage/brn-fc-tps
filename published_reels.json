@@ -7695,5 +7695,113 @@
       "status": "success",
       "url": "https://facebook.com/1092542590030045"
     }
+  },
+  {
+    "timestamp": "2026-09-26T20:37:11.795263+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_pulsing_scale_sunset_hot_face_20260926_203706.mp4",
+    "mode": "pulsing_scale",
+    "hero": "sunset",
+    "item": "hot_face",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "29021785694085752",
+      "comment_id": "29021785694085752_1039247279147109",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/29021785694085752"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T20:37:31.114884+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_harmonic_pendulum_nine_oclock_boomerang_20260926_203726.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "nine_oclock",
+    "item": "boomerang",
+    "title": "Mental Math Rush: Align The Right Equation! \ud83d\udca1",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "1873391026963090",
+      "comment_id": "1873391026963090_1607568747697400",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1873391026963090"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T20:37:49.410455+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_falling_gravity_nerd_face_lady_beetle_20260926_203744.mp4",
+    "mode": "falling_gravity",
+    "hero": "nerd_face",
+    "item": "lady_beetle",
+    "title": "Only Awake Minds Can Catch This! Stop It! \ud83d\ude80",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "1418720063563482",
+      "comment_id": "1418720063563482_2131916694397266",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1418720063563482"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T20:38:06.371948+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_radar_sweep_musical_notes_mobile_phone_off_20260926_203801.mp4",
+    "mode": "radar_sweep",
+    "hero": "musical_notes",
+    "item": "mobile_phone_off",
+    "title": "Hypnotic ASMR Tap: Pause At The Harmonic Beat \ud83e\uddd8",
+    "pinned_comment": "\ud83d\udc8e ZEN FOCUS: Hit pause at pure 100% alignment! Share your result with us below \ud83d\udc47 #ASMRPuzzle",
+    "facebook": {
+      "id": "1095510419515018",
+      "comment_id": "1095510419515018_1657539802605305",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1095510419515018"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T20:38:27.988174+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_crossfire_diagonal_x_desktop_computer_white_circle_20260926_203823.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "desktop_computer",
+    "item": "white_circle",
+    "title": "Isometric Perception Test: Only High IQ Pass! \ud83d\udd2e",
+    "pinned_comment": "\ud83d\udc41\ufe0f SPATIAL IQ TEST:\n1. Watch the 3D rotation and pause when the perspective locks in 3D! \ud83e\uddca\n2. Screenshot your alignment and reply below \ud83d\udc47\n3. Rate the difficulty from 1-10! #MindView",
+    "facebook": {
+      "id": "1092318040184885",
+      "comment_id": "1092318040184885_28724775093801159",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1092318040184885"
+    }
+  },
+  {
+    "timestamp": "2026-09-26T20:38:51.040639+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_shadow_morph_monkey_face_honey_pot_20260926_203846.mp4",
+    "mode": "shadow_morph",
+    "hero": "monkey_face",
+    "item": "honey_pot",
+    "title": "Rapid-Fire Visual Quiz: Freeze The Target Item! \ud83d\udc3e",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "1550009603817109",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1550009603817109"
+    }
   }
 ]
