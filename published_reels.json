@@ -8127,5 +8127,113 @@
       "status": "success",
       "url": "https://facebook.com/1770685140856010"
     }
+  },
+  {
+    "timestamp": "2026-09-27T20:49:54.857290+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_american_football_crying_cat_20260927_204950.mp4",
+    "mode": "orbit_carousel",
+    "hero": "american_football",
+    "item": "crying_cat",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1112392087823124",
+      "comment_id": "1112392087823124_1029325940158713",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1112392087823124"
+    }
+  },
+  {
+    "timestamp": "2026-09-27T20:50:15.776334+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_hook_pisces_20260927_205011.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "hook",
+    "item": "pisces",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "2029622261020988",
+      "comment_id": "2029622261020988_1675900514249201",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2029622261020988"
+    }
+  },
+  {
+    "timestamp": "2026-09-27T20:50:35.577305+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_shockwave_pulse_robot_woman_tipping_hand_20260927_205030.mp4",
+    "mode": "shockwave_pulse",
+    "hero": "robot",
+    "item": "woman_tipping_hand",
+    "title": "100% Alertness Drill! Freeze The Frame Instantly \ud83d\udd25",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "1448049430533813",
+      "comment_id": "1448049430533813_1384843626686649",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1448049430533813"
+    }
+  },
+  {
+    "timestamp": "2026-09-27T20:50:54.877800+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_harmonic_pendulum_delivery_truck_placard_20260927_205050.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "delivery_truck",
+    "item": "placard",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "3280930602097745",
+      "comment_id": "3280930602097745_1656634649189860",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3280930602097745"
+    }
+  },
+  {
+    "timestamp": "2026-09-27T20:51:15.059476+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_person_golfing_kick_scooter_20260927_205110.mp4",
+    "mode": "card_flip_3d",
+    "hero": "person_golfing",
+    "item": "kick_scooter",
+    "title": "Perspective Shift: Stop When The 3D Object Fits! \ud83d\udef8",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "1088905637466419",
+      "comment_id": "1088905637466419_2160847354497009",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1088905637466419"
+    }
+  },
+  {
+    "timestamp": "2026-09-27T20:51:37.079954+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_spotlight_reveal_flying_saucer_ring_buoy_20260927_205132.mp4",
+    "mode": "spotlight_reveal",
+    "hero": "flying_saucer",
+    "item": "ring_buoy",
+    "title": "MindQuiz Spotlight: Can You Catch The Odd One? \ud83d\udd75\ufe0f",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "2336725600405413",
+      "comment_id": "2336725600405413_2313110962845089",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2336725600405413"
+    }
   }
 ]
