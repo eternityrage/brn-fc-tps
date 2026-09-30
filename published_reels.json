@@ -9207,5 +9207,113 @@
       "status": "success",
       "url": "https://facebook.com/1621949295977251"
     }
+  },
+  {
+    "timestamp": "2026-09-30T21:50:39.811774+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_skateboard_person_getting_haircut_20260930_215034.mp4",
+    "mode": "orbit_carousel",
+    "hero": "skateboard",
+    "item": "person_getting_haircut",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "2931785940524675",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2931785940524675"
+    }
+  },
+  {
+    "timestamp": "2026-09-30T21:51:00.481841+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_white_square_button_bagel_20260930_215055.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "white_square_button",
+    "item": "bagel",
+    "title": "Quick Mental Calculation: Can You Freeze In Time? \u26a1",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "4003999426575998",
+      "comment_id": "4003999426575998_935591825874378",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4003999426575998"
+    }
+  },
+  {
+    "timestamp": "2026-09-30T21:51:22.840624+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_vortex_spin_cup_with_straw_shallow_pan_of_food_20260930_215117.mp4",
+    "mode": "vortex_spin",
+    "hero": "cup_with_straw",
+    "item": "shallow_pan_of_food",
+    "title": "Only Awake Minds Can Catch This! Stop It! \ud83d\ude80",
+    "pinned_comment": "\u26a1 BRAIN FOG DESTROYER:\n1. Wake up your brain: Hit pause right inside the glowing shockwave! \ud83d\udca5\n2. Share your screenshot below \ud83d\udc47\n3. Are you 100% awake yet? \u2615 #BrainFog",
+    "facebook": {
+      "id": "3509806139178558",
+      "comment_id": "3509806139178558_1811267746726362",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3509806139178558"
+    }
+  },
+  {
+    "timestamp": "2026-09-30T21:51:45.194708+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_orbit_carousel_radioactive_lollipop_20260930_215140.mp4",
+    "mode": "orbit_carousel",
+    "hero": "radioactive",
+    "item": "lollipop",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "3667840726707521",
+      "comment_id": "3667840726707521_1134697982561644",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3667840726707521"
+    }
+  },
+  {
+    "timestamp": "2026-09-30T21:52:06.735590+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_automobile_star_20260930_215202.mp4",
+    "mode": "card_flip_3d",
+    "hero": "automobile",
+    "item": "star",
+    "title": "Optical Illusion Challenge: Your Eyes Will Trick You! \ud83d\udc41\ufe0f",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "1564456954993483",
+      "comment_id": "1564456954993483_4528576760749897",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1564456954993483"
+    }
+  },
+  {
+    "timestamp": "2026-09-30T21:52:31.404446+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_spotlight_reveal_person_supervillain_bed_20260930_215226.mp4",
+    "mode": "spotlight_reveal",
+    "hero": "person_supervillain",
+    "item": "bed",
+    "title": "Observation IQ Test: 99% Miss This Detail! \ud83d\udd0d",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "2041829766536286",
+      "comment_id": "2041829766536286_1628737492307707",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2041829766536286"
+    }
   }
 ]
