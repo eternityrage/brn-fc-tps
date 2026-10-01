@@ -9421,5 +9421,113 @@
       "status": "success",
       "url": "https://facebook.com/1343444560992375"
     }
+  },
+  {
+    "timestamp": "2026-10-01T12:23:18.989734+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_falling_gravity_no_smoking_man_curly_hair_20261001_122315.mp4",
+    "mode": "falling_gravity",
+    "hero": "no_smoking",
+    "item": "man_curly_hair",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "2581464595648214",
+      "comment_id": "2581464595648214_1393742146255246",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2581464595648214"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T12:23:36.488640+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_matrix_2x2_transgender_symbol_ring_20261001_122333.mp4",
+    "mode": "matrix_2x2",
+    "hero": "transgender_symbol",
+    "item": "ring",
+    "title": "Quick Mental Calculation: Can You Freeze In Time? \u26a1",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "2588671414939356",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2588671414939356"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T12:23:51.867165+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_teleport_snap_bomb_desktop_computer_20261001_122348.mp4",
+    "mode": "teleport_snap",
+    "hero": "bomb",
+    "item": "desktop_computer",
+    "title": "BrainFog Wake-Up Test! Shock Your Reflexes \u26a1",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "1827313328717826",
+      "comment_id": "1827313328717826_1601741681431027",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1827313328717826"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T12:24:11.995338+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_harmonic_pendulum_herb_transgender_symbol_20261001_122408.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "herb",
+    "item": "transgender_symbol",
+    "title": "Pure ASMR Harmony: Stop Right On The Pulse \ud83c\udfb5",
+    "pinned_comment": "\ud83d\udc8e ZEN FOCUS: Hit pause at pure 100% alignment! Share your result with us below \ud83d\udc47 #ASMRPuzzle",
+    "facebook": {
+      "id": "1605791717591896",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1605791717591896"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T12:24:26.852688+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_isometric_cube_sunflower_palm_up_hand_20261001_122423.mp4",
+    "mode": "isometric_cube",
+    "hero": "sunflower",
+    "item": "palm_up_hand",
+    "title": "Multi-Dimensional Pause Test! Stop At True Angle \ud83d\udcd0",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1623997329455841",
+      "comment_id": "1623997329455841_1565188464924311",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1623997329455841"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T12:24:44.487819+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_whack_a_mole_bird_hindu_temple_20261001_122441.mp4",
+    "mode": "whack_a_mole",
+    "hero": "bird",
+    "item": "hindu_temple",
+    "title": "Spot The Target: Fast Reflex Trivia Challenge! \ud83c\udfc6",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1124075680194638",
+      "comment_id": "1124075680194638_1443372821032524",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1124075680194638"
+    }
   }
 ]
