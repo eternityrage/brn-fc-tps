@@ -10393,5 +10393,113 @@
       "status": "success",
       "url": "https://facebook.com/4413998838865023"
     }
+  },
+  {
+    "timestamp": "2026-10-03T20:34:32.388797+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_pulsing_scale_film_projector_eagle_20261003_203427.mp4",
+    "mode": "pulsing_scale",
+    "hero": "film_projector",
+    "item": "eagle",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1578765370931576",
+      "comment_id": "1578765370931576_1567759348431106",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1578765370931576"
+    }
+  },
+  {
+    "timestamp": "2026-10-03T20:34:52.857715+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_two_hearts_dumpling_20261003_203448.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "two_hearts",
+    "item": "dumpling",
+    "title": "Probability & Speed: Hit The Winning Number! \ud83c\udfc6",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "2079680569307895",
+      "comment_id": "2079680569307895_1078048831803875",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2079680569307895"
+    }
+  },
+  {
+    "timestamp": "2026-10-03T20:35:13.844273+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_zigzag_dash_mountain_back_arrow_20261003_203508.mp4",
+    "mode": "zigzag_dash",
+    "hero": "mountain",
+    "item": "back_arrow",
+    "title": "High-Voltage Reflex: Pause At 100% Power! \ud83d\udca5",
+    "pinned_comment": "\u26a1 BRAIN FOG DESTROYER:\n1. Wake up your brain: Hit pause right inside the glowing shockwave! \ud83d\udca5\n2. Share your screenshot below \ud83d\udc47\n3. Are you 100% awake yet? \u2615 #BrainFog",
+    "facebook": {
+      "id": "2274608043337805",
+      "comment_id": "2274608043337805_1623242949533302",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2274608043337805"
+    }
+  },
+  {
+    "timestamp": "2026-10-03T20:35:34.366709+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_orbit_carousel_japanese_reserved_button_wind_face_20261003_203529.mp4",
+    "mode": "orbit_carousel",
+    "hero": "japanese_reserved_button",
+    "item": "wind_face",
+    "title": "Satisfying Flow State: Can You Match The Rhythm? \ud83c\udf0a",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "4519334888304610",
+      "comment_id": "4519334888304610_2260464094526010",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4519334888304610"
+    }
+  },
+  {
+    "timestamp": "2026-10-03T20:35:56.081873+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_sunglasses_broccoli_20261003_203551.mp4",
+    "mode": "card_flip_3d",
+    "hero": "sunglasses",
+    "item": "broccoli",
+    "title": "Multi-Dimensional Pause Test! Stop At True Angle \ud83d\udcd0",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1111931591375071",
+      "comment_id": "1111931591375071_1769412377675633",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1111931591375071"
+    }
+  },
+  {
+    "timestamp": "2026-10-03T20:36:15.754628+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_shadow_morph_fish_cake_with_swirl_sailboat_20261003_203610.mp4",
+    "mode": "shadow_morph",
+    "hero": "fish_cake_with_swirl",
+    "item": "sailboat",
+    "title": "Speed Trivia Challenge: Pause On The Secret Symbol! \ud83c\udf55",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "2517024975447265",
+      "comment_id": "2517024975447265_1081778907566335",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2517024975447265"
+    }
   }
 ]
