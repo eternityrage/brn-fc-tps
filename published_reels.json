@@ -10825,5 +10825,113 @@
       "status": "success",
       "url": "https://facebook.com/1704586745002869"
     }
+  },
+  {
+    "timestamp": "2026-10-04T20:50:42.568617+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_sports_medal_man_dancing_20261004_205038.mp4",
+    "mode": "teleport_snap",
+    "hero": "sports_medal",
+    "item": "man_dancing",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1468987155279318",
+      "comment_id": "1468987155279318_1796933474952681",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1468987155279318"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T20:51:03.556241+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_triple_threat_hammer_white_square_button_20261004_205059.mp4",
+    "mode": "triple_threat",
+    "hero": "hammer",
+    "item": "white_square_button",
+    "title": "Mental Math Rush: Align The Right Equation! \ud83d\udca1",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "921984664081417",
+      "comment_id": "921984664081417_3020329574982332",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/921984664081417"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T20:51:21.869155+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_falling_gravity_sheaf_of_rice_copyright_20261004_205117.mp4",
+    "mode": "falling_gravity",
+    "hero": "sheaf_of_rice",
+    "item": "copyright",
+    "title": "100% Alertness Drill! Freeze The Frame Instantly \ud83d\udd25",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "1441730308051654",
+      "comment_id": "1441730308051654_1080945031358604",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1441730308051654"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T20:51:41.959190+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_swing_horizontal_water_wave_person_curly_hair_20261004_205138.mp4",
+    "mode": "swing_horizontal",
+    "hero": "water_wave",
+    "item": "person_curly_hair",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\ud83c\udf0a FLOW STATE TEST:\n1. Watch the rhythmic wave and tap pause at the harmonic sync point! \ud83c\udfb5\n2. Post your screenshot below \ud83d\udc47\n3. Did you feel the flow? \ud83e\uddd8 #BrainTapsFlow",
+    "facebook": {
+      "id": "1102140499059597",
+      "comment_id": "1102140499059597_1416722553762895",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1102140499059597"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T20:52:01.740974+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_crossfire_diagonal_x_locked_with_pen_carrot_20261004_205158.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "locked_with_pen",
+    "item": "carrot",
+    "title": "Perspective Shift: Stop When The 3D Object Fits! \ud83d\udef8",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "28918592737776151",
+      "comment_id": "28918592737776151_1740335507029338",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/28918592737776151"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T20:52:22.302583+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_slot_machine_whale_meat_on_bone_20261004_205218.mp4",
+    "mode": "slot_machine",
+    "hero": "whale",
+    "item": "meat_on_bone",
+    "title": "Rapid-Fire Visual Quiz: Freeze The Target Item! \ud83d\udc3e",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1843462806823565",
+      "comment_id": "1843462806823565_1033140316440243",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1843462806823565"
+    }
   }
 ]
