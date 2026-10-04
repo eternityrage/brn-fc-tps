@@ -10609,5 +10609,113 @@
       "status": "success",
       "url": "https://facebook.com/1780538519765383"
     }
+  },
+  {
+    "timestamp": "2026-10-04T11:44:59.839892+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_swing_horizontal_rugby_football_person_wrestling_20261004_114456.mp4",
+    "mode": "swing_horizontal",
+    "hero": "rugby_football",
+    "item": "person_wrestling",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "886690727861697",
+      "comment_id": "886690727861697_2204720690083149",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/886690727861697"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T11:45:18.114377+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_harmonic_pendulum_person_with_white_cane_facing_right_no_littering_20261004_114515.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "person_with_white_cane_facing_right",
+    "item": "no_littering",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "1905416917089618",
+      "comment_id": "1905416917089618_4743791939185645",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1905416917089618"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T11:45:37.903404+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_teleport_snap_fireworks_singer_20261004_114534.mp4",
+    "mode": "teleport_snap",
+    "hero": "fireworks",
+    "item": "singer",
+    "title": "High-Voltage Reflex: Pause At 100% Power! \ud83d\udca5",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "2293694991390817",
+      "comment_id": "2293694991390817_1121579983540148",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2293694991390817"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T11:45:57.350639+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_harmonic_pendulum_trumpet_hot_face_20261004_114554.mp4",
+    "mode": "harmonic_pendulum",
+    "hero": "trumpet",
+    "item": "hot_face",
+    "title": "Deep Focus Flow: Hit The Zen Alignment! \ud83d\udc8e",
+    "pinned_comment": "\ud83c\udf0a FLOW STATE TEST:\n1. Watch the rhythmic wave and tap pause at the harmonic sync point! \ud83c\udfb5\n2. Post your screenshot below \ud83d\udc47\n3. Did you feel the flow? \ud83e\uddd8 #BrainTapsFlow",
+    "facebook": {
+      "id": "1397852275828207",
+      "comment_id": "1397852275828207_1658578595597882",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1397852275828207"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T11:46:15.955455+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_spiral_galaxy_dashing_away_heart_decoration_20261004_114613.mp4",
+    "mode": "spiral_galaxy",
+    "hero": "dashing_away",
+    "item": "heart_decoration",
+    "title": "Optical Illusion Challenge: Your Eyes Will Trick You! \ud83d\udc41\ufe0f",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "790778814130320",
+      "comment_id": "790778814130320_2761167954278970",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/790778814130320"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T11:46:33.280543+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_whack_a_mole_woman_beard_pizza_20261004_114630.mp4",
+    "mode": "whack_a_mole",
+    "hero": "woman_beard",
+    "item": "pizza",
+    "title": "Rapid-Fire Visual Quiz: Freeze The Target Item! \ud83d\udc3e",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1796283551609705",
+      "comment_id": "1796283551609705_4489182858036001",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1796283551609705"
+    }
   }
 ]
