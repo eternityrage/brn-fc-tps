@@ -10501,5 +10501,113 @@
       "status": "success",
       "url": "https://facebook.com/2517024975447265"
     }
+  },
+  {
+    "timestamp": "2026-10-04T04:10:22.695334+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_tear_off_calendar_film_frames_20261004_041018.mp4",
+    "mode": "orbit_carousel",
+    "hero": "tear_off_calendar",
+    "item": "film_frames",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1083346414582263",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1083346414582263"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T04:10:38.286624+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_matrix_2x2_keycap_6_white_flag_20261004_041033.mp4",
+    "mode": "matrix_2x2",
+    "hero": "keycap_6",
+    "item": "white_flag",
+    "title": "Quick Mental Calculation: Can You Freeze In Time? \u26a1",
+    "pinned_comment": "\ud83d\udd22 MATH IQ CHALLENGE:\n1. Pause when the number locks into the outline! \u23f1\ufe0f\n2. Comment your attempt screenshot below \ud83d\udc47\n3. How many tries did it take you? \ud83e\udde0 #MindMath",
+    "facebook": {
+      "id": "29104791235793724",
+      "comment_id": "29104791235793724_1132494606388884",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/29104791235793724"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T04:10:56.073590+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_vortex_spin_office_worker_beach_with_umbrella_20261004_041051.mp4",
+    "mode": "vortex_spin",
+    "hero": "office_worker",
+    "item": "beach_with_umbrella",
+    "title": "Clear The Morning Fog: Can You Tap In Time? \u2615",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "2243692589536583",
+      "comment_id": "2243692589536583_1060566350148336",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2243692589536583"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T04:11:14.161087+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_color_shift_nauseated_face_flushed_face_20261004_041109.mp4",
+    "mode": "color_shift",
+    "hero": "nauseated_face",
+    "item": "flushed_face",
+    "title": "Satisfying Flow State: Can You Match The Rhythm? \ud83c\udf0a",
+    "pinned_comment": "\ud83c\udf0a FLOW STATE TEST:\n1. Watch the rhythmic wave and tap pause at the harmonic sync point! \ud83c\udfb5\n2. Post your screenshot below \ud83d\udc47\n3. Did you feel the flow? \ud83e\uddd8 #BrainTapsFlow",
+    "facebook": {
+      "id": "1570574451017724",
+      "comment_id": "1570574451017724_2257673334797906",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1570574451017724"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T04:11:32.289527+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_isometric_cube_oncoming_bus_pig_20261004_041127.mp4",
+    "mode": "isometric_cube",
+    "hero": "oncoming_bus",
+    "item": "pig",
+    "title": "Isometric Perception Test: Only High IQ Pass! \ud83d\udd2e",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1823948348596903",
+      "comment_id": "1823948348596903_1402482215430498",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1823948348596903"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T04:11:51.937549+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_triple_threat_musical_score_fleur_de_lis_20261004_041147.mp4",
+    "mode": "triple_threat",
+    "hero": "musical_score",
+    "item": "fleur_de_lis",
+    "title": "MindQuiz Spotlight: Can You Catch The Odd One? \ud83d\udd75\ufe0f",
+    "pinned_comment": "\ud83d\udc3e SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! \ud83c\udfaf\n2. Post your proof screenshot below \ud83d\udc47\n3. Name the item in the comments! \ud83c\udfc6 #MindQuiz",
+    "facebook": {
+      "id": "1780538519765383",
+      "comment_id": "1780538519765383_1428810072534579",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1780538519765383"
+    }
   }
 ]
