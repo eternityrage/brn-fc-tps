@@ -10933,5 +10933,113 @@
       "status": "success",
       "url": "https://facebook.com/1843462806823565"
     }
+  },
+  {
+    "timestamp": "2026-10-05T03:54:59.075693+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_scan_long_drum_roller_coaster_20261005_035453.mp4",
+    "mode": "laser_scan",
+    "hero": "long_drum",
+    "item": "roller_coaster",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1706388211047070",
+      "comment_id": "1706388211047070_1009174248853010",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1706388211047070"
+    }
+  },
+  {
+    "timestamp": "2026-10-05T03:55:19.356973+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_pulsing_scale_index_pointing_up_lying_face_20261005_035514.mp4",
+    "mode": "pulsing_scale",
+    "hero": "index_pointing_up",
+    "item": "lying_face",
+    "title": "MindMath Reflex: Pause On The Exact Number! \ud83d\udd22",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "3635467913270080",
+      "comment_id": "3635467913270080_1622304896072396",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3635467913270080"
+    }
+  },
+  {
+    "timestamp": "2026-10-05T03:55:39.296705+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_strobe_flash_t_shirt_salt_20261005_035533.mp4",
+    "mode": "strobe_flash",
+    "hero": "t_shirt",
+    "item": "salt",
+    "title": "Only Awake Minds Can Catch This! Stop It! \ud83d\ude80",
+    "pinned_comment": "\ud83d\udd25 ALERTNESS CHECK: Are your morning reflexes awake? Drop your pause screenshot below! \ud83d\udc47 #BrainFogTaps",
+    "facebook": {
+      "id": "2112658852660370",
+      "comment_id": "2112658852660370_1433096398780260",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2112658852660370"
+    }
+  },
+  {
+    "timestamp": "2026-10-05T03:55:58.744813+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_radar_sweep_scissors_ballot_box_with_ballot_20261005_035553.mp4",
+    "mode": "radar_sweep",
+    "hero": "scissors",
+    "item": "ballot_box_with_ballot",
+    "title": "Hypnotic ASMR Tap: Pause At The Harmonic Beat \ud83e\uddd8",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "29121025264190246",
+      "comment_id": "29121025264190246_2191603655096580",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/29121025264190246"
+    }
+  },
+  {
+    "timestamp": "2026-10-05T03:56:18.048611+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_card_flip_3d_small_airplane_salt_20261005_035612.mp4",
+    "mode": "card_flip_3d",
+    "hero": "small_airplane",
+    "item": "salt",
+    "title": "Isometric Perception Test: Only High IQ Pass! \ud83d\udd2e",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "4491105594540048",
+      "comment_id": "4491105594540048_1059165620459655",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4491105594540048"
+    }
+  },
+  {
+    "timestamp": "2026-10-05T03:56:37.443691+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_matrix_2x2_ice_cream_writing_hand_20261005_035632.mp4",
+    "mode": "matrix_2x2",
+    "hero": "ice_cream",
+    "item": "writing_hand",
+    "title": "Speed Trivia Challenge: Pause On The Secret Symbol! \ud83c\udf55",
+    "pinned_comment": "\ud83c\udf55 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! \ud83d\udc47",
+    "facebook": {
+      "id": "1641606377481741",
+      "comment_id": "1641606377481741_925618463682517",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1641606377481741"
+    }
   }
 ]
