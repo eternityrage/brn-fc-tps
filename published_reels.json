@@ -11257,5 +11257,113 @@
       "status": "success",
       "url": "https://facebook.com/2187421108837181"
     }
+  },
+  {
+    "timestamp": "2026-10-06T04:43:16.773440+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_swing_horizontal_hammer_and_wrench_purple_circle_20261006_044311.mp4",
+    "mode": "swing_horizontal",
+    "hero": "hammer_and_wrench",
+    "item": "purple_circle",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1456079766411978",
+      "comment_id": "1456079766411978_1464759378992684",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1456079766411978"
+    }
+  },
+  {
+    "timestamp": "2026-10-06T04:43:43.069311+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_slot_machine_bowl_with_spoon_pear_20261006_044338.mp4",
+    "mode": "slot_machine",
+    "hero": "bowl_with_spoon",
+    "item": "pear",
+    "title": "Probability & Speed: Hit The Winning Number! \ud83c\udfc6",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "1627615228720488",
+      "comment_id": "1627615228720488_2219260168974426",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1627615228720488"
+    }
+  },
+  {
+    "timestamp": "2026-10-06T04:44:00.314544+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_shockwave_pulse_smiling_face_with_sunglasses_palms_up_together_20261006_044355.mp4",
+    "mode": "shockwave_pulse",
+    "hero": "smiling_face_with_sunglasses",
+    "item": "palms_up_together",
+    "title": "100% Alertness Drill! Freeze The Frame Instantly \ud83d\udd25",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "1450074273674072",
+      "comment_id": "1450074273674072_1113118541173669",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1450074273674072"
+    }
+  },
+  {
+    "timestamp": "2026-10-06T04:44:17.639673+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_spiral_galaxy_whale_beach_with_umbrella_20261006_044412.mp4",
+    "mode": "spiral_galaxy",
+    "hero": "whale",
+    "item": "beach_with_umbrella",
+    "title": "Smooth Momentum Challenge! Freeze In Perfect Flow \u2728",
+    "pinned_comment": "\ud83d\udc8e ZEN FOCUS: Hit pause at pure 100% alignment! Share your result with us below \ud83d\udc47 #ASMRPuzzle",
+    "facebook": {
+      "id": "1541042144707918",
+      "comment_id": "1541042144707918_1669605621163137",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1541042144707918"
+    }
+  },
+  {
+    "timestamp": "2026-10-06T04:44:36.291253+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_isometric_cube_no_littering_anxious_face_with_sweat_20261006_044431.mp4",
+    "mode": "isometric_cube",
+    "hero": "no_littering",
+    "item": "anxious_face_with_sweat",
+    "title": "Perspective Shift: Stop When The 3D Object Fits! \ud83d\udef8",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "1358190326142038",
+      "comment_id": "1358190326142038_1431748082221722",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1358190326142038"
+    }
+  },
+  {
+    "timestamp": "2026-10-06T04:44:54.086799+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_spotlight_reveal_blackbird_eye_in_speech_bubble_20261006_044449.mp4",
+    "mode": "spotlight_reveal",
+    "hero": "blackbird",
+    "item": "eye_in_speech_bubble",
+    "title": "Spot The Target: Fast Reflex Trivia Challenge! \ud83c\udfc6",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "1082671357716526",
+      "comment_id": "1082671357716526_1123601963682729",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1082671357716526"
+    }
   }
 ]
