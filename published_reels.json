@@ -12121,5 +12121,113 @@
       "status": "success",
       "url": "https://facebook.com/1474946341110119"
     }
+  },
+  {
+    "timestamp": "2026-10-08T22:50:46.094401+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_keycap_8_tiger_face_20261008_225041.mp4",
+    "mode": "teleport_snap",
+    "hero": "keycap_8",
+    "item": "tiger_face",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "4608067159474291",
+      "comment_id": "4608067159474291_1089474160467014",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4608067159474291"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T22:51:05.633267+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_crossfire_diagonal_x_diamond_suit_teacher_20261008_225101.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "diamond_suit",
+    "item": "teacher",
+    "title": "MindMath Reflex: Pause On The Exact Number! \ud83d\udd22",
+    "pinned_comment": "\ud83c\udfb2 CALCULATION SPEED TEST: Drop your screenshot below! Can you hit 100% precision on try #1? \ud83d\udc47 #MindMathTaps",
+    "facebook": {
+      "id": "1462385639103477",
+      "comment_id": "1462385639103477_1076790061791023",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1462385639103477"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T22:51:27.983346+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_vortex_spin_red_exclamation_mark_memo_20261008_225121.mp4",
+    "mode": "vortex_spin",
+    "hero": "red_exclamation_mark",
+    "item": "memo",
+    "title": "Clear The Morning Fog: Can You Tap In Time? \u2615",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "2121781051754572",
+      "comment_id": "2121781051754572_1825473505145709",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2121781051754572"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T22:51:47.917394+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_radar_sweep_shark_blackbird_20261008_225143.mp4",
+    "mode": "radar_sweep",
+    "hero": "shark",
+    "item": "blackbird",
+    "title": "Hypnotic ASMR Tap: Pause At The Harmonic Beat \ud83e\uddd8",
+    "pinned_comment": "\u2728 ODDLY SATISFYING CHALLENGE: Drop your screenshot below when you catch the exact ripple! \ud83d\udc47 #FlowState",
+    "facebook": {
+      "id": "1135850445717545",
+      "comment_id": "1135850445717545_1534292791838628",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1135850445717545"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T22:52:08.559738+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_prism_split_house_woman_kneeling_facing_right_20261008_225204.mp4",
+    "mode": "prism_split",
+    "hero": "house",
+    "item": "woman_kneeling_facing_right",
+    "title": "3D Spatial Perspective IQ: Can You Align It? \ud83e\uddca",
+    "pinned_comment": "\ud83e\uddca 3D PERSPECTIVE CHECK: Did you catch the true isometric angle? Drop your screenshot below! \ud83d\udc47 #MindViewTaps",
+    "facebook": {
+      "id": "2216679762240464",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2216679762240464"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T22:52:25.749467+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_slot_machine_moon_cake_pen_20261008_225221.mp4",
+    "mode": "slot_machine",
+    "hero": "moon_cake",
+    "item": "pen",
+    "title": "MindQuiz Spotlight: Can You Catch The Odd One? \ud83d\udd75\ufe0f",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "2637355390055568",
+      "comment_id": "2637355390055568_1458444473157022",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2637355390055568"
+    }
   }
 ]
