@@ -2,6 +2,7 @@
 Thematic Page Profiles and Content Engine for the Viral Puzzle Reel Network.
 Configures 6 distinct Facebook Pages with specialized gameplay modes,
 diverse asset categories, viral copy, and interactive pinned challenges.
+Expanded to support 100 distinct viral puzzle varieties.
 """
 import random
 from typing import Dict, List, Tuple, Any
@@ -123,11 +124,25 @@ PAGE_PROFILES: Dict[str, Dict[str, Any]] = {
         "tagline": "Precision Reflex & Microsecond Timing",
         "preferred_modes": [
             "swing_horizontal",
+            "swing_vertical",
+            "swing_diagonal_slash",
+            "vertical_piston",
             "falling_gravity",
-            "pulsing_scale",
-            "laser_scan",
-            "orbit_carousel",
-            "teleport_snap"
+            "freefall_terminal",
+            "laser_crosshairs",
+            "sniper_target_lock",
+            "laser_scanner_sweep",
+            "teleport_snap",
+            "stopwatch_countdown",
+            "tachometer_rev_limiter",
+            "subway_surfer_lanes",
+            "staircase_steps",
+            "scissor_pinch",
+            "arrowhead_strike",
+            "quad_lock",
+            "depth_3d_tunnel",
+            "microscope_focus",
+            "metronome_tick"
         ],
         "primary_categories": [
             "gaming_and_toys",
@@ -167,12 +182,26 @@ PAGE_PROFILES: Dict[str, Dict[str, Any]] = {
         "name": "MindMath Taps",
         "tagline": "Mental Math & Calculation Reflex Speed",
         "preferred_modes": [
-            "slot_machine",
             "matrix_2x2",
-            "triple_threat",
-            "harmonic_pendulum",
+            "matrix_3x3_slots",
+            "pyramid_wave",
+            "inverted_pyramid",
+            "diamond_grid_4",
+            "conveyor_belt_rush",
+            "sliding_puzzle_15",
+            "rubiks_slice_turn",
+            "tetris_block_drop",
+            "slot_jackpot_frenzy",
+            "stopwatch_countdown",
+            "gear_train_mesh",
+            "atom_electrons",
+            "triangle_bounce",
+            "dna_double_helix",
             "crossfire_diagonal_x",
-            "pulsing_scale"
+            "crossfire_4way",
+            "vertical_vise",
+            "box_implosion",
+            "dimension_shift_4d"
         ],
         "primary_categories": [
             "math_numbers_shapes",
@@ -210,12 +239,26 @@ PAGE_PROFILES: Dict[str, Dict[str, Any]] = {
         "name": "BrainFog Taps",
         "tagline": "High-Voltage Alertness & Wake-Up Drills",
         "preferred_modes": [
+            "zigzag_lightning",
             "shockwave_pulse",
-            "strobe_flash",
+            "strobe_flash_freeze",
+            "glitch_matrix_jitter",
+            "electric_arc_jump",
+            "hyperspace_warp_drive",
+            "vertical_piston",
+            "heartbeat_pulse_wave",
+            "anti_gravity_launch",
+            "meteor_strike",
+            "avalanche_rush",
+            "rebound_wall_bounce",
+            "spring_trap_release",
+            "cannonball_ballistic",
+            "tornado_vortex",
+            "black_hole_event_horizon",
+            "dual_bullet_collision",
             "teleport_snap",
-            "vortex_spin",
-            "falling_gravity",
-            "zigzag_dash"
+            "wobble_jelly",
+            "double_pendulum_chaos"
         ],
         "primary_categories": [
             "energy_and_alertness",
@@ -254,12 +297,26 @@ PAGE_PROFILES: Dict[str, Dict[str, Any]] = {
         "name": "BrainTaps Flow",
         "tagline": "Satisfying ASMR & Hypnotic Momentum Loops",
         "preferred_modes": [
-            "harmonic_pendulum",
             "orbit_carousel",
-            "spiral_galaxy",
-            "color_shift",
-            "swing_horizontal",
-            "radar_sweep"
+            "orbit_counter_rotating",
+            "orbit_elliptical",
+            "spiral_galaxy_in",
+            "spiral_galaxy_out",
+            "infinity_figure_eight",
+            "solar_eclipse",
+            "whirlpool_drain",
+            "pendulum_harmonic_arc",
+            "pendulum_clockwork",
+            "sine_wave_meander",
+            "breathing_accordion",
+            "waterfall_cascade",
+            "rising_bubbles",
+            "plinko_bounce",
+            "snake_serpentine",
+            "dna_double_helix",
+            "zoom_pulse",
+            "accordion_z_axis",
+            "metronome_tick"
         ],
         "primary_categories": [
             "flow_and_elements",
@@ -298,12 +355,26 @@ PAGE_PROFILES: Dict[str, Dict[str, Any]] = {
         "name": "MindView Taps",
         "tagline": "3D Spatial IQ & Multi-Dimensional Perspectives",
         "preferred_modes": [
-            "prism_split",
-            "isometric_cube",
-            "card_flip_3d",
-            "crossfire_diagonal_x",
-            "vortex_spin",
-            "spiral_galaxy"
+            "card_flip_horizontal",
+            "card_flip_vertical",
+            "isometric_cube_align",
+            "prism_spectrum_split",
+            "depth_3d_tunnel",
+            "shadow_morph_scale",
+            "microscope_focus",
+            "fisheye_lens_warp",
+            "pop_up_book",
+            "dimension_shift_4d",
+            "anamorphic_stretch",
+            "accordion_z_axis",
+            "focus_aperture_shutter",
+            "diamond_convergence",
+            "carousel_tilt",
+            "radar_sweep_360",
+            "triple_zoom_stagger",
+            "dual_zoom_inverse",
+            "crossfire_8way_supernova",
+            "rubiks_slice_turn"
         ],
         "primary_categories": [
             "tools_and_instruments",
@@ -342,12 +413,26 @@ PAGE_PROFILES: Dict[str, Dict[str, Any]] = {
         "name": "MindQuiz Focus",
         "tagline": "Rapid-Fire Visual Trivia & Spotlight Challenges",
         "preferred_modes": [
-            "whack_a_mole",
-            "spotlight_reveal",
-            "shadow_morph",
+            "whack_a_mole_pop",
+            "roulette_wheel_spin",
+            "slot_jackpot_frenzy",
+            "matrix_3x3_slots",
             "matrix_2x2",
-            "triple_threat",
-            "slot_machine"
+            "sniper_target_lock",
+            "radar_sweep_360",
+            "subway_surfer_lanes",
+            "conveyor_belt_rush",
+            "crossfire_6way_hexagon",
+            "crossfire_4way",
+            "diamond_grid_4",
+            "staircase_steps",
+            "teleport_snap",
+            "laser_crosshairs",
+            "corner_squeeze",
+            "plinko_bounce",
+            "bouncing_floor_drop",
+            "spring_elastic_snap",
+            "magnetic_attraction"
         ],
         "primary_categories": [
             "wildlife_animals",
@@ -434,6 +519,32 @@ def pick_page_assets(page_id: str, catalog: Dict[str, Any], recent_assets: set =
         attempts += 1
 
     return hero, item
+
+
+def pick_page_mode(page_id: str, recent_modes: List[str] = None) -> str:
+    """
+    Selects a gameplay mode from the full 100-mode catalog.
+    Balances page thematic preference (60%) with complete network-wide variety (40%)
+    while strictly filtering out recently used modes to maximize follower retention.
+    """
+    from engine.modes import ALL_MODES
+
+    if recent_modes is None:
+        recent_modes = []
+
+    profile = PAGE_PROFILES.get(page_id, PAGE_PROFILES["1319646877895110"])
+    thematic_pool = [m for m in profile.get("preferred_modes", []) if m in ALL_MODES and m not in recent_modes]
+    all_pool = [m for m in ALL_MODES.keys() if m not in recent_modes]
+
+    # 60% chance for curated thematic mode; 40% chance for any of the 100 modes
+    if random.random() < 0.60 and thematic_pool:
+        return random.choice(thematic_pool)
+    elif all_pool:
+        return random.choice(all_pool)
+    elif thematic_pool:
+        return random.choice(thematic_pool)
+    else:
+        return random.choice(list(ALL_MODES.keys()))
 
 
 def get_page_metadata(page_id: str, mode_name: str, hero_name: str, item_name: str) -> Tuple[str, str, str]:

@@ -29,6 +29,7 @@ from page_profiles import (
     ACTIVE_PAGE_IDS,
     PAGE_PROFILES,
     pick_page_assets,
+    pick_page_mode,
     get_page_metadata
 )
 
@@ -116,21 +117,18 @@ def publish_for_page(page_id, loaded_tokens, override_mode=None, override_hero=N
             with open(PUBLISHED_LOG, "r", encoding="utf-8") as f:
                 hist = json.load(f)
                 page_hist = [h for h in hist if h.get("page_id") == page_id]
-                recent_modes = [h.get("mode") for h in page_hist[-4:] if h.get("mode")]
+                recent_modes = [h.get("mode") for h in page_hist[-15:] if h.get("mode")]
                 for h in page_hist[-12:]:
                     if h.get("hero"): recent_assets.add(h.get("hero"))
                     if h.get("item"): recent_assets.add(h.get("item"))
         except Exception:
             pass
 
-    # Pick gameplay mode (prioritize fresh mode not used in last 4 reels of this page)
+    # Pick gameplay mode across 100 varieties (prioritizing fresh, unrepeated modes)
     if override_mode:
         selected_mode = override_mode
     else:
-        candidate_modes = [m for m in profile["preferred_modes"] if m not in recent_modes]
-        if not candidate_modes:
-            candidate_modes = profile["preferred_modes"]
-        selected_mode = random.choice(candidate_modes)
+        selected_mode = pick_page_mode(page_id, recent_modes=recent_modes)
 
     # Pick 3D assets from Microsoft catalog (excluding recently used assets)
     catalog = get_catalog()
