@@ -12553,5 +12553,113 @@
       "status": "success",
       "url": "https://facebook.com/1456322516350661"
     }
+  },
+  {
+    "timestamp": "2026-10-09T22:19:18.211283+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_swing_vertical_woman_astronaut_fax_machine_20261009_221912.mp4",
+    "mode": "swing_vertical",
+    "hero": "woman_astronaut",
+    "item": "fax_machine",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1434325158053032",
+      "comment_id": "1434325158053032_1612832243576370",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1434325158053032"
+    }
+  },
+  {
+    "timestamp": "2026-10-09T22:19:40.759006+00:00Z",
+    "page_id": "1309712825557751",
+    "page_name": "MindMath Taps",
+    "video_file": "reel_mindmath_triangle_bounce_video_game_man_surfing_20261009_221936.mp4",
+    "mode": "triangle_bounce",
+    "hero": "video_game",
+    "item": "man_surfing",
+    "title": "99% Can't Count Fast Enough! Tap Pause To Win \ud83c\udfb2",
+    "pinned_comment": "\ud83d\udca1 QUICK MATH: Pause the reel at the perfect alignment! Drop your screenshot to prove your math IQ! \ud83c\udfc6",
+    "facebook": {
+      "id": "956680470833815",
+      "comment_id": "956680470833815_2955716224772323",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/956680470833815"
+    }
+  },
+  {
+    "timestamp": "2026-10-09T22:20:04.573982+00:00Z",
+    "page_id": "1316150674917146",
+    "page_name": "BrainFog Taps",
+    "video_file": "reel_brainfog_tornado_vortex_anatomical_heart_man_biking_20261009_221959.mp4",
+    "mode": "tornado_vortex",
+    "hero": "anatomical_heart",
+    "item": "man_biking",
+    "title": "BrainFog Wake-Up Test! Shock Your Reflexes \u26a1",
+    "pinned_comment": "\u26a1 MORNING WAKE-UP DRILL: Pause the reel at 100% alignment! Tag a friend who needs their morning coffee! \u2615\ud83d\udc47",
+    "facebook": {
+      "id": "2383864252381656",
+      "comment_id": "2383864252381656_1847406189753518",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2383864252381656"
+    }
+  },
+  {
+    "timestamp": "2026-10-09T22:20:32.637221+00:00Z",
+    "page_id": "1227319627140685",
+    "page_name": "BrainTaps Flow",
+    "video_file": "reel_braintaps_flow_waterfall_cascade_coral_woman_golfing_20261009_222027.mp4",
+    "mode": "waterfall_cascade",
+    "hero": "coral",
+    "item": "woman_golfing",
+    "title": "Hypnotic ASMR Tap: Pause At The Harmonic Beat \ud83e\uddd8",
+    "pinned_comment": "\ud83c\udf0a FLOW STATE TEST:\n1. Watch the rhythmic wave and tap pause at the harmonic sync point! \ud83c\udfb5\n2. Post your screenshot below \ud83d\udc47\n3. Did you feel the flow? \ud83e\uddd8 #BrainTapsFlow",
+    "facebook": {
+      "id": "3526363217533606",
+      "comment_id": "3526363217533606_1842904063717784",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/3526363217533606"
+    }
+  },
+  {
+    "timestamp": "2026-10-09T22:20:55.307156+00:00Z",
+    "page_id": "1334005973127654",
+    "page_name": "MindView Taps",
+    "video_file": "reel_mindview_spiral_galaxy_in_sunrise_over_mountains_anchor_20261009_222050.mp4",
+    "mode": "spiral_galaxy_in",
+    "hero": "sunrise_over_mountains",
+    "item": "anchor",
+    "title": "Multi-Dimensional Pause Test! Stop At True Angle \ud83d\udcd0",
+    "pinned_comment": "\ud83d\udcd0 OPTICAL PUZZLE: Pause at the exact moment of perspective alignment! Show us your score! \ud83d\udc47",
+    "facebook": {
+      "id": "1052837184443538",
+      "comment_id": "1052837184443538_1579756919954816",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1052837184443538"
+    }
+  },
+  {
+    "timestamp": "2026-10-09T22:21:16.222153+00:00Z",
+    "page_id": "1350182274839663",
+    "page_name": "MindQuiz Focus",
+    "video_file": "reel_mindquiz_subway_surfer_lanes_dove_sari_20261009_222112.mp4",
+    "mode": "subway_surfer_lanes",
+    "hero": "dove",
+    "item": "sari",
+    "title": "Lightning Eye Quiz: Freeze On The Winning Clue! \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udd75\ufe0f TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! \ud83d\udc47 #MindQuizFocus",
+    "facebook": {
+      "id": "2301228950611739",
+      "comment_id": "2301228950611739_1469931221858879",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2301228950611739"
+    }
   }
 ]
