@@ -12697,5 +12697,23 @@
       "status": "success",
       "url": "https://facebook.com/4587061141564856"
     }
+  },
+  {
+    "timestamp": "2026-10-10T14:18:26.866364+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_stopwatch_countdown_red_exclamation_mark_notebook_20261010_141820.mp4",
+    "mode": "stopwatch_countdown",
+    "hero": "red_exclamation_mark",
+    "item": "notebook",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "4551345081812660",
+      "comment_id": "4551345081812660_1386298436917544",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4551345081812660"
+    }
   }
 ]
