@@ -12679,5 +12679,23 @@
       "status": "success",
       "url": "https://facebook.com/1806532737362366"
     }
+  },
+  {
+    "timestamp": "2026-10-10T03:52:58.843269+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_black_hole_event_horizon_fireworks_stop_button_20261010_035254.mp4",
+    "mode": "black_hole_event_horizon",
+    "hero": "fireworks",
+    "item": "stop_button",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "4587061141564856",
+      "comment_id": "4587061141564856_2279278782923983",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4587061141564856"
+    }
   }
 ]
