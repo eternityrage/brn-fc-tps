@@ -12661,5 +12661,23 @@
       "status": "success",
       "url": "https://facebook.com/2301228950611739"
     }
+  },
+  {
+    "timestamp": "2026-10-10T03:51:17.865409+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_subway_surfer_lanes_six_oclock_safety_pin_20261010_035113.mp4",
+    "mode": "subway_surfer_lanes",
+    "hero": "six_oclock",
+    "item": "safety_pin",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1806532737362366",
+      "comment_id": "1806532737362366_1576003973832125",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1806532737362366"
+    }
   }
 ]
