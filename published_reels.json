@@ -12751,5 +12751,23 @@
       "status": "success",
       "url": "https://facebook.com/1082625484602703"
     }
+  },
+  {
+    "timestamp": "2026-10-11T09:44:56.888430+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_staircase_steps_firefighter_input_latin_letters_20261011_094454.mp4",
+    "mode": "staircase_steps",
+    "hero": "firefighter",
+    "item": "input_latin_letters",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "949133087808771",
+      "comment_id": "949133087808771_1754721922498642",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/949133087808771"
+    }
   }
 ]
