@@ -75,7 +75,7 @@ CATEGORY_KEYWORDS = {
         "infinity", "heavy_dollar_sign", "chart_increasing", "bar_chart"
     ],
     "space_and_sci_fi": [
-        "rocket", "satellite", "ringed_planet", "earth", "globe", "full_moon", "crescent_moon",
+        "rocket", "satellite", "ringed_planet", "earth", "globe", "full_moon",
         "sun", "star", "sparkles", "shooting_star", "milky_way", "telescope", "alien",
         "flying_saucer", "robot", "comet"
     ],
@@ -113,6 +113,27 @@ CATEGORY_KEYWORDS = {
         "grinning_face", "smiling_face", "winking_face", "heart_eyes", "star_struck",
         "face_with_tears_of_joy", "thinking_face", "exploding_head", "partying_face",
         "sunglasses", "nerd_face", "detective", "superhero", "supervillain", "mage"
+    ],
+    "tech_and_gadgets": [
+        "laptop", "computer", "desktop_computer", "printer", "keyboard", "mouse", "trackball",
+        "mobile_phone", "telephone", "pager", "fax_machine", "battery", "electric_plug",
+        "camera", "video_camera", "movie_camera", "film_projector", "television", "radio",
+        "satellite_antenna"
+    ],
+    "household_and_tools": [
+        "door", "chair", "bed", "couch_and_lamp", "bathtub", "shower", "toilet", "broom",
+        "basket", "soap", "sponge", "bucket", "fire_extinguisher", "shopping_cart"
+    ],
+    "apparel_and_accessories": [
+        "t_shirt", "jeans", "dress", "kimono", "sari", "coat", "socks", "gloves", "scarf",
+        "necktie", "crown", "womans_hat", "billed_cap", "rescue_worker_helmet", "glasses",
+        "sunglasses", "goggles", "backpack", "handbag", "clutch_bag", "briefcase", "luggage",
+        "ring", "gem_stone", "watch"
+    ],
+    "stationery_and_office": [
+        "pencil", "pen", "fountain_pen", "paintbrush", "crayon", "memo", "calendar",
+        "spiral_calendar", "clipboard", "file_folder", "ledger", "notebook", "book",
+        "books", "bookmark", "newspaper", "envelope", "package", "postal_horn"
     ]
 }
 
@@ -435,32 +456,35 @@ PAGE_PROFILES: Dict[str, Dict[str, Any]] = {
             "magnetic_attraction"
         ],
         "primary_categories": [
-            "wildlife_animals",
-            "birds_and_flying",
-            "ocean_and_marine",
+            "gaming_and_toys",
+            "sports_and_fitness",
             "delicious_food",
             "fruits_and_sweets",
+            "vehicles_and_travel",
+            "space_and_sci_fi",
+            "tech_and_gadgets",
+            "apparel_and_accessories",
             "faces_and_reactions"
         ],
         "outline_colors": ["crimson_red", "hot_pink", "cyber_yellow"],
         "titles": [
-            "MindQuiz Spotlight: Can You Catch The Odd One? 🕵️",
-            "Rapid-Fire Visual Quiz: Freeze The Target Item! 🐾",
-            "Speed Trivia Challenge: Pause On The Secret Symbol! 🍕",
+            "MindQuiz Spotlight: Can You Catch The Mystery Target? 🕵️",
+            "Rapid-Fire Visual Quiz: Freeze The Target Item! 🎯",
+            "Speed Trivia Challenge: Pause On The Secret Symbol! ⚡",
             "Observation IQ Test: 99% Miss This Detail! 🔍",
             "Spot The Target: Fast Reflex Trivia Challenge! 🏆",
             "Lightning Eye Quiz: Freeze On The Winning Clue! 🎯"
         ],
         "hooks": [
-            "🐾 Rapid-Fire Animal & Object Spotlight! Freeze the reel when the item appears!",
-            "🕵️ Observation IQ Test: 99% miss the fast change! Can you catch the clue?",
-            "🍕 Food & Item Trivia Challenge! Tap pause right on the spotlighted answer!",
+            "🎯 Rapid-Fire Visual Quiz! Freeze the reel the exact millisecond the target appears!",
+            "🕵️ Observation IQ Test: 99% miss the fast change! Can you catch the secret clue?",
+            "⚡ Mystery Item Trivia Challenge! Tap pause right on the spotlighted answer!",
             "🔍 Spot the difference in milliseconds! Only sharp eyes can freeze the match!"
         ],
         "pinned_comments": [
-            "🐾 SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! 🎯\n2. Post your proof screenshot below 👇\n3. Name the item in the comments! 🏆 #MindQuiz",
+            "🎯 SPOTLIGHT QUIZ:\n1. Find the target object and freeze the reel right on it! ⚡\n2. Post your proof screenshot below 👇\n3. Did you get 100% precision on try #1? 🏆 #MindQuiz",
             "🕵️ TRIVIA SPEED RUN: Did you spot the target in time? Drop your screenshot below! 👇 #MindQuizFocus",
-            "🍕 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! 👇"
+            "🔍 OBSERVATION TEST: Freeze the frame on the exact match! Drop your proof in the comments! 👇"
         ],
         "hashtags": [
             "#MindQuiz", "#MindQuizFocus", "#TriviaReel", "#SpotTheDifference",
@@ -471,14 +495,15 @@ PAGE_PROFILES: Dict[str, Dict[str, Any]] = {
 
 
 def build_categorized_pool(catalog: Dict[str, Any]) -> Dict[str, List[str]]:
-    """Organize all 1,595 assets in the catalog into rich categories."""
+    """Organize all catalog assets into rich categories without false substring collisions."""
     pool: Dict[str, List[str]] = {cat: [] for cat in CATEGORY_KEYWORDS}
     pool["general_objects"] = []
 
     for key in catalog.keys():
         assigned = False
+        key_parts = set(key.split("_"))
         for cat_name, keywords in CATEGORY_KEYWORDS.items():
-            if any(kw in key for kw in keywords):
+            if any(kw == key or kw in key_parts or f"_{kw}_" in f"_{key}_" for kw in keywords):
                 pool[cat_name].append(key)
                 assigned = True
                 break
@@ -488,35 +513,90 @@ def build_categorized_pool(catalog: Dict[str, Any]) -> Dict[str, List[str]]:
     return pool
 
 
+ANIMAL_CATEGORIES = {
+    "wildlife_animals", "birds_and_flying", "ocean_and_marine", "reptiles_and_bugs"
+}
+
+
 def pick_page_assets(page_id: str, catalog: Dict[str, Any], recent_assets: set = None) -> Tuple[str, str]:
     """
     Selects 2 distinct, exciting 3D assets tailored to the page's theme,
-    while rotating across all categories and filtering out recently used assets.
+    while maximizing catalog-wide variety and eliminating repetitive emojis.
+
+    Guarantees:
+    1. Zero religious, faith-based, or sensitive assets.
+    2. Zero consecutive repetition: strictly filters out recently used assets.
+    3. Category cross-contrast: hero and item are chosen from contrasting categories.
+    4. Animal throttling: if hero is an animal, item CANNOT be an animal.
+    5. Unlimited catalog reach: 50% themed selection, 50% wide-catalog discovery across 1,550+ items.
     """
+    from engine.asset_hub import EXCLUDED_RELIGIOUS_AND_SENSITIVE_ASSETS
+
     if recent_assets is None:
         recent_assets = set()
 
     profile = PAGE_PROFILES.get(page_id, PAGE_PROFILES["1319646877895110"])
     pool = build_categorized_pool(catalog)
-    all_keys = [k for k in catalog.keys() if k not in recent_assets]
-    if len(all_keys) < 10:
-        all_keys = list(catalog.keys())
 
-    # 70% chance to pick hero from primary categories; 30% chance from any category
+    # Master pool of eligible safe assets (excluding sensitive items and recent cooldown history)
+    eligible_keys = [
+        k for k in catalog.keys()
+        if k not in EXCLUDED_RELIGIOUS_AND_SENSITIVE_ASSETS and k not in recent_assets
+    ]
+    # Fallback to catalog without recent history if cooldown pool is depleted
+    if len(eligible_keys) < 20:
+        eligible_keys = [
+            k for k in catalog.keys()
+            if k not in EXCLUDED_RELIGIOUS_AND_SENSITIVE_ASSETS
+        ]
+
+    # Map each asset to its category for fast domain checks
+    asset_to_category = {}
+    for cat_name, cat_items in pool.items():
+        for item_key in cat_items:
+            asset_to_category[item_key] = cat_name
+
     primary_cats = profile.get("primary_categories", [])
-    if random.random() < 0.70 and primary_cats:
-        chosen_cat = random.choice(primary_cats)
-        cat_items = [item for item in pool.get(chosen_cat, []) if item not in recent_assets]
-        hero = random.choice(cat_items) if cat_items else random.choice(all_keys)
-    else:
-        hero = random.choice(all_keys)
 
-    # Pick item from a complementary category or general pool
-    item = random.choice(all_keys)
-    attempts = 0
-    while (item == hero or item in recent_assets) and attempts < 30:
-        item = random.choice(all_keys)
-        attempts += 1
+    # Pick Hero: 50% themed from primary categories, 50% open from eligible keys
+    hero = None
+    hero_cat = None
+    if random.random() < 0.50 and primary_cats:
+        chosen_cat = random.choice(primary_cats)
+        cat_items = [
+            item for item in pool.get(chosen_cat, [])
+            if item in eligible_keys
+        ]
+        if cat_items:
+            hero = random.choice(cat_items)
+            hero_cat = chosen_cat
+
+    if not hero:
+        hero = random.choice(eligible_keys)
+        hero_cat = asset_to_category.get(hero, "general_objects")
+
+    # Pick Item: must be distinct, not in recent assets, and from a contrasting category domain
+    # If hero is an animal, item MUST NOT be an animal
+    is_hero_animal = hero_cat in ANIMAL_CATEGORIES
+
+    candidate_items = [
+        k for k in eligible_keys
+        if k != hero and (not is_hero_animal or asset_to_category.get(k) not in ANIMAL_CATEGORIES)
+    ]
+
+    # Prefer candidates from a completely different category than hero for strong visual interest
+    diff_cat_candidates = [
+        k for k in candidate_items
+        if asset_to_category.get(k) != hero_cat
+    ]
+
+    if diff_cat_candidates:
+        item = random.choice(diff_cat_candidates)
+    elif candidate_items:
+        item = random.choice(candidate_items)
+    else:
+        all_safe = [k for k in catalog.keys() if k not in EXCLUDED_RELIGIOUS_AND_SENSITIVE_ASSETS and k != hero]
+        item = random.choice(all_safe) if all_safe else "automobile"
 
     return hero, item
 

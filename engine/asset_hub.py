@@ -10,6 +10,29 @@ CATALOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "microso
 
 os.makedirs(ASSETS_DIR, exist_ok=True)
 
+# Excluded religious, faith-based, or sensitive assets
+EXCLUDED_RELIGIOUS_AND_SENSITIVE_ASSETS = {
+    # Places of worship & pilgrimage
+    "kaaba", "mosque", "church", "synagogue", "hindu_temple", "shinto_shrine", "place_of_worship",
+    # Religious symbols & emblems
+    "latin_cross", "orthodox_cross", "star_and_crescent", "star_of_david", "menorah",
+    "wheel_of_dharma", "yin_yang", "om", "khanda", "hamsa", "nazar_amulet", "diya_lamp",
+    # Ritual, prayer & angelic figures
+    "prayer_beads", "folded_hands", "baby_angel", "smiling_face_with_halo",
+    # Attire & religious headwear
+    "woman_with_headscarf", "man_wearing_turban", "woman_wearing_turban", "person_wearing_turban",
+    # Funerary items
+    "coffin", "headstone", "funeral_urn",
+    # Religious crescents
+    "crescent_moon", "waning_crescent_moon", "waxing_crescent_moon",
+    # Religious & ceremonial veils
+    "man_with_veil", "person_with_veil", "woman_with_veil",
+    # Spiritual & meditation poses
+    "man_in_lotus_position", "person_in_lotus_position", "woman_in_lotus_position",
+    # Religious holiday figures
+    "christmas_tree", "santa_claus", "mrs_claus", "mx_claus"
+}
+
 # Load catalog
 _catalog = None
 
@@ -18,7 +41,9 @@ def get_catalog():
     if _catalog is None:
         if os.path.exists(CATALOG_PATH):
             with open(CATALOG_PATH, "r", encoding="utf-8") as f:
-                _catalog = json.load(f)
+                raw = json.load(f)
+            # Filter out all religious or sensitive assets
+            _catalog = {k: v for k, v in raw.items() if k not in EXCLUDED_RELIGIOUS_AND_SENSITIVE_ASSETS}
         else:
             _catalog = {}
     return _catalog
@@ -34,14 +59,15 @@ def get_or_fetch_asset(asset_key):
         return local_path
         
     catalog = get_catalog()
-    if asset_key not in catalog:
-        # Check if maybe user passed a name without underscores or case mismatch
-        clean_key = asset_key.lower().replace(" ", "_").replace("-", "_")
-        if clean_key in catalog:
+    if asset_key in EXCLUDED_RELIGIOUS_AND_SENSITIVE_ASSETS or asset_key not in catalog:
+        clean_key = asset_key.lower().replace(" ", "_").replace("-", "_") if asset_key else ""
+        if clean_key in catalog and clean_key not in EXCLUDED_RELIGIOUS_AND_SENSITIVE_ASSETS:
             asset_key = clean_key
         else:
-            print(f"[WARN] Asset '{asset_key}' not in catalog, fallback to parrot.")
-            return get_or_fetch_asset("parrot")
+            safe_keys = list(catalog.keys())
+            fallback_key = random.choice(safe_keys) if safe_keys else "automobile"
+            print(f"[WARN] Asset '{asset_key}' is excluded or missing. Using safe random fallback '{fallback_key}'.")
+            return get_or_fetch_asset(fallback_key)
             
     asset_info = catalog[asset_key]
     url = asset_info["url"]
@@ -58,10 +84,10 @@ def get_or_fetch_asset(asset_key):
         return local_path
     except Exception as e:
         print(f"[ASSET HUB] Failed to download '{asset_key}': {e}")
-        # Fallback to a local asset if download fails
-        existing = [f for f in os.listdir(ASSETS_DIR) if f.endswith(".png")]
+        # Fallback to a safe local asset if download fails
+        existing = [f for f in os.listdir(ASSETS_DIR) if f.endswith(".png") and f[:-4] not in EXCLUDED_RELIGIOUS_AND_SENSITIVE_ASSETS]
         if existing:
-            return os.path.join(ASSETS_DIR, existing[0])
+            return os.path.join(ASSETS_DIR, random.choice(existing))
         return None
 
 def get_random_pair():

@@ -18,6 +18,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
 
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 # Load local environment if present
 env_path = Path(__file__).parent / '.env'
 load_dotenv(dotenv_path=env_path, override=True)
@@ -117,8 +124,13 @@ def publish_for_page(page_id, loaded_tokens, override_mode=None, override_hero=N
             with open(PUBLISHED_LOG, "r", encoding="utf-8") as f:
                 hist = json.load(f)
                 page_hist = [h for h in hist if h.get("page_id") == page_id]
-                recent_modes = [h.get("mode") for h in page_hist[-15:] if h.get("mode")]
-                for h in page_hist[-12:]:
+                recent_modes = [h.get("mode") for h in page_hist[-25:] if h.get("mode")]
+                # Cooldown last 50 reels on this page (prevents reuse for ~10 days)
+                for h in page_hist[-50:]:
+                    if h.get("hero"): recent_assets.add(h.get("hero"))
+                    if h.get("item"): recent_assets.add(h.get("item"))
+                # Also cooldown last 25 reels across the entire network to avoid cross-page collision
+                for h in hist[-25:]:
                     if h.get("hero"): recent_assets.add(h.get("hero"))
                     if h.get("item"): recent_assets.add(h.get("item"))
         except Exception:
