@@ -12787,5 +12787,23 @@
       "status": "success",
       "url": "https://facebook.com/1549619866974570"
     }
+  },
+  {
+    "timestamp": "2026-10-11T23:27:45.582225+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_avalanche_rush_falafel_passenger_ship_20261011_232741.mp4",
+    "mode": "avalanche_rush",
+    "hero": "falafel",
+    "item": "passenger_ship",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1403485841417400",
+      "comment_id": "1403485841417400_1542062087685816",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1403485841417400"
+    }
   }
 ]
