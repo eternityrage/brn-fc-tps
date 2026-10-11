@@ -12769,5 +12769,23 @@
       "status": "success",
       "url": "https://facebook.com/949133087808771"
     }
+  },
+  {
+    "timestamp": "2026-10-11T17:55:49.861388+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_zigzag_lightning_label_face_with_open_mouth_20261011_175546.mp4",
+    "mode": "zigzag_lightning",
+    "hero": "label",
+    "item": "face_with_open_mouth",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1549619866974570",
+      "comment_id": "1549619866974570_2037414286961018",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1549619866974570"
+    }
   }
 ]
