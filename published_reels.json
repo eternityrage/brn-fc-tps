@@ -12841,5 +12841,23 @@
       "status": "success",
       "url": "https://facebook.com/2639404323167537"
     }
+  },
+  {
+    "timestamp": "2026-10-12T21:36:06.448488+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_vertical_piston_control_knobs_open_mailbox_with_lowered_flag_20261012_213601.mp4",
+    "mode": "vertical_piston",
+    "hero": "control_knobs",
+    "item": "open_mailbox_with_lowered_flag",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1884073832602650",
+      "comment_id": "1884073832602650_1037405289353152",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1884073832602650"
+    }
   }
 ]
