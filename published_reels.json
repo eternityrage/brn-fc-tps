@@ -12805,5 +12805,23 @@
       "status": "success",
       "url": "https://facebook.com/1403485841417400"
     }
+  },
+  {
+    "timestamp": "2026-10-12T01:04:15.600235+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_freefall_terminal_woman_playing_water_polo_drum_20261012_010411.mp4",
+    "mode": "freefall_terminal",
+    "hero": "woman_playing_water_polo",
+    "item": "drum",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "2619934971854808",
+      "comment_id": "2619934971854808_1103792542016803",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2619934971854808"
+    }
   }
 ]
