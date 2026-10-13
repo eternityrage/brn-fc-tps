@@ -12877,5 +12877,23 @@
       "status": "success",
       "url": "https://facebook.com/1433615598947376"
     }
+  },
+  {
+    "timestamp": "2026-10-13T10:12:57.567403+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_tachometer_rev_limiter_soccer_ball_umbrella_on_ground_20261013_101253.mp4",
+    "mode": "tachometer_rev_limiter",
+    "hero": "soccer_ball",
+    "item": "umbrella_on_ground",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "2166054847316123",
+      "comment_id": "2166054847316123_1816992742776590",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2166054847316123"
+    }
   }
 ]
