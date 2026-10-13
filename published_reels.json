@@ -12895,5 +12895,23 @@
       "status": "success",
       "url": "https://facebook.com/2166054847316123"
     }
+  },
+  {
+    "timestamp": "2026-10-13T19:47:04.769566+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_electric_arc_jump_magnet_door_20261013_194700.mp4",
+    "mode": "electric_arc_jump",
+    "hero": "magnet",
+    "item": "door",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "942490925220307",
+      "comment_id": "942490925220307_936061839270174",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/942490925220307"
+    }
   }
 ]
