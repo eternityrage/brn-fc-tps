@@ -12931,5 +12931,23 @@
       "status": "success",
       "url": "https://facebook.com/1548181663817040"
     }
+  },
+  {
+    "timestamp": "2026-10-14T08:28:24.199699+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_quad_lock_bikini_spouting_whale_20261014_082819.mp4",
+    "mode": "quad_lock",
+    "hero": "bikini",
+    "item": "spouting_whale",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1423913432501045",
+      "comment_id": "1423913432501045_940424508781092",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1423913432501045"
+    }
   }
 ]
