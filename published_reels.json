@@ -12949,5 +12949,23 @@
       "status": "success",
       "url": "https://facebook.com/1423913432501045"
     }
+  },
+  {
+    "timestamp": "2026-10-14T17:50:11.639234+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_sniper_target_lock_light_bulb_eight_thirty_20261014_175007.mp4",
+    "mode": "sniper_target_lock",
+    "hero": "light_bulb",
+    "item": "eight_thirty",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "932279226366876",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/932279226366876"
+    }
   }
 ]
