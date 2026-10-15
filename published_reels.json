@@ -12985,5 +12985,23 @@
       "status": "success",
       "url": "https://facebook.com/1118638167272931"
     }
+  },
+  {
+    "timestamp": "2026-10-15T08:03:54.032116+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_microscope_focus_bus_star_20261015_080350.mp4",
+    "mode": "microscope_focus",
+    "hero": "bus",
+    "item": "star",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1136058882266756",
+      "comment_id": "1136058882266756_1853138792532302",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1136058882266756"
+    }
   }
 ]
