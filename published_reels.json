@@ -12967,5 +12967,23 @@
       "status": "success",
       "url": "https://facebook.com/932279226366876"
     }
+  },
+  {
+    "timestamp": "2026-10-15T00:19:45.965307+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_scissor_pinch_water_wave_man_20261015_001941.mp4",
+    "mode": "scissor_pinch",
+    "hero": "water_wave",
+    "item": "man",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1118638167272931",
+      "comment_id": "1118638167272931_1802995981022152",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1118638167272931"
+    }
   }
 ]
