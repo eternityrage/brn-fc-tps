@@ -13021,5 +13021,23 @@
       "status": "success",
       "url": "https://facebook.com/1461116442602388"
     }
+  },
+  {
+    "timestamp": "2026-10-16T00:07:19.986683+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_crossfire_diagonal_x_woman_running_hamster_20261016_000715.mp4",
+    "mode": "crossfire_diagonal_x",
+    "hero": "woman_running",
+    "item": "hamster",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1643887357135083",
+      "comment_id": "1643887357135083_1124946143329657",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1643887357135083"
+    }
   }
 ]
