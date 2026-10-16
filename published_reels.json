@@ -13039,5 +13039,23 @@
       "status": "success",
       "url": "https://facebook.com/1643887357135083"
     }
+  },
+  {
+    "timestamp": "2026-10-16T07:57:35.858800+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_skateboard_wrench_20261016_075731.mp4",
+    "mode": "teleport_snap",
+    "hero": "skateboard",
+    "item": "wrench",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1895247201455096",
+      "comment_id": "1895247201455096_2092828811373377",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1895247201455096"
+    }
   }
 ]
