@@ -13111,5 +13111,23 @@
       "status": "success",
       "url": "https://facebook.com/1155767350201580"
     }
+  },
+  {
+    "timestamp": "2026-10-17T07:35:17.483599+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_scanner_sweep_fire_smiling_face_20261017_073515.mp4",
+    "mode": "laser_scanner_sweep",
+    "hero": "fire",
+    "item": "smiling_face",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "2695982964154677",
+      "comment_id": "2695982964154677_1408496514244263",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2695982964154677"
+    }
   }
 ]
