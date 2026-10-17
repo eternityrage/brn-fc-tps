@@ -13129,5 +13129,23 @@
       "status": "success",
       "url": "https://facebook.com/2695982964154677"
     }
+  },
+  {
+    "timestamp": "2026-10-17T12:01:07.116286+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_orbit_carousel_twelve_oclock_star_struck_20261017_120102.mp4",
+    "mode": "orbit_carousel",
+    "hero": "twelve_oclock",
+    "item": "star_struck",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1795876128195231",
+      "comment_id": "1795876128195231_2040542273315176",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1795876128195231"
+    }
   }
 ]
