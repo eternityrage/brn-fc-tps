@@ -13165,5 +13165,23 @@
       "status": "success",
       "url": "https://facebook.com/1380282743937657"
     }
+  },
+  {
+    "timestamp": "2026-10-17T19:04:19.837964+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_stopwatch_countdown_black_cat_ribbon_20261017_190415.mp4",
+    "mode": "stopwatch_countdown",
+    "hero": "black_cat",
+    "item": "ribbon",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1089495840580438",
+      "comment_id": "1089495840580438_1097916726421670",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1089495840580438"
+    }
   }
 ]
