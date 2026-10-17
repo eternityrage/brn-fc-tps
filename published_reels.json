@@ -13093,5 +13093,23 @@
       "status": "success",
       "url": "https://facebook.com/1134783255703933"
     }
+  },
+  {
+    "timestamp": "2026-10-17T00:11:39.147806+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_crosshairs_hugging_face_snail_20261017_001136.mp4",
+    "mode": "laser_crosshairs",
+    "hero": "hugging_face",
+    "item": "snail",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1155767350201580",
+      "comment_id": "1155767350201580_1656876762770987",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1155767350201580"
+    }
   }
 ]
