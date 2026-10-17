@@ -13147,5 +13147,23 @@
       "status": "success",
       "url": "https://facebook.com/1795876128195231"
     }
+  },
+  {
+    "timestamp": "2026-10-17T16:11:00.280105+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_subway_surfer_lanes_1st_place_medal_cityscape_20261017_161056.mp4",
+    "mode": "subway_surfer_lanes",
+    "hero": "1st_place_medal",
+    "item": "cityscape",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1380282743937657",
+      "comment_id": "1380282743937657_2317060379110244",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1380282743937657"
+    }
   }
 ]
