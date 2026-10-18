@@ -13273,5 +13273,23 @@
       "status": "success",
       "url": "https://facebook.com/1451131216957085"
     }
+  },
+  {
+    "timestamp": "2026-10-18T23:57:39.335777+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_falling_gravity_sake_lobster_20261018_235735.mp4",
+    "mode": "falling_gravity",
+    "hero": "sake",
+    "item": "lobster",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1401819638699976",
+      "comment_id": "1401819638699976_1640753114310539",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1401819638699976"
+    }
   }
 ]
