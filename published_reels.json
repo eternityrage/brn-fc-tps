@@ -13291,5 +13291,23 @@
       "status": "success",
       "url": "https://facebook.com/1401819638699976"
     }
+  },
+  {
+    "timestamp": "2026-10-19T08:34:34.932055+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_staircase_steps_vertical_traffic_light_thought_balloon_20261019_083430.mp4",
+    "mode": "staircase_steps",
+    "hero": "vertical_traffic_light",
+    "item": "thought_balloon",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1670338447789686",
+      "comment_id": "1670338447789686_1653787189692073",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1670338447789686"
+    }
   }
 ]
