@@ -13363,5 +13363,23 @@
       "status": "success",
       "url": "https://facebook.com/1832614161215708"
     }
+  },
+  {
+    "timestamp": "2026-10-20T17:49:51.705936+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_tachometer_rev_limiter_hourglass_done_registered_20261020_174947.mp4",
+    "mode": "tachometer_rev_limiter",
+    "hero": "hourglass_done",
+    "item": "registered",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1108414835228443",
+      "comment_id": "1108414835228443_966418702682695",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1108414835228443"
+    }
   }
 ]
