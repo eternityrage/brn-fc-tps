@@ -13345,5 +13345,23 @@
       "status": "success",
       "url": "https://facebook.com/1421173406248483"
     }
+  },
+  {
+    "timestamp": "2026-10-20T08:15:58.582364+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_corner_squeeze_battery_brown_circle_20261020_081553.mp4",
+    "mode": "corner_squeeze",
+    "hero": "battery",
+    "item": "brown_circle",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1832614161215708",
+      "comment_id": "1832614161215708_1090916330408591",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1832614161215708"
+    }
   }
 ]
