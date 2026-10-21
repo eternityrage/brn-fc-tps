@@ -13415,5 +13415,23 @@
       "status": "success",
       "url": "https://facebook.com/1624987025670079"
     }
+  },
+  {
+    "timestamp": "2026-10-21T13:38:36.900646+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_atom_electrons_boxing_glove_purple_heart_20261021_133830.mp4",
+    "mode": "atom_electrons",
+    "hero": "boxing_glove",
+    "item": "purple_heart",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1089496250639156",
+      "comment_id": "1089496250639156_2349315255882758",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1089496250639156"
+    }
   }
 ]
