@@ -13397,5 +13397,23 @@
       "error": "Finish Phase Failed: {\"error\":{\"code\":1,\"message\":\"Please reduce the amount of data you're asking for, then retry your request\"}}",
       "platform": "facebook"
     }
+  },
+  {
+    "timestamp": "2026-10-21T08:20:36.801923+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_dna_double_helix_name_badge_sushi_20261021_082033.mp4",
+    "mode": "dna_double_helix",
+    "hero": "name_badge",
+    "item": "sushi",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1624987025670079",
+      "comment_id": "1624987025670079_2519728645163444",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1624987025670079"
+    }
   }
 ]
