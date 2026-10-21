@@ -1,9 +1,11 @@
 """
 Facebook Reels Direct Uploader via Meta Graph API v21.0
-3-step Resumable Video Reels Publishing with Automatic Page Token Resolution
+3-step Resumable Video Reels Publishing with Automatic Page Token Resolution,
+Polite Retries for Meta Server Timeouts, Ghost-Success Detection,
 and Automatic Pinned Engagement Comment
 """
 import os
+import time
 import requests
 from pathlib import Path
 from dotenv import load_dotenv
@@ -81,46 +83,69 @@ def upload_to_facebook(video_path, description, title="BrainFocus Puzzle", pinne
     base_url = f"https://graph.facebook.com/{api_version}/{page_id}/video_reels"
 
     try:
-        # Step 1: Initialize Upload Session
+        # Step 1: Initialize Upload Session (with retry)
         print("[facebook] Step 1/3: Initiating Reel upload session...")
         start_data = {
             'access_token': access_token,
             'upload_phase': 'start',
             'file_size': file_size
         }
-        res_start = requests.post(base_url, data=start_data, timeout=30)
-        if res_start.status_code != 200:
-            err_text = res_start.text
-            print(f"[facebook] ❌ Start Phase Error ({res_start.status_code}): {err_text}")
-            return {'status': 'failed', 'error': f"Start Phase Failed: {err_text}", 'platform': 'facebook'}
+        
+        video_id = None
+        upload_url = None
+        res_start = None
 
-        start_json = res_start.json()
-        video_id = start_json.get('video_id')
-        upload_url = start_json.get('upload_url')
+        for attempt in range(1, 4):
+            try:
+                res_start = requests.post(base_url, data=start_data, timeout=30)
+                if res_start.status_code == 200:
+                    start_json = res_start.json()
+                    video_id = start_json.get('video_id')
+                    upload_url = start_json.get('upload_url')
+                    if video_id and upload_url:
+                        break
+            except Exception as se:
+                print(f"[facebook] Start attempt {attempt} exception: {se}")
+            if attempt < 3:
+                time.sleep(3)
 
         if not video_id or not upload_url:
-            raise Exception(f"Invalid response from start phase: {start_json}")
+            err_text = res_start.text if res_start else "No response"
+            print(f"[facebook] ❌ Start Phase Error: {err_text}")
+            return {'status': 'failed', 'error': f"Start Phase Failed: {err_text}", 'platform': 'facebook'}
 
         print(f"[facebook] Session initialized. Video ID: {video_id}")
 
-        # Step 2: Transfer Video Binary Bytes
+        # Step 2: Transfer Video Binary Bytes (with retry)
         print("[facebook] Step 2/3: Transferring video binary bytes to Meta servers...")
         headers = {
             'Authorization': f'OAuth {access_token}',
             'offset': '0',
             'file_size': str(file_size)
         }
-        with open(video_path, 'rb') as f:
-            res_transfer = requests.post(upload_url, headers=headers, data=f, timeout=600)
 
-        if res_transfer.status_code != 200:
-            err_text = res_transfer.text
-            print(f"[facebook] ❌ Transfer Phase Error ({res_transfer.status_code}): {err_text}")
+        transfer_success = False
+        res_transfer = None
+        for attempt in range(1, 3):
+            with open(video_path, 'rb') as f:
+                try:
+                    res_transfer = requests.post(upload_url, headers=headers, data=f, timeout=600)
+                    if res_transfer.status_code == 200:
+                        transfer_success = True
+                        break
+                except Exception as te:
+                    print(f"[facebook] Transfer attempt {attempt} exception: {te}")
+            if attempt < 2:
+                time.sleep(5)
+
+        if not transfer_success:
+            err_text = res_transfer.text if res_transfer else "Transfer connection failed"
+            print(f"[facebook] ❌ Transfer Phase Error: {err_text}")
             return {'status': 'failed', 'error': f"Transfer Phase Failed: {err_text}", 'platform': 'facebook'}
 
         print("[facebook] Binary upload complete!")
 
-        # Step 3: Finish & Publish Reel
+        # Step 3: Finish & Publish Reel (with retry & ghost-success detection)
         print("[facebook] Step 3/3: Publishing Reel on Facebook Page...")
         finish_data = {
             'access_token': access_token,
@@ -130,10 +155,50 @@ def upload_to_facebook(video_path, description, title="BrainFocus Puzzle", pinne
             'description': description,
             'video_state': 'PUBLISHED'
         }
-        res_finish = requests.post(base_url, data=finish_data, timeout=60)
-        finish_json = res_finish.json()
 
-        if res_finish.status_code == 200 and finish_json.get('success'):
+        published_successfully = False
+        res_finish = None
+        finish_json = {}
+
+        for attempt in range(1, 4):
+            try:
+                res_finish = requests.post(base_url, data=finish_data, timeout=60)
+                try:
+                    finish_json = res_finish.json()
+                except Exception:
+                    finish_json = {}
+
+                if res_finish.status_code == 200 and finish_json.get('success'):
+                    published_successfully = True
+                    break
+            except Exception as fe:
+                print(f"[facebook] Finish attempt {attempt} exception: {fe}")
+
+            # Check if Meta already accepted and published the reel (ghost success on server OOM)
+            try:
+                chk_url = f"https://graph.facebook.com/{api_version}/{video_id}?fields=status&access_token={access_token}"
+                chk_res = requests.get(chk_url, timeout=15)
+                if chk_res.status_code == 200:
+                    c_status = chk_res.json().get('status', {})
+                    pub_status = c_status.get('publishing_phase', {}).get('status')
+                    vid_status = c_status.get('video_status')
+                    if pub_status == 'complete' or vid_status in ('ready', 'published'):
+                        print(f"[facebook] ✅ Verified Reel {video_id} is already published on Meta!")
+                        published_successfully = True
+                        break
+            except Exception:
+                pass
+
+            if attempt < 3:
+                err_msg = res_finish.text if res_finish else "Timeout"
+                print(f"[facebook] Finish attempt {attempt} failed ({err_msg}). Retrying in 6s...")
+                time.sleep(6)
+                # If error was "reduce data", simplify description payload for retry
+                if res_finish and "reduce the amount of data" in res_finish.text.lower():
+                    print("[facebook] Simplifying metadata payload for retry...")
+                    finish_data['description'] = title
+
+        if published_successfully:
             print(f"[facebook] 🌟 SUCCESS! Reel published successfully!")
             print(f"[facebook] Video ID: {video_id}")
             print(f"[facebook] View at: https://facebook.com/{video_id}")
@@ -166,8 +231,8 @@ def upload_to_facebook(video_path, description, title="BrainFocus Puzzle", pinne
                 'url': f"https://facebook.com/{video_id}"
             }
         else:
-            err_text = res_finish.text
-            print(f"[facebook] ❌ Finish Phase Error ({res_finish.status_code}): {err_text}")
+            err_text = res_finish.text if res_finish else "No response"
+            print(f"[facebook] ❌ Finish Phase Error: {err_text}")
             return {'status': 'failed', 'error': f"Finish Phase Failed: {err_text}", 'platform': 'facebook'}
 
     except Exception as e:
