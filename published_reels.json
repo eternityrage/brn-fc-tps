@@ -13381,5 +13381,21 @@
       "status": "success",
       "url": "https://facebook.com/1108414835228443"
     }
+  },
+  {
+    "timestamp": "2026-10-21T00:24:57.512936+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_crossfire_8way_supernova_leafy_green_ice_skate_20261021_002451.mp4",
+    "mode": "crossfire_8way_supernova",
+    "hero": "leafy_green",
+    "item": "ice_skate",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "status": "failed",
+      "error": "Finish Phase Failed: {\"error\":{\"code\":1,\"message\":\"Please reduce the amount of data you're asking for, then retry your request\"}}",
+      "platform": "facebook"
+    }
   }
 ]
