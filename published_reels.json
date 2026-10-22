@@ -13487,5 +13487,23 @@
       "status": "success",
       "url": "https://facebook.com/1634341691405957"
     }
+  },
+  {
+    "timestamp": "2026-10-22T07:30:24.914682+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_vertical_piston_cricket_monkey_face_20261022_073020.mp4",
+    "mode": "vertical_piston",
+    "hero": "cricket",
+    "item": "monkey_face",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1400979115570045",
+      "comment_id": "1400979115570045_1144872674542006",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1400979115570045"
+    }
   }
 ]
