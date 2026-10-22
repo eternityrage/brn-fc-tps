@@ -13469,5 +13469,23 @@
       "status": "success",
       "url": "https://facebook.com/1653644092814212"
     }
+  },
+  {
+    "timestamp": "2026-10-22T05:51:27.984413+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_matrix_3x3_slots_japanese_monthly_amount_button_police_car_light_20261022_055124.mp4",
+    "mode": "matrix_3x3_slots",
+    "hero": "japanese_monthly_amount_button",
+    "item": "police_car_light",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1634341691405957",
+      "comment_id": "1634341691405957_1430833543438950",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1634341691405957"
+    }
   }
 ]
