@@ -2,12 +2,11 @@ name: Auto Publish Viral Reels Network
 
 on:
   schedule:
-    # 5 Daily Non-Congested Times (UTC): 02:07, 07:07, 12:07, 16:07, 21:07
-    - cron: '7 2 * * *'
-    - cron: '7 7 * * *'
-    - cron: '7 12 * * *'
-    - cron: '7 16 * * *'
-    - cron: '7 21 * * *'
+    - cron: '12 1 * * *'
+    - cron: '12 6 * * *'
+    - cron: '12 11 * * *'
+    - cron: '12 15 * * *'
+    - cron: '12 20 * * *'
 
   workflow_dispatch:
     inputs:
