@@ -158,6 +158,10 @@ def publish_for_page(page_id, loaded_tokens, override_mode=None, override_hero=N
     timestamp_str = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
     out_filename = f"reel_{profile['slug']}_{selected_mode}_{hero}_{item}_{timestamp_str}.mp4"
 
+    from engine.modes import get_family_by_mode
+    fam = get_family_by_mode(selected_mode)
+    if fam:
+        print(f"🧩 Puzzle Family #{fam['id']:02d}: {fam['name']} ({fam['archetype']})")
     print(f"🎮 Selected Mode: {selected_mode}")
     print(f"📦 Selected 3D Assets: Hero='{hero}' | Item='{item}'")
     print(f"🎨 Theme Color: {outline_color}")
@@ -187,6 +191,8 @@ def publish_for_page(page_id, loaded_tokens, override_mode=None, override_hero=N
         "page_id": page_id,
         "page_name": page_name,
         "video_file": os.path.basename(output_video),
+        "family_id": fam["id"] if fam else None,
+        "family_name": fam["name"] if fam else None,
         "mode": selected_mode,
         "hero": hero,
         "item": item,

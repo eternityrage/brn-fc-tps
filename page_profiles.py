@@ -640,8 +640,13 @@ def get_page_metadata(page_id: str, mode_name: str, hero_name: str, item_name: s
     formatted_hero = hero_name.replace('_', ' ').title()
     formatted_item = item_name.replace('_', ' ').title()
 
+    from engine.modes import get_family_by_mode
+    fam = get_family_by_mode(mode_name)
+    fam_header = f"🧩 Puzzle Family #{fam['id']:02d}: {fam['name']}\n" if fam else ""
+
     description = (
         f"{hook}\n\n"
+        f"{fam_header}"
         f"🎮 Challenge: {formatted_mode}\n"
         f"🔍 Objects: {formatted_hero} & {formatted_item}\n\n"
         f"⚡ Test your timing! Pause when the object aligns perfectly with the outline.\n"

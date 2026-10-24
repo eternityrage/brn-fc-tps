@@ -888,3 +888,428 @@ ALL_MODES = {
     "electric_arc_jump": mode_electric_arc_jump,
     "slot_jackpot_frenzy": mode_slot_jackpot_frenzy
 }
+
+# =====================================================================
+# 50 MASTER PUZZLE FAMILIES REGISTRY (WITH EXPANSION ROADMAP TO 100)
+# =====================================================================
+
+PUZZLE_FAMILIES = {
+    1: {
+        "id": 1,
+        "slug": "harmonic_pendulums",
+        "name": "Harmonic Pendulums",
+        "archetype": "Gravitational Oscillation",
+        "description": "Natural gravity-governed swinging arcs and escapement clockwork ticks.",
+        "modes": ["pendulum_harmonic_arc", "pendulum_clockwork"]
+    },
+    2: {
+        "id": 2,
+        "slug": "linear_hydraulic_pistons",
+        "name": "Linear Hydraulic Pistons",
+        "archetype": "Hydraulic Compression",
+        "description": "Reciprocating vertical mechanical strokes and compression stamping.",
+        "modes": ["vertical_piston", "swing_vertical"]
+    },
+    3: {
+        "id": 3,
+        "slug": "horizontal_slider_lanes",
+        "name": "Horizontal Slider Lanes",
+        "archetype": "Kinetic Sliding",
+        "description": "High-speed horizontal reciprocating sliding tracks.",
+        "modes": ["swing_horizontal", "swing_opposing"]
+    },
+    4: {
+        "id": 4,
+        "slug": "diagonal_slash_trajectories",
+        "name": "Diagonal Slash Trajectories",
+        "archetype": "Angular Ballistics",
+        "description": "45-degree angled slicing motion trajectories.",
+        "modes": ["swing_diagonal_slash", "swing_back_diagonal"]
+    },
+    5: {
+        "id": 5,
+        "slug": "harmonic_sine_waves",
+        "name": "Harmonic Sine Waves",
+        "archetype": "Harmonic Wave Dynamics",
+        "description": "Smooth sinusoidal ripples and serpentine meandering paths.",
+        "modes": ["sine_wave_meander", "snake_serpentine"]
+    },
+    6: {
+        "id": 6,
+        "slug": "geometric_triangle_bouncers",
+        "name": "Geometric Triangle Bouncers",
+        "archetype": "Polygonal Kinematics",
+        "description": "3-point polygonal ricochets and stepped triangular waves.",
+        "modes": ["triangle_bounce", "pyramid_wave"]
+    },
+    7: {
+        "id": 7,
+        "slug": "elastic_springs_snaps",
+        "name": "Elastic Springs & Snaps",
+        "archetype": "Elastic Mechanics",
+        "description": "Hooke's law tension stretch and sudden elastic snap-backs.",
+        "modes": ["spring_elastic_snap", "spring_trap_release"]
+    },
+    8: {
+        "id": 8,
+        "slug": "double_pendulum_chaos",
+        "name": "Double Pendulum Chaos",
+        "archetype": "Chaotic Mechanics",
+        "description": "Chaotic coupled non-linear dynamics and jelly wobbles.",
+        "modes": ["double_pendulum_chaos", "wobble_jelly"]
+    },
+    9: {
+        "id": 9,
+        "slug": "accordion_volume_pumps",
+        "name": "Accordion Volume Pumps",
+        "archetype": "Volumetric Expansion",
+        "description": "Rhythmic breathing expansion and z-plane accordion pumps.",
+        "modes": ["breathing_accordion", "accordion_z_axis"]
+    },
+    10: {
+        "id": 10,
+        "slug": "zigzag_lightning_bolts",
+        "name": "Zigzag Lightning Bolts",
+        "archetype": "Plasma Electrokinetics",
+        "description": "Angular sharp-turn lightning bolts and plasma electrical arcing.",
+        "modes": ["zigzag_lightning", "electric_arc_jump"]
+    },
+    11: {
+        "id": 11,
+        "slug": "heartbeat_pulse_monitors",
+        "name": "Heartbeat Pulse Monitors",
+        "archetype": "Rhythmic Biometrics",
+        "description": "EKG cardiac rhythm spikes and expanding shockwave rings.",
+        "modes": ["heartbeat_pulse_wave", "shockwave_pulse"]
+    },
+    12: {
+        "id": 12,
+        "slug": "terminal_gravity_freefalls",
+        "name": "Terminal Gravity Freefalls",
+        "archetype": "Aerodynamic Freefall",
+        "description": "Downward accelerating gravitational drops and terminal air resistance.",
+        "modes": ["falling_gravity", "freefall_terminal"]
+    },
+    13: {
+        "id": 13,
+        "slug": "buoyancy_bubble_risers",
+        "name": "Buoyancy Bubble Risers",
+        "archetype": "Hydrodynamic Buoyancy",
+        "description": "Ascending buoyant floats and inverted zero-g launches.",
+        "modes": ["rising_bubbles", "anti_gravity_launch"]
+    },
+    14: {
+        "id": 14,
+        "slug": "kinetic_floor_rebounders",
+        "name": "Kinetic Floor Rebounders",
+        "archetype": "Collision Dynamics",
+        "description": "Elastic floor bounces and rigid wall deflections.",
+        "modes": ["bouncing_floor_drop", "rebound_wall_bounce"]
+    },
+    15: {
+        "id": 15,
+        "slug": "parabolic_cannonballs",
+        "name": "Parabolic Cannonballs",
+        "archetype": "Ballistic Physics",
+        "description": "Classical ballistic projectile arcs and accelerating momentum.",
+        "modes": ["cannonball_ballistic", "avalanche_rush"]
+    },
+    16: {
+        "id": 16,
+        "slug": "liquid_waterfall_cascades",
+        "name": "Liquid Waterfall Cascades",
+        "archetype": "Fluid Mechanics",
+        "description": "Fluid downward stream flow and vortex draining funnels.",
+        "modes": ["waterfall_cascade", "whirlpool_drain"]
+    },
+    17: {
+        "id": 17,
+        "slug": "plinko_pegboard_drops",
+        "name": "Plinko Pegboard Drops",
+        "archetype": "Galton Stochastic Drops",
+        "description": "Galton peg deflections and conveyored gravity releases.",
+        "modes": ["plinko_bounce", "conveyor_gravity_drop"]
+    },
+    18: {
+        "id": 18,
+        "slug": "magnetic_attraction_fields",
+        "name": "Magnetic Attraction Fields",
+        "archetype": "Electromagnetic Fields",
+        "description": "Dipolar magnetic pull/snap and gravitational horizon capture.",
+        "modes": ["magnetic_attraction", "black_hole_event_horizon"]
+    },
+    19: {
+        "id": 19,
+        "slug": "deep_space_meteor_strikes",
+        "name": "Deep Space Meteor Strikes",
+        "archetype": "Orbital Intercepts",
+        "description": "High-velocity orbital intercepts and head-on bullet collisions.",
+        "modes": ["meteor_strike", "dual_bullet_collision"]
+    },
+    20: {
+        "id": 20,
+        "slug": "planetary_orbit_carousels",
+        "name": "Planetary Orbit Carousels",
+        "archetype": "Celestial Mechanics",
+        "description": "Circular satellite revolutions and Keplerian elliptical tracks.",
+        "modes": ["orbit_carousel", "orbit_elliptical"]
+    },
+    21: {
+        "id": 21,
+        "slug": "counter_rotating_gyros",
+        "name": "Counter-Rotating Gyros",
+        "archetype": "Rotational Inertia",
+        "description": "Dual opposite orbital rings and 3D inclined gimbal tilts.",
+        "modes": ["orbit_counter_rotating", "carousel_tilt"]
+    },
+    22: {
+        "id": 22,
+        "slug": "logarithmic_spiral_galaxies",
+        "name": "Logarithmic Spiral Galaxies",
+        "archetype": "Vortical Acceleration",
+        "description": "Inward spiral collapses and outward galactic arm expansions.",
+        "modes": ["spiral_galaxy_in", "spiral_galaxy_out"]
+    },
+    23: {
+        "id": 23,
+        "slug": "infinity_lemniscates",
+        "name": "Infinity Lemniscates",
+        "archetype": "Continuous Topologies",
+        "description": "Figure-8 continuous loops and entwined double-helix crossings.",
+        "modes": ["infinity_figure_eight", "dna_double_helix"]
+    },
+    24: {
+        "id": 24,
+        "slug": "celestial_solar_eclipses",
+        "name": "Celestial Solar Eclipses",
+        "archetype": "Coronal Occlusion",
+        "description": "Total coronal occlusion locks and silhouette shadow scaling.",
+        "modes": ["solar_eclipse", "shadow_morph_scale"]
+    },
+    25: {
+        "id": 25,
+        "slug": "casino_roulette_wheels",
+        "name": "Casino Roulette Wheels",
+        "archetype": "Probability Rotations",
+        "description": "High-speed radial wheel spins and 3-reel slot jackpot freezes.",
+        "modes": ["roulette_wheel_spin", "slot_jackpot_frenzy"]
+    },
+    26: {
+        "id": 26,
+        "slug": "cyclonic_tornadoes",
+        "name": "Cyclonic Tornadoes",
+        "archetype": "Atmospheric Vortices",
+        "description": "Funnel cloud vortex rotational pulls and pop-up burst snaps.",
+        "modes": ["tornado_vortex", "whack_a_mole_pop"]
+    },
+    27: {
+        "id": 27,
+        "slug": "radar_beam_sweeps",
+        "name": "Radar Beam Sweeps",
+        "archetype": "Sensor Tracking",
+        "description": "360-degree continuous sweep beams and line scanner tracking.",
+        "modes": ["radar_sweep_360", "laser_scanner_sweep"]
+    },
+    28: {
+        "id": 28,
+        "slug": "atomic_electron_shells",
+        "name": "Atomic Electron Shells",
+        "archetype": "Quantum Discretization",
+        "description": "Quantum orbital electron jumps and stepped quantized tiers.",
+        "modes": ["atom_electrons", "staircase_steps"]
+    },
+    29: {
+        "id": 29,
+        "slug": "interlocking_gear_trains",
+        "name": "Interlocking Gear Trains",
+        "archetype": "Mechanical Kinematics",
+        "description": "Meshing cogwheel teeth and industrial conveyor transfer tracks.",
+        "modes": ["gear_train_mesh", "conveyor_belt_rush"]
+    },
+    30: {
+        "id": 30,
+        "slug": "cardinal_4way_crossfires",
+        "name": "Cardinal 4-Way Crossfires",
+        "archetype": "Omnidirectional Convergence",
+        "description": "4-directional convergent crossfires and vertical vise clamping.",
+        "modes": ["crossfire_4way", "vertical_vise"]
+    },
+    31: {
+        "id": 31,
+        "slug": "diagonal_x_interceptors",
+        "name": "Diagonal-X Interceptors",
+        "archetype": "Geometric Intercepts",
+        "description": "Diagonal cross-fire intersections and precision scissor pinches.",
+        "modes": ["crossfire_diagonal_x", "scissor_pinch"]
+    },
+    32: {
+        "id": 32,
+        "slug": "hexagonal_6way_crossfires",
+        "name": "Hexagonal 6-Way Crossfires",
+        "archetype": "Polygonal Implosions",
+        "description": "60-degree hexagonal convergences and 4-wall box implosions.",
+        "modes": ["crossfire_6way_hexagon", "box_implosion"]
+    },
+    33: {
+        "id": 33,
+        "slug": "supernova_8way_starbursts",
+        "name": "Supernova 8-Way Starbursts",
+        "archetype": "Radial Intercepts",
+        "description": "8-directional starburst implosions and diamond corner locks.",
+        "modes": ["crossfire_8way_supernova", "diamond_convergence"]
+    },
+    34: {
+        "id": 34,
+        "slug": "precision_sniper_crosshairs",
+        "name": "Precision Sniper Crosshairs",
+        "archetype": "Target Lock-On",
+        "description": "Long-range scope reticle wandering and red laser crosshair locks.",
+        "modes": ["sniper_target_lock", "laser_crosshairs"]
+    },
+    35: {
+        "id": 35,
+        "slug": "mechanical_box_vises",
+        "name": "Mechanical Box Vises",
+        "archetype": "Bounding Compressions",
+        "description": "Corner perimeter squeezing and 4-quadrant simultaneous locks.",
+        "modes": ["corner_squeeze", "quad_lock"]
+    },
+    36: {
+        "id": 36,
+        "slug": "arrowhead_ballistics",
+        "name": "Arrowhead Ballistics",
+        "archetype": "Piercing Trajectories",
+        "description": "Precision dart strikes and mechanical camera iris aperture leaves.",
+        "modes": ["arrowhead_strike", "focus_aperture_shutter"]
+    },
+    37: {
+        "id": 37,
+        "slug": "optical_scale_pulses",
+        "name": "Optical Scale Pulses",
+        "archetype": "Focal Magnification",
+        "description": "Rhythmic magnification breathing and inverse zoom scale balancing.",
+        "modes": ["zoom_pulse", "dual_zoom_inverse"]
+    },
+    38: {
+        "id": 38,
+        "slug": "staggered_triple_zooms",
+        "name": "Staggered Triple Zooms",
+        "archetype": "Cascading Depth",
+        "description": "Multi-tier depth zoom waves and cylindrical anamorphic stretches.",
+        "modes": ["triple_zoom_stagger", "anamorphic_stretch"]
+    },
+    39: {
+        "id": 39,
+        "slug": "depth_3d_wormholes",
+        "name": "Depth 3D Wormholes",
+        "archetype": "Perspective Flight",
+        "description": "Infinite 3D tunnel fly-throughs and 4-dimensional tesseract shifts.",
+        "modes": ["depth_3d_tunnel", "dimension_shift_4d"]
+    },
+    40: {
+        "id": 40,
+        "slug": "dual_axis_card_flips",
+        "name": "Dual-Axis Card Flips",
+        "archetype": "Spatial Revolutions",
+        "description": "Horizontal yaw card revolutions and vertical pitch tumbling flips.",
+        "modes": ["card_flip_horizontal", "card_flip_vertical"]
+    },
+    41: {
+        "id": 41,
+        "slug": "isometric_axonometric_cubes",
+        "name": "Isometric Axonometric Cubes",
+        "archetype": "Axonometric Alignment",
+        "description": "2.5D isometric perspective docking and origami pop-up book unfolding.",
+        "modes": ["isometric_cube_align", "pop_up_book"]
+    },
+    42: {
+        "id": 42,
+        "slug": "optical_spectrum_prisms",
+        "name": "Optical Spectrum Prisms",
+        "archetype": "Optical Refraction",
+        "description": "Chromatic rainbow dispersion splits and objective lens focus racking.",
+        "modes": ["prism_spectrum_split", "microscope_focus"]
+    },
+    43: {
+        "id": 43,
+        "slug": "fisheye_barrel_distortions",
+        "name": "Fisheye Barrel Distortions",
+        "archetype": "Non-Linear Optics",
+        "description": "Wide-angle fisheye lens warps and inverted pyramidal step balancing.",
+        "modes": ["fisheye_lens_warp", "inverted_pyramid"]
+    },
+    44: {
+        "id": 44,
+        "slug": "orthogonal_2x2_matrices",
+        "name": "Orthogonal 2x2 Matrices",
+        "archetype": "Discrete Matrix Logic",
+        "description": "4-cell matrix quadrant rotations and rotated diamond grids.",
+        "modes": ["matrix_2x2", "diamond_grid_4"]
+    },
+    45: {
+        "id": 45,
+        "slug": "high_density_3x3_matrices",
+        "name": "High-Density 3x3 Matrices",
+        "archetype": "Slot Permutations",
+        "description": "9-slot matrix alignment and classic 15-slider tile shifting.",
+        "modes": ["matrix_3x3_slots", "sliding_puzzle_15"]
+    },
+    46: {
+        "id": 46,
+        "slug": "geometric_block_drops",
+        "name": "Geometric Block Drops",
+        "archetype": "Spatial Tesselation",
+        "description": "Tetramino geometry drop fits and Rubik's cube layer rotations.",
+        "modes": ["tetris_block_drop", "rubiks_slice_turn"]
+    },
+    47: {
+        "id": 47,
+        "slug": "quantum_teleportation_snaps",
+        "name": "Quantum Teleportation Snaps",
+        "archetype": "Quantum Coordinate Jumps",
+        "description": "Instantaneous spatial coordinate snaps and relativistic warp drive stretches.",
+        "modes": ["teleport_snap", "hyperspace_warp_drive"]
+    },
+    48: {
+        "id": 48,
+        "slug": "high_frequency_strobe_freezes",
+        "name": "High-Frequency Strobe Freezes",
+        "archetype": "Temporal Photography",
+        "description": "Flash photography strobe freezes and digital matrix jitter.",
+        "modes": ["strobe_flash_freeze", "glitch_matrix_jitter"]
+    },
+    49: {
+        "id": 49,
+        "slug": "subway_surfer_dash_tracks",
+        "name": "Subway Surfer Dash Tracks",
+        "archetype": "High-Speed Reflexes",
+        "description": "3-track rapid lane switching and RPM rev limiter redline bounces.",
+        "modes": ["subway_surfer_lanes", "tachometer_rev_limiter"]
+    },
+    50: {
+        "id": 50,
+        "slug": "precision_chrono_metronomes",
+        "name": "Precision Chrono Metronomes",
+        "archetype": "Isochronous Chronometry",
+        "description": "Isochronous metronome ticks and millisecond stopwatch freeze frames.",
+        "modes": ["metronome_tick", "stopwatch_countdown"]
+    }
+}
+
+# Fast Lookup Mapping from Mode Name -> Family Metadata
+MODE_TO_FAMILY = {}
+for _fid, _fdata in PUZZLE_FAMILIES.items():
+    for _m in _fdata["modes"]:
+        MODE_TO_FAMILY[_m] = _fdata
+
+def get_puzzle_family(family_id: int):
+    """Returns family metadata dict by its integer ID (1 to 50)."""
+    return PUZZLE_FAMILIES.get(family_id)
+
+def get_family_by_mode(mode_name: str):
+    """Returns family metadata dict for any given gameplay mode."""
+    return MODE_TO_FAMILY.get(mode_name)
+
+def list_puzzle_families():
+    """Returns list of all active puzzle families."""
+    return list(PUZZLE_FAMILIES.values())
