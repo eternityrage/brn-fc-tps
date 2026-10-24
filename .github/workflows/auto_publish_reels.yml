@@ -42,7 +42,6 @@ on:
 
 permissions:
   contents: write
-  actions: write
 
 concurrency:
   group: publish-reels-${{ github.ref }}
@@ -103,9 +102,3 @@ jobs:
           else
             echo "ℹ️ No changes to published history."
           fi
-
-      - name: Keepalive Workflow Heartbeat
-        uses: gautamkrishnar/keepalive-workflow@v2
-        with:
-          committing: true
-          commit_message: "Automated keepalive heartbeat to prevent 60-day inactivity pause [skip ci]"
