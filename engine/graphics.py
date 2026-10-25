@@ -88,43 +88,44 @@ def fast_overlay(frame, sprite_bgr, sprite_alpha, x, y, sw, sh, width=1080, heig
 
 def build_background(title_text="CAN YOU STOP IN THE SHADOW?", subtitle="TAP SCREEN TO PAUSE IN TIME!", width=1080, height=1920):
     """
-    Renders a hyper-polished, realistic studio puzzle background with:
-    - Safe-zone aware layout (completely un-cramped, perfect margins for Facebook & IG Reels)
-    - Multi-layered ambient occlusion and drop shadows for realistic depth
-    - Glassmorphism & metallic card accents with generous internal padding
-    - Vibrant, spaced badge pills and un-cramped call-to-action container
+    Renders a hyper-polished, realistic studio puzzle background:
+    - Clean studio radial vignette backdrop (zero stray lines, rings, or reticle ticks)
+    - Compact, elegant top header with integrated difficulty pill (ends at y <= 316)
+    - Completely clear gameplay field between y = 320 and y = 1540 (zero sprite collisions)
+    - 100 percent safe-zone bottom Call-to-Action container at y = 1590 (height - 330)
     """
     cx, cy = width / 2, height * 0.47
-    max_radius = math.hypot(width, height) / 1.45
+    max_radius = math.hypot(width, height) / 1.35
     y, x = np.ogrid[:height, :width]
     dist = np.clip(np.hypot(x - cx, y - cy) / max_radius, 0.0, 1.0)
     
-    # Premium deep-vignette studio backdrop (warm-center to cool-slate vignette)
+    # Premium clean studio backdrop (zero stray lines or arena ticks)
     c_center = np.array([255, 255, 255], dtype=np.float32)
-    c_edge = np.array([210, 222, 238], dtype=np.float32)
-    bg_np = (c_center * (1.0 - dist[:, :, None]) + c_edge * dist[:, :, None]).astype(np.uint8)
+    c_edge = np.array([214, 226, 240], dtype=np.float32)
+    bg_np = (c_center * (1.0 - (dist**1.2)[:, :, None]) + c_edge * (dist**1.2)[:, :, None]).astype(np.uint8)
     
     bg_img = Image.fromarray(bg_np, mode="RGB").convert("RGBA")
     draw = ImageDraw.Draw(bg_img)
-    icx, icy = int(cx), int(cy)
     
-    # Realistic glowing target arena rings
-    draw.ellipse([icx - 460, icy - 460, icx + 460, icy + 460], outline=(160, 180, 208, 50), width=6)
-    draw.ellipse([icx - 420, icy - 420, icx + 420, icy + 420], fill=(240, 246, 255, 50), outline=(150, 175, 205, 90), width=3)
-    draw.ellipse([icx - 140, icy - 140, icx + 140, icy + 140], outline=(165, 185, 215, 60), width=2)
+    # ------------------ TOP CONTAINER: SLEEK FLOATING HEADER ------------------
+    # 1. Top Pill Badge (Difficulty / Challenge Cue) - Centered at y = 60
+    badge_font = get_bold_font(30)
+    badge_text = "99% FAIL • REACTION TEST"
+    tb = draw.textbbox((0, 0), badge_text, font=badge_font)
+    tb_w = tb[2] - tb[0]
+    tb_h = tb[3] - tb[1]
     
-    # Arena reticle ticks & crosshairs
-    for angle in [0, 45, 90, 135, 180, 225, 270, 315]:
-        rad = math.radians(angle)
-        r1 = 420
-        r2 = 450 if angle % 90 == 0 else 435
-        x1 = icx + int(r1 * math.cos(rad))
-        y1 = icy + int(r1 * math.sin(rad))
-        x2 = icx + int(r2 * math.cos(rad))
-        y2 = icy + int(r2 * math.sin(rad))
-        draw.line([x1, y1, x2, y2], fill=(140, 165, 195, 160 if angle % 90 == 0 else 90), width=4 if angle % 90 == 0 else 2)
-
-    # ------------------ TOP CONTAINER: TITLE CARD ------------------
+    badge_w = tb_w + 64
+    badge_h = 52
+    badge_x = (width - badge_w) // 2
+    badge_y = 60
+    
+    # Badge shadow & pill
+    draw.rounded_rectangle([badge_x, badge_y + 4, badge_x + badge_w, badge_y + badge_h + 4], radius=badge_h // 2, fill=(180, 195, 215, 80))
+    draw.rounded_rectangle([badge_x, badge_y, badge_x + badge_w, badge_y + badge_h], radius=badge_h // 2, fill=(225, 29, 72, 255), outline=(255, 255, 255, 220), width=2)
+    draw.text((badge_x + (badge_w - tb_w) // 2, badge_y + (badge_h - tb_h) // 2 - tb[1]), badge_text, fill=(255, 255, 255), font=badge_font)
+    
+    # 2. Main Title Card - Floating below the top pill
     clean_title = title_text.encode('ascii', 'ignore').decode('ascii').strip().upper()
     if not clean_title:
         clean_title = "CAN YOU STOP IN THE SHADOW?"
@@ -133,17 +134,15 @@ def build_background(title_text="CAN YOU STOP IN THE SHADOW?", subtitle="TAP SCR
     card_w = width - (card_margin_x * 2)  # 968px wide
     card_left = card_margin_x
     card_right = card_left + card_w
-    top_y = 100
+    top_y = 126
     
-    # Internal text constraints (generous 48px padding on sides)
     max_text_w = card_w - 96
-    
-    font_size = 52
+    font_size = 50
     title_font = get_bold_font(font_size)
     bbox = draw.textbbox((0, 0), clean_title, font=title_font)
     tw = bbox[2] - bbox[0]
     
-    while tw > max_text_w and font_size > 40:
+    while tw > max_text_w and font_size > 38:
         font_size -= 2
         title_font = get_bold_font(font_size)
         bbox = draw.textbbox((0, 0), clean_title, font=title_font)
@@ -151,7 +150,6 @@ def build_background(title_text="CAN YOU STOP IN THE SHADOW?", subtitle="TAP SCR
         
     lines = [clean_title]
     if tw > max_text_w:
-        # Wrap into 2 balanced lines with generous line height
         words = clean_title.split()
         best_diff = 999
         best_split = len(words) // 2
@@ -163,8 +161,7 @@ def build_background(title_text="CAN YOU STOP IN THE SHADOW?", subtitle="TAP SCR
                 best_diff = diff
                 best_split = i
         lines = [" ".join(words[:best_split]), " ".join(words[best_split:])]
-        
-        font_size = 44
+        font_size = 42
         title_font = get_bold_font(font_size)
         w1 = draw.textbbox((0, 0), lines[0], font=title_font)[2] - draw.textbbox((0, 0), lines[0], font=title_font)[0]
         w2 = draw.textbbox((0, 0), lines[1], font=title_font)[2] - draw.textbbox((0, 0), lines[1], font=title_font)[0]
@@ -173,27 +170,27 @@ def build_background(title_text="CAN YOU STOP IN THE SHADOW?", subtitle="TAP SCR
             title_font = get_bold_font(font_size)
             w1 = draw.textbbox((0, 0), lines[0], font=title_font)[2] - draw.textbbox((0, 0), lines[0], font=title_font)[0]
             w2 = draw.textbbox((0, 0), lines[1], font=title_font)[2] - draw.textbbox((0, 0), lines[1], font=title_font)[0]
-        card_h = 210  # Generous height for 2 lines
+        card_h = 190
     else:
-        card_h = 148  # Generous height for 1 line
+        card_h = 138
         
-    # Multi-layered soft drop shadows for realistic depth
+    # Multi-layered soft drop shadows
     for offset, alpha in [(12, 35), (8, 60), (4, 90)]:
         draw.rounded_rectangle(
-            [card_left + 2, top_y + offset, card_right + 2, top_y + card_h + offset],
-            radius=32, fill=(160, 178, 205, alpha)
+            [card_left, top_y + offset, card_right, top_y + card_h + offset],
+            radius=28, fill=(160, 178, 205, alpha)
         )
         
-    # Main Glass/Enamel Container Card
+    # Main Container Card (Solid & Clean, NO partial cut lines!)
     draw.rounded_rectangle(
         [card_left, top_y, card_right, top_y + card_h],
-        radius=32, fill=(255, 255, 255, 252),
-        outline=(205, 220, 240, 255), width=3
+        radius=28, fill=(255, 255, 255, 252),
+        outline=(205, 220, 240, 255), width=2
     )
-    # Subtle inner top rim light for realism
+    # Full-perimeter subtle inner rim (uniform 1px, NO horizontal cut line!)
     draw.rounded_rectangle(
-        [card_left + 2, top_y + 2, card_right - 2, top_y + card_h // 2],
-        radius=30, outline=(255, 255, 255, 220), width=2
+        [card_left + 1, top_y + 1, card_right - 1, top_y + card_h - 1],
+        radius=27, outline=(255, 255, 255, 200), width=1
     )
 
     # Render centered text with generous breathing space
@@ -210,33 +207,8 @@ def build_background(title_text="CAN YOU STOP IN THE SHADOW?", subtitle="TAP SCR
         ly = start_y + i * (line_h + line_spacing) - line_bbox[1]
         draw.text((lx, ly), line, fill=(15, 23, 42, 255), font=title_font)
 
-    # ------------------ BADGES ROW (SPACED & UN-CRAMPED) ------------------
-    badge_font = get_bold_font(32)
-    badge_y = top_y + card_h + 24
-    
-    def draw_sleek_badge(bx, by, bw, bh, text, bg_color, dot_color=None):
-        # Soft shadow
-        draw.rounded_rectangle([bx + 2, by + 5, bx + bw + 2, by + bh + 5], radius=bh // 2, fill=(150, 170, 195, 70))
-        # Main pill container
-        draw.rounded_rectangle([bx, by, bx + bw, by + bh], radius=bh // 2, fill=bg_color, outline=(255, 255, 255, 180), width=2)
-        tbox = draw.textbbox((0, 0), text, font=badge_font)
-        tbw = tbox[2] - tbox[0]
-        tbh = tbox[3] - tbox[1]
-        text_x = bx + (bw - tbw) // 2
-        if dot_color:
-            text_x += 14
-            dot_r = 7
-            dot_cx = bx + (bw - tbw) // 2 - 12
-            dot_cy = by + bh // 2
-            draw.ellipse([dot_cx - dot_r, dot_cy - dot_r, dot_cx + dot_r, dot_cy + dot_r], fill=dot_color)
-        draw.text((text_x, by + (bh - tbh) // 2 - tbox[1]), text, fill=(255, 255, 255), font=badge_font)
-
-    # Spaced badges: 56px margins, 68px height
-    draw_sleek_badge(card_margin_x, badge_y, 280, 68, "99% FAIL", (225, 29, 72), dot_color=(255, 220, 0))
-    draw_sleek_badge(width - card_margin_x - 330, badge_y, 330, 68, "TAP TO PAUSE", (14, 116, 244), dot_color=(56, 189, 248))
-
     # ------------------ BOTTOM CTA CONTAINER (SAFE ZONE REPOSITIONED) ------------------
-    # Positioned at y = 1580 (height - 340) to be completely ABOVE Facebook/Instagram Reels UI
+    # Positioned at y = 1590 (height - 330) to be completely ABOVE Facebook/Instagram Reels UI
     clean_sub = subtitle.encode('ascii', 'ignore').decode('ascii').strip().upper()
     if not clean_sub:
         clean_sub = "TAP SCREEN TO PAUSE IN TIME!"
@@ -246,21 +218,20 @@ def build_background(title_text="CAN YOU STOP IN THE SHADOW?", subtitle="TAP SCR
     cw = c_bbox[2] - c_bbox[0]
     ch = c_bbox[3] - c_bbox[1]
     
-    # Generous container padding: +120px width, 88px height
     bar_w = min(width - 120, cw + 120)
     bar_h = 88
-    bot_y = height - 340
+    bot_y = height - 330
     bx1 = (width - bar_w) // 2
     bx2 = bx1 + bar_w
     by1 = bot_y
     by2 = by1 + bar_h
     
     # Ambient shadow
-    draw.rounded_rectangle([bx1 + 2, by1 + 6, bx2 + 2, by2 + 6], radius=bar_h // 2, fill=(15, 23, 42, 60))
+    draw.rounded_rectangle([bx1, by1 + 6, bx2, by2 + 6], radius=bar_h // 2, fill=(15, 23, 42, 60))
     # Sleek dark cyber pill with neon cyan rim
     draw.rounded_rectangle([bx1, by1, bx2, by2], radius=bar_h // 2, fill=(15, 23, 42, 245), outline=(56, 189, 248, 230), width=3)
-    # Inner subtle highlight
-    draw.rounded_rectangle([bx1 + 2, by1 + 2, bx2 - 2, by1 + bar_h // 2], radius=bar_h // 2, outline=(255, 255, 255, 50), width=1)
+    # Full perimeter inner highlight (NO horizontal cut line!)
+    draw.rounded_rectangle([bx1 + 1, by1 + 1, bx2 - 1, by2 - 1], radius=bar_h // 2, outline=(255, 255, 255, 50), width=1)
     # Centered text with generous padding
     draw.text((bx1 + (bar_w - cw) // 2, by1 + (bar_h - ch) // 2 - c_bbox[1]), clean_sub, fill=(255, 255, 255), font=sub_font)
     

@@ -51,15 +51,15 @@ def _setup_sprites(hero_path, item_path, hero_size=360, item_size=180, outline_c
 
 def _oscillation_engine(hero_path, item_path, temp_video, duration, fps, outline_color, title,
                         osc_type="horizontal", freqs=[0.5, 0.75, 1.0, 0.75], amps=[280, 260, 270, 250],
-                        dirs=[1, -1, 1, -1], items_y=[920, 1160, 1400], t_win=2.4):
+                        dirs=[1, -1, 1, -1], items_y=[940, 1160, 1380], t_win=2.4):
     total_frames = int(duration * fps)
     base_bg = build_background(title, width=WIDTH, height=HEIGHT)
     (h_sp, h_out, h_bgr, h_a, hw, hh), (i_sp, i_out, i_bgr, i_a, iw, ih) = _setup_sprites(
-        hero_path, item_path, hero_size=360, item_size=180, outline_color=outline_color
+        hero_path, item_path, hero_size=320, item_size=175, outline_color=outline_color
     )
     
     hero_tx = (WIDTH - hw) // 2
-    hero_ty = 360
+    hero_ty = 440
     item_tx = (WIDTH - iw) // 2
     
     base_with_out = base_bg.copy()
@@ -87,31 +87,31 @@ def _oscillation_engine(hero_path, item_path, temp_video, duration, fps, outline
                 fast_overlay(frame, i_bgr, i_a, int(item_tx + i_dx), iy, iw, ih)
                 
         elif osc_type == "vertical":
-            h_dy = smooth_playable_oscillation(t, t_win, freqs[0], amps[0], dirs[0])
+            h_dy = smooth_playable_oscillation(t, t_win, freqs[0], min(amps[0], 110), dirs[0])
             fast_overlay(frame, h_bgr, h_a, hero_tx, int(hero_ty + h_dy), hw, hh)
             for idx, iy in enumerate(items_y):
                 idx_clamp = min(idx + 1, len(freqs) - 1)
                 idx_dir = min(idx + 1, len(dirs) - 1)
-                i_dy = smooth_playable_oscillation(t, t_win, freqs[idx_clamp], amps[idx_clamp], dirs[idx_dir])
+                i_dy = smooth_playable_oscillation(t, t_win, freqs[idx_clamp], min(amps[idx_clamp], 90), dirs[idx_dir])
                 fast_overlay(frame, i_bgr, i_a, item_tx, int(iy + i_dy), iw, ih)
                 
         elif osc_type == "diagonal_slash":
             h_off = smooth_playable_oscillation(t, t_win, freqs[0], amps[0], dirs[0])
-            fast_overlay(frame, h_bgr, h_a, int(hero_tx + h_off), int(hero_ty + h_off * 0.7), hw, hh)
+            fast_overlay(frame, h_bgr, h_a, int(hero_tx + h_off), int(hero_ty + h_off * 0.4), hw, hh)
             for idx, iy in enumerate(items_y):
                 idx_clamp = min(idx + 1, len(freqs) - 1)
                 idx_dir = min(idx + 1, len(dirs) - 1)
                 i_off = smooth_playable_oscillation(t, t_win, freqs[idx_clamp], amps[idx_clamp], dirs[idx_dir])
-                fast_overlay(frame, i_bgr, i_a, int(item_tx + i_off), int(iy + i_off * 0.7), iw, ih)
+                fast_overlay(frame, i_bgr, i_a, int(item_tx + i_off), int(iy + i_off * 0.35), iw, ih)
                 
         elif osc_type == "back_diagonal":
             h_off = smooth_playable_oscillation(t, t_win, freqs[0], amps[0], dirs[0])
-            fast_overlay(frame, h_bgr, h_a, int(hero_tx + h_off), int(hero_ty - h_off * 0.7), hw, hh)
+            fast_overlay(frame, h_bgr, h_a, int(hero_tx + h_off), int(hero_ty - h_off * 0.4), hw, hh)
             for idx, iy in enumerate(items_y):
                 idx_clamp = min(idx + 1, len(freqs) - 1)
                 idx_dir = min(idx + 1, len(dirs) - 1)
                 i_off = smooth_playable_oscillation(t, t_win, freqs[idx_clamp], amps[idx_clamp], dirs[idx_dir])
-                fast_overlay(frame, i_bgr, i_a, int(item_tx + i_off), int(iy - i_off * 0.7), iw, ih)
+                fast_overlay(frame, i_bgr, i_a, int(item_tx + i_off), int(iy - i_off * 0.35), iw, ih)
                 
         elif osc_type == "sine_meander":
             dt = t - t_win
@@ -154,10 +154,10 @@ def _oscillation_engine(hero_path, item_path, temp_video, duration, fps, outline
                 
         elif osc_type == "piston":
             dt = t - t_win
-            piston_h = 240 * (math.sin(2 * math.pi * 1.4 * dt) + 0.25 * math.sin(4 * math.pi * 1.4 * dt))
+            piston_h = 95 * (math.sin(2 * math.pi * 1.4 * dt) + 0.25 * math.sin(4 * math.pi * 1.4 * dt))
             fast_overlay(frame, h_bgr, h_a, hero_tx, int(hero_ty + piston_h), hw, hh)
             for idx, iy in enumerate(items_y):
-                piston_i = 200 * (math.sin(2 * math.pi * (1.6 + idx*0.3) * dt) + 0.25 * math.sin(4 * math.pi * (1.6 + idx*0.3) * dt))
+                piston_i = 85 * (math.sin(2 * math.pi * (1.6 + idx*0.3) * dt) + 0.25 * math.sin(4 * math.pi * (1.6 + idx*0.3) * dt))
                 fast_overlay(frame, i_bgr, i_a, item_tx, int(iy + piston_i), iw, ih)
                 
         elif osc_type == "zigzag":
@@ -231,11 +231,11 @@ def _physics_drop_engine(hero_path, item_path, temp_video, duration, fps, outlin
     total_frames = int(duration * fps)
     base_bg = build_background(title, width=WIDTH, height=HEIGHT)
     (h_sp, h_out, h_bgr, h_a, hw, hh), (i_sp, i_out, i_bgr, i_a, iw, ih) = _setup_sprites(
-        hero_path, item_path, hero_size=360, item_size=180, outline_color=outline_color
+        hero_path, item_path, hero_size=320, item_size=175, outline_color=outline_color
     )
     
     hero_tx = (WIDTH - hw) // 2
-    hero_ty = 360
+    hero_ty = 440
     
     base_with_out = base_bg.copy()
     base_with_out.paste(h_out, (hero_tx, hero_ty), h_out)
