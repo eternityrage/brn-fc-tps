@@ -13543,5 +13543,25 @@
       "status": "success",
       "url": "https://facebook.com/1079409558188685"
     }
+  },
+  {
+    "timestamp": "2026-10-25T11:25:19.935951+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_microscope_focus_tram_ox_20261025_112514.mp4",
+    "family_id": 42,
+    "family_name": "Optical Spectrum Prisms",
+    "mode": "microscope_focus",
+    "hero": "tram",
+    "item": "ox",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1157350859972756",
+      "comment_id": "1157350859972756_1872165193942381",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1157350859972756"
+    }
   }
 ]
