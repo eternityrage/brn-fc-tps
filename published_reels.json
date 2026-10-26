@@ -13643,5 +13643,25 @@
       "status": "success",
       "url": "https://facebook.com/1102164152619518"
     }
+  },
+  {
+    "timestamp": "2026-10-26T12:59:36.237394+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_stopwatch_countdown_lacrosse_running_shirt_20261026_125933.mp4",
+    "family_id": 50,
+    "family_name": "Precision Chrono Metronomes",
+    "mode": "stopwatch_countdown",
+    "hero": "lacrosse",
+    "item": "running_shirt",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1155103146948043",
+      "comment_id": "1155103146948043_1119724524363049",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1155103146948043"
+    }
   }
 ]
