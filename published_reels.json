@@ -13683,5 +13683,25 @@
       "status": "success",
       "url": "https://facebook.com/1336659245111740"
     }
+  },
+  {
+    "timestamp": "2026-10-26T20:27:55.561055+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_badminton_open_book_20261026_202752.mp4",
+    "family_id": 47,
+    "family_name": "Quantum Teleportation Snaps",
+    "mode": "teleport_snap",
+    "hero": "badminton",
+    "item": "open_book",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1173825725194378",
+      "comment_id": "1173825725194378_4576642289330736",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1173825725194378"
+    }
   }
 ]
