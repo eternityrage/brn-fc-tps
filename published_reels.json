@@ -13703,5 +13703,25 @@
       "status": "success",
       "url": "https://facebook.com/1173825725194378"
     }
+  },
+  {
+    "timestamp": "2026-10-26T23:51:21.046458+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_swing_horizontal_nut_and_bolt_angry_face_with_horns_20261026_235115.mp4",
+    "family_id": 3,
+    "family_name": "Horizontal Slider Lanes",
+    "mode": "swing_horizontal",
+    "hero": "nut_and_bolt",
+    "item": "angry_face_with_horns",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1532814822020607",
+      "comment_id": "1532814822020607_3998340030307964",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1532814822020607"
+    }
   }
 ]
