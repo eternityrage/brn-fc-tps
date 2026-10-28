@@ -13843,5 +13843,25 @@
       "status": "success",
       "url": "https://facebook.com/1099958039331526"
     }
+  },
+  {
+    "timestamp": "2026-10-28T17:08:51.539585+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_quad_lock_baggage_claim_cheese_wedge_20261028_170847.mp4",
+    "family_id": 35,
+    "family_name": "Mechanical Box Vises",
+    "mode": "quad_lock",
+    "hero": "baggage_claim",
+    "item": "cheese_wedge",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1821301362519513",
+      "comment_id": "1821301362519513_1142518421968285",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1821301362519513"
+    }
   }
 ]
