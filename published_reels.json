@@ -13943,5 +13943,25 @@
       "status": "success",
       "url": "https://facebook.com/1474989301192814"
     }
+  },
+  {
+    "timestamp": "2026-10-29T17:24:17.337512+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_freefall_terminal_person_surfing_llama_20261029_172412.mp4",
+    "family_id": 12,
+    "family_name": "Terminal Gravity Freefalls",
+    "mode": "freefall_terminal",
+    "hero": "person_surfing",
+    "item": "llama",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1615711430353736",
+      "comment_id": "1615711430353736_2160104087917687",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1615711430353736"
+    }
   }
 ]
