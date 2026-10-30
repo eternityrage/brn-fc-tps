@@ -14023,5 +14023,25 @@
       "status": "success",
       "url": "https://facebook.com/1632070885229757"
     }
+  },
+  {
+    "timestamp": "2026-10-30T12:52:34.130711+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_pendulum_clockwork_hammer_and_pick_dragon_face_20261030_125229.mp4",
+    "family_id": 1,
+    "family_name": "Harmonic Pendulums",
+    "mode": "pendulum_clockwork",
+    "hero": "hammer_and_pick",
+    "item": "dragon_face",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1105078779075775",
+      "comment_id": "1105078779075775_1380804350527325",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1105078779075775"
+    }
   }
 ]
