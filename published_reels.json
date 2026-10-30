@@ -14083,5 +14083,25 @@
       "status": "success",
       "url": "https://facebook.com/1459666389641035"
     }
+  },
+  {
+    "timestamp": "2026-10-30T23:43:08.848645+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_microscope_focus_roller_skate_game_die_20261030_234304.mp4",
+    "family_id": 42,
+    "family_name": "Optical Spectrum Prisms",
+    "mode": "microscope_focus",
+    "hero": "roller_skate",
+    "item": "game_die",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1493962295941601",
+      "comment_id": "1493962295941601_1850641392749942",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1493962295941601"
+    }
   }
 ]
