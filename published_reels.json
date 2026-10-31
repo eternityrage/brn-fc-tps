@@ -14103,5 +14103,25 @@
       "status": "success",
       "url": "https://facebook.com/1493962295941601"
     }
+  },
+  {
+    "timestamp": "2026-10-31T06:56:52.080520+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_metronome_tick_heart_suit_whale_20261031_065648.mp4",
+    "family_id": 50,
+    "family_name": "Precision Chrono Metronomes",
+    "mode": "metronome_tick",
+    "hero": "heart_suit",
+    "item": "whale",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1126619366522490",
+      "comment_id": "1126619366522490_1123907417222345",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1126619366522490"
+    }
   }
 ]
