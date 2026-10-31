@@ -14163,5 +14163,25 @@
       "status": "success",
       "url": "https://facebook.com/1675162620808281"
     }
+  },
+  {
+    "timestamp": "2026-10-31T19:16:01.265496+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_stopwatch_countdown_collision_singer_20261031_191557.mp4",
+    "family_id": 50,
+    "family_name": "Precision Chrono Metronomes",
+    "mode": "stopwatch_countdown",
+    "hero": "collision",
+    "item": "singer",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1150797477897399",
+      "comment_id": "1150797477897399_1773478747513811",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1150797477897399"
+    }
   }
 ]
