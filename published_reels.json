@@ -14283,5 +14283,25 @@
       "status": "success",
       "url": "https://facebook.com/2308115126635846"
     }
+  },
+  {
+    "timestamp": "2026-11-01T23:34:33.320267+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_scissor_pinch_hole_passenger_ship_20261101_233428.mp4",
+    "family_id": 31,
+    "family_name": "Diagonal-X Interceptors",
+    "mode": "scissor_pinch",
+    "hero": "hole",
+    "item": "passenger_ship",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1795527101667848",
+      "comment_id": "1795527101667848_1652597879780389",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1795527101667848"
+    }
   }
 ]
