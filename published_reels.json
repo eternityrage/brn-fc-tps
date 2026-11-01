@@ -14203,5 +14203,25 @@
       "status": "success",
       "url": "https://facebook.com/2240727693164832"
     }
+  },
+  {
+    "timestamp": "2026-11-01T07:28:14.251087+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_control_knobs_man_blonde_hair_20261101_072810.mp4",
+    "family_id": 47,
+    "family_name": "Quantum Teleportation Snaps",
+    "mode": "teleport_snap",
+    "hero": "control_knobs",
+    "item": "man_blonde_hair",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1814483679975294",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1814483679975294"
+    }
   }
 ]
