@@ -14243,5 +14243,25 @@
       "status": "success",
       "url": "https://facebook.com/1121417843587483"
     }
+  },
+  {
+    "timestamp": "2026-11-01T17:06:20.942017+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_arrowhead_strike_bird_mouth_20261101_170616.mp4",
+    "family_id": 36,
+    "family_name": "Arrowhead Ballistics",
+    "mode": "arrowhead_strike",
+    "hero": "bird",
+    "item": "mouth",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1650296236472090",
+      "comment_id": null,
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1650296236472090"
+    }
   }
 ]
