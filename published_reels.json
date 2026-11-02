@@ -14303,5 +14303,25 @@
       "status": "success",
       "url": "https://facebook.com/1795527101667848"
     }
+  },
+  {
+    "timestamp": "2026-11-02T07:38:01.894396+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_staircase_steps_mechanic_rose_20261102_073757.mp4",
+    "family_id": 28,
+    "family_name": "Atomic Electron Shells",
+    "mode": "staircase_steps",
+    "hero": "mechanic",
+    "item": "rose",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "2323719471802042",
+      "comment_id": "2323719471802042_1656409132698009",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2323719471802042"
+    }
   }
 ]
