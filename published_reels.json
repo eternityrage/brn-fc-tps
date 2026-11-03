@@ -14383,5 +14383,25 @@
       "status": "success",
       "url": "https://facebook.com/1477584174270027"
     }
+  },
+  {
+    "timestamp": "2026-11-03T02:16:31.449180+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_subway_surfer_lanes_pear_screwdriver_20261103_021627.mp4",
+    "family_id": 49,
+    "family_name": "Subway Surfer Dash Tracks",
+    "mode": "subway_surfer_lanes",
+    "hero": "pear",
+    "item": "screwdriver",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1897098791700330",
+      "comment_id": "1897098791700330_2299165617546475",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1897098791700330"
+    }
   }
 ]
