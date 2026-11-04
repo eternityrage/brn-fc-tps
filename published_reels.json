@@ -14543,5 +14543,25 @@
       "status": "success",
       "url": "https://facebook.com/1056120784099938"
     }
+  },
+  {
+    "timestamp": "2026-11-04T18:36:52.819482+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_sniper_target_lock_woman_superhero_keycap_0_20261104_183647.mp4",
+    "family_id": 34,
+    "family_name": "Precision Sniper Crosshairs",
+    "mode": "sniper_target_lock",
+    "hero": "woman_superhero",
+    "item": "keycap_0",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "2539980826500247",
+      "comment_id": "2539980826500247_1469796468416583",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2539980826500247"
+    }
   }
 ]
