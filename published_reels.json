@@ -14583,5 +14583,25 @@
       "status": "success",
       "url": "https://facebook.com/1345845374181196"
     }
+  },
+  {
+    "timestamp": "2026-11-05T00:53:42.549201+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_swing_diagonal_slash_firecracker_hundred_points_20261105_005337.mp4",
+    "family_id": 4,
+    "family_name": "Diagonal Slash Trajectories",
+    "mode": "swing_diagonal_slash",
+    "hero": "firecracker",
+    "item": "hundred_points",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1745229236570207",
+      "comment_id": "1745229236570207_1629904462197219",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1745229236570207"
+    }
   }
 ]
