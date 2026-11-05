@@ -14643,5 +14643,25 @@
       "status": "success",
       "url": "https://facebook.com/1719270089858848"
     }
+  },
+  {
+    "timestamp": "2026-11-05T18:43:08.640905+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_metronome_tick_locked_with_key_backhand_index_pointing_right_20261105_184304.mp4",
+    "family_id": 50,
+    "family_name": "Precision Chrono Metronomes",
+    "mode": "metronome_tick",
+    "hero": "locked_with_key",
+    "item": "backhand_index_pointing_right",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "2291239918087755",
+      "comment_id": "2291239918087755_1417615817251907",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2291239918087755"
+    }
   }
 ]
