@@ -14603,5 +14603,25 @@
       "status": "success",
       "url": "https://facebook.com/1745229236570207"
     }
+  },
+  {
+    "timestamp": "2026-11-05T07:52:55.335301+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_microscope_focus_biohazard_clamp_20261105_075249.mp4",
+    "family_id": 42,
+    "family_name": "Optical Spectrum Prisms",
+    "mode": "microscope_focus",
+    "hero": "biohazard",
+    "item": "clamp",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1120227103722177",
+      "comment_id": "1120227103722177_2133197713951418",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1120227103722177"
+    }
   }
 ]
