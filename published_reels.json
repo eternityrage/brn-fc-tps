@@ -14623,5 +14623,25 @@
       "status": "success",
       "url": "https://facebook.com/1120227103722177"
     }
+  },
+  {
+    "timestamp": "2026-11-05T14:37:51.362531+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_freefall_terminal_old_key_japanese_application_button_20261105_143748.mp4",
+    "family_id": 12,
+    "family_name": "Terminal Gravity Freefalls",
+    "mode": "freefall_terminal",
+    "hero": "old_key",
+    "item": "japanese_application_button",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1719270089858848",
+      "comment_id": "1719270089858848_1855097085648106",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1719270089858848"
+    }
   }
 ]
