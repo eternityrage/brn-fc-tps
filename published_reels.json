@@ -14703,5 +14703,25 @@
       "status": "success",
       "url": "https://facebook.com/2529725267504579"
     }
+  },
+  {
+    "timestamp": "2026-11-06T07:53:23.124691+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_stopwatch_countdown_man_bald_blueberries_20261106_075318.mp4",
+    "family_id": 50,
+    "family_name": "Precision Chrono Metronomes",
+    "mode": "stopwatch_countdown",
+    "hero": "man_bald",
+    "item": "blueberries",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1671010207859905",
+      "comment_id": "1671010207859905_1890933492287276",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1671010207859905"
+    }
   }
 ]
