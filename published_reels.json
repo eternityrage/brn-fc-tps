@@ -14723,5 +14723,25 @@
       "status": "success",
       "url": "https://facebook.com/1671010207859905"
     }
+  },
+  {
+    "timestamp": "2026-11-06T14:15:37.581797+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_candle_socks_20261106_141533.mp4",
+    "family_id": 47,
+    "family_name": "Quantum Teleportation Snaps",
+    "mode": "teleport_snap",
+    "hero": "candle",
+    "item": "socks",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1671627491017264",
+      "comment_id": "1671627491017264_4855062864728178",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1671627491017264"
+    }
   }
 ]
