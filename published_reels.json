@@ -14883,5 +14883,25 @@
       "status": "success",
       "url": "https://facebook.com/1008517845615370"
     }
+  },
+  {
+    "timestamp": "2026-11-07T23:38:18.183235+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_breathing_accordion_scissors_wolf_20261107_233813.mp4",
+    "family_id": 9,
+    "family_name": "Accordion Volume Pumps",
+    "mode": "breathing_accordion",
+    "hero": "scissors",
+    "item": "wolf",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1469207388536990",
+      "comment_id": "1469207388536990_29525176000502098",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1469207388536990"
+    }
   }
 ]
