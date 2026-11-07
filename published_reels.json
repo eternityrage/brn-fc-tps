@@ -14803,5 +14803,25 @@
       "status": "success",
       "url": "https://facebook.com/1893533432014432"
     }
+  },
+  {
+    "timestamp": "2026-11-07T07:03:18.734626+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_scissor_pinch_joystick_mouse_20261107_070314.mp4",
+    "family_id": 31,
+    "family_name": "Diagonal-X Interceptors",
+    "mode": "scissor_pinch",
+    "hero": "joystick",
+    "item": "mouse",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "2555434521601160",
+      "comment_id": "2555434521601160_956546430578543",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2555434521601160"
+    }
   }
 ]
