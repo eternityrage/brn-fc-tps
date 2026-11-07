@@ -14863,5 +14863,25 @@
       "status": "success",
       "url": "https://facebook.com/1111269188563632"
     }
+  },
+  {
+    "timestamp": "2026-11-07T19:24:51.269651+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_spiral_galaxy_in_salt_ring_buoy_20261107_192448.mp4",
+    "family_id": 22,
+    "family_name": "Logarithmic Spiral Galaxies",
+    "mode": "spiral_galaxy_in",
+    "hero": "salt",
+    "item": "ring_buoy",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1008517845615370",
+      "comment_id": "1008517845615370_1666946278430855",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1008517845615370"
+    }
   }
 ]
