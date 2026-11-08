@@ -14903,5 +14903,25 @@
       "status": "success",
       "url": "https://facebook.com/1469207388536990"
     }
+  },
+  {
+    "timestamp": "2026-11-08T07:15:25.171317+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_pendulum_harmonic_arc_alien_monster_rice_cracker_20261108_071520.mp4",
+    "family_id": 1,
+    "family_name": "Harmonic Pendulums",
+    "mode": "pendulum_harmonic_arc",
+    "hero": "alien_monster",
+    "item": "rice_cracker",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1612376066745985",
+      "comment_id": "1612376066745985_1935852917768746",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1612376066745985"
+    }
   }
 ]
