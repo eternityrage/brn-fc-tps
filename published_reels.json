@@ -15283,5 +15283,25 @@
       "status": "success",
       "url": "https://facebook.com/2229391885126481"
     }
+  },
+  {
+    "timestamp": "2026-11-12T08:13:48.624793+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_falling_gravity_chains_desert_20261112_081343.mp4",
+    "family_id": 12,
+    "family_name": "Terminal Gravity Freefalls",
+    "mode": "falling_gravity",
+    "hero": "chains",
+    "item": "desert",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "953466100945624",
+      "comment_id": "953466100945624_2029877027720126",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/953466100945624"
+    }
   }
 ]
