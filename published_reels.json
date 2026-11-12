@@ -15303,5 +15303,25 @@
       "status": "success",
       "url": "https://facebook.com/953466100945624"
     }
+  },
+  {
+    "timestamp": "2026-11-12T15:11:47.603659+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_diamond_grid_4_american_football_chipmunk_20261112_151143.mp4",
+    "family_id": 44,
+    "family_name": "Orthogonal 2x2 Matrices",
+    "mode": "diamond_grid_4",
+    "hero": "american_football",
+    "item": "chipmunk",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1738583284937709",
+      "comment_id": "1738583284937709_2351720815681052",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1738583284937709"
+    }
   }
 ]
