@@ -15443,5 +15443,25 @@
       "status": "success",
       "url": "https://facebook.com/1819952955993614"
     }
+  },
+  {
+    "timestamp": "2026-11-13T21:25:00.233100+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_teleport_snap_screwdriver_man_lifting_weights_20261113_212456.mp4",
+    "family_id": 47,
+    "family_name": "Quantum Teleportation Snaps",
+    "mode": "teleport_snap",
+    "hero": "screwdriver",
+    "item": "man_lifting_weights",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1771330877500991",
+      "comment_id": "1771330877500991_1717935013301410",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1771330877500991"
+    }
   }
 ]
