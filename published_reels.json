@@ -15623,5 +15623,25 @@
       "status": "success",
       "url": "https://facebook.com/1153706813710827"
     }
+  },
+  {
+    "timestamp": "2026-11-15T17:40:34.949162+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_sniper_target_lock_head_shaking_horizontally_magic_wand_20261115_174031.mp4",
+    "family_id": 34,
+    "family_name": "Precision Sniper Crosshairs",
+    "mode": "sniper_target_lock",
+    "hero": "head_shaking_horizontally",
+    "item": "magic_wand",
+    "title": "Microsecond Precision Test: Freeze The Exact Frame! \u23f1\ufe0f",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1856513932018072",
+      "comment_id": "1856513932018072_3754571558025606",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1856513932018072"
+    }
   }
 ]
