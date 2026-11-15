@@ -15603,5 +15603,25 @@
       "status": "success",
       "url": "https://facebook.com/29088621970766676"
     }
+  },
+  {
+    "timestamp": "2026-11-15T13:55:27.948580+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_scanner_sweep_goggles_person_cartwheeling_20261115_135524.mp4",
+    "family_id": 27,
+    "family_name": "Radar Beam Sweeps",
+    "mode": "laser_scanner_sweep",
+    "hero": "goggles",
+    "item": "person_cartwheeling",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1153706813710827",
+      "comment_id": "1153706813710827_1048701014929254",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1153706813710827"
+    }
   }
 ]
