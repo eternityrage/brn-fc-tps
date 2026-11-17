@@ -15803,5 +15803,25 @@
       "status": "success",
       "url": "https://facebook.com/1861914665044631"
     }
+  },
+  {
+    "timestamp": "2026-11-17T15:58:57.448368+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_crosshairs_firecracker_sunrise_over_mountains_20261117_155853.mp4",
+    "family_id": 34,
+    "family_name": "Precision Sniper Crosshairs",
+    "mode": "laser_crosshairs",
+    "hero": "firecracker",
+    "item": "sunrise_over_mountains",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1874851163503930",
+      "comment_id": "1874851163503930_1131264383051833",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1874851163503930"
+    }
   }
 ]
