@@ -15843,5 +15843,25 @@
       "status": "success",
       "url": "https://facebook.com/1837920704018446"
     }
+  },
+  {
+    "timestamp": "2026-11-17T22:52:06.166781+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_falling_gravity_fire_engine_two_hearts_20261117_225203.mp4",
+    "family_id": 12,
+    "family_name": "Terminal Gravity Freefalls",
+    "mode": "falling_gravity",
+    "hero": "fire_engine",
+    "item": "two_hearts",
+    "title": "99% Fail This Reflex Test! Can You Pause in Time? \u26a1",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1341099774771255",
+      "comment_id": "1341099774771255_1455510142741744",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1341099774771255"
+    }
   }
 ]
