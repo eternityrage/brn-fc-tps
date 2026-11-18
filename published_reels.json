@@ -15903,5 +15903,25 @@
       "status": "success",
       "url": "https://facebook.com/2038601610185219"
     }
+  },
+  {
+    "timestamp": "2026-11-18T15:38:11.834152+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_swing_diagonal_slash_alarm_clock_circled_m_20261118_153809.mp4",
+    "family_id": 4,
+    "family_name": "Diagonal Slash Trajectories",
+    "mode": "swing_diagonal_slash",
+    "hero": "alarm_clock",
+    "item": "circled_m",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1867512707584885",
+      "comment_id": "1867512707584885_979635805221082",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1867512707584885"
+    }
   }
 ]
