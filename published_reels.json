@@ -16003,5 +16003,25 @@
       "status": "success",
       "url": "https://facebook.com/2357122101802853"
     }
+  },
+  {
+    "timestamp": "2026-11-19T15:43:34.714428+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_electric_arc_jump_face_with_head_bandage_newspaper_20261119_154331.mp4",
+    "family_id": 10,
+    "family_name": "Zigzag Lightning Bolts",
+    "mode": "electric_arc_jump",
+    "hero": "face_with_head_bandage",
+    "item": "newspaper",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1533021278655683",
+      "comment_id": "1533021278655683_3363142737219808",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1533021278655683"
+    }
   }
 ]
