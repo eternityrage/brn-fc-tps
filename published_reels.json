@@ -16023,5 +16023,25 @@
       "status": "success",
       "url": "https://facebook.com/1533021278655683"
     }
+  },
+  {
+    "timestamp": "2026-11-19T19:28:03.765373+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_strobe_flash_freeze_chess_pawn_full_moon_20261119_192800.mp4",
+    "family_id": 48,
+    "family_name": "High-Frequency Strobe Freezes",
+    "mode": "strobe_flash_freeze",
+    "hero": "chess_pawn",
+    "item": "full_moon",
+    "title": "Stop Inside the Shadow! Only 1% Get It First Try \ud83c\udfc6",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1154837837481088",
+      "comment_id": "1154837837481088_1910423526799652",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1154837837481088"
+    }
   }
 ]
