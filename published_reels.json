@@ -16143,5 +16143,25 @@
       "status": "success",
       "url": "https://facebook.com/2135394060415942"
     }
+  },
+  {
+    "timestamp": "2026-11-20T22:14:17.536701+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_quad_lock_hammer_and_pick_white_question_mark_20261120_221412.mp4",
+    "family_id": 35,
+    "family_name": "Mechanical Box Vises",
+    "mode": "quad_lock",
+    "hero": "hammer_and_pick",
+    "item": "white_question_mark",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\u26a1 DID YOU PAUSE IN TIME? Post your screenshot in the comments! If you nailed it on the 1st try, you have top 1% reaction speed! \ud83d\ude80",
+    "facebook": {
+      "id": "1138424425831788",
+      "comment_id": "1138424425831788_2058675221357560",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1138424425831788"
+    }
   }
 ]
