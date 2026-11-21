@@ -16183,5 +16183,25 @@
       "status": "success",
       "url": "https://facebook.com/1944441373200579"
     }
+  },
+  {
+    "timestamp": "2026-11-21T08:14:23.288511+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_depth_3d_tunnel_2nd_place_medal_turtle_20261121_081420.mp4",
+    "family_id": 39,
+    "family_name": "Depth 3D Wormholes",
+    "mode": "depth_3d_tunnel",
+    "hero": "2nd_place_medal",
+    "item": "turtle",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "4220078678290725",
+      "comment_id": "4220078678290725_1867960717974023",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/4220078678290725"
+    }
   }
 ]
