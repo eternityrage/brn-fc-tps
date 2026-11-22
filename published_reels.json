@@ -16303,5 +16303,25 @@
       "status": "success",
       "url": "https://facebook.com/1488581633152726"
     }
+  },
+  {
+    "timestamp": "2026-11-22T14:32:48.427485+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_avalanche_rush_yellow_circle_grinning_face_with_smiling_eyes_20261122_143243.mp4",
+    "family_id": 15,
+    "family_name": "Parabolic Cannonballs",
+    "mode": "avalanche_rush",
+    "hero": "yellow_circle",
+    "item": "grinning_face_with_smiling_eyes",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "2441781266582686",
+      "comment_id": "2441781266582686_1809175290202804",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2441781266582686"
+    }
   }
 ]
