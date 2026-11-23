@@ -16423,5 +16423,25 @@
       "status": "success",
       "url": "https://facebook.com/1140355885522595"
     }
+  },
+  {
+    "timestamp": "2026-11-23T22:34:33.061062+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_laser_crosshairs_mobile_phone_off_japanese_acceptable_button_20261123_223428.mp4",
+    "family_id": 34,
+    "family_name": "Precision Sniper Crosshairs",
+    "mode": "laser_crosshairs",
+    "hero": "mobile_phone_off",
+    "item": "japanese_acceptable_button",
+    "title": "BrainFocus Challenge: Can You Stop It? \ud83c\udfaf",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "2299118443988033",
+      "comment_id": "2299118443988033_1681313280044811",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/2299118443988033"
+    }
   }
 ]
