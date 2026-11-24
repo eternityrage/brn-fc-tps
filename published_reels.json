@@ -16483,5 +16483,25 @@
       "status": "success",
       "url": "https://facebook.com/1684085003083731"
     }
+  },
+  {
+    "timestamp": "2026-11-24T10:51:52.927616+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_arrowhead_strike_woman_in_motorized_wheelchair_sweat_droplets_20261124_105149.mp4",
+    "family_id": 36,
+    "family_name": "Arrowhead Ballistics",
+    "mode": "arrowhead_strike",
+    "hero": "woman_in_motorized_wheelchair",
+    "item": "sweat_droplets",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83d\udccc CHALLENGE RULES:\n1. Tap pause when the shape fits exactly inside the outline! \ud83c\udfaf\n2. Drop a screenshot of your attempt below \ud83d\udc47\n3. Be honest: Did you get it on your 1st try? (Only 1% can!) \ud83c\udfc6",
+    "facebook": {
+      "id": "1618997059911260",
+      "comment_id": "1618997059911260_1675048584278360",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1618997059911260"
+    }
   }
 ]
