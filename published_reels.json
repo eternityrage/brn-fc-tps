@@ -16563,5 +16563,25 @@
       "status": "success",
       "url": "https://facebook.com/1837541370899793"
     }
+  },
+  {
+    "timestamp": "2026-11-25T03:32:00.292042+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_stopwatch_countdown_skis_grinning_squinting_face_20261125_033156.mp4",
+    "family_id": 50,
+    "family_name": "Precision Chrono Metronomes",
+    "mode": "stopwatch_countdown",
+    "hero": "skis",
+    "item": "grinning_squinting_face",
+    "title": "Ultimate Eye-Hand Coordination Challenge! \ud83e\udde0",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "id": "1085912284492071",
+      "comment_id": "1085912284492071_1207024011995899",
+      "platform": "facebook",
+      "status": "success",
+      "url": "https://facebook.com/1085912284492071"
+    }
   }
 ]
