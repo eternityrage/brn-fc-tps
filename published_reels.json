@@ -16875,5 +16875,23 @@
       "error": "Start Phase Failed: No response",
       "platform": "facebook"
     }
+  },
+  {
+    "timestamp": "2026-11-28T08:52:50.992290+00:00Z",
+    "page_id": "1319646877895110",
+    "page_name": "BrainFocus Taps",
+    "video_file": "reel_brainfocus_triangle_bounce_snowboarder_croissant_20261128_085247.mp4",
+    "family_id": 6,
+    "family_name": "Geometric Triangle Bouncers",
+    "mode": "triangle_bounce",
+    "hero": "snowboarder",
+    "item": "croissant",
+    "title": "Can You Hit 100% Match? Tap Pause to Win! \ud83e\udde9",
+    "pinned_comment": "\ud83c\udfaf REFLEX TEST: How many attempts did it take you to get a 100% perfect match? Drop your screenshot below \ud83d\udc47 #BrainFocus",
+    "facebook": {
+      "status": "failed",
+      "error": "Start Phase Failed: No response",
+      "platform": "facebook"
+    }
   }
 ]
